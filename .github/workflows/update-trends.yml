@@ -54,10 +54,13 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Build frontend
+        run: npm run build
+
       - name: Check for changes
         id: verify
         run: |
-          if git diff --quiet README.md .data/; then
+          if git diff --quiet README.md .data/ public/data/trending.json; then
             echo "changed=false" >> $GITHUB_OUTPUT
           else
             echo "changed=true" >> $GITHUB_OUTPUT
@@ -69,14 +72,20 @@ jobs:
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
 
-      - name: Commit and push changes
+      - name: Commit and push data changes
         if: steps.verify.outputs.changed == 'true'
         run: |
-          git add README.md .data/
+          git add README.md .data/ public/data/trending.json
           git commit -m "chore: update trending repositories [skip ci]"
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: dist
+          branch: gh-pages
 
       - name: Summary
         if: always()
