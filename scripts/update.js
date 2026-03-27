@@ -18,6 +18,8 @@ import { CONFIG, TRENDING_LANGUAGES } from './config.js';
 const DATA_DIR = resolve('.data');
 const HISTORY_FILE = resolve(DATA_DIR, 'history.json');
 const SNAPSHOT_DIR = resolve(DATA_DIR, 'snapshots');
+const PUBLIC_DATA_DIR = resolve('public', 'data');
+const TRENDING_JSON = resolve(PUBLIC_DATA_DIR, 'trending.json');
 
 /**
  * Ensure data directory exists
@@ -26,6 +28,7 @@ async function ensureDataDir() {
   try {
     await fs.mkdir(DATA_DIR, { recursive: true });
     await fs.mkdir(SNAPSHOT_DIR, { recursive: true });
+    await fs.mkdir(PUBLIC_DATA_DIR, { recursive: true });
   } catch (error) {
     // Ignore if already exists
   }
@@ -273,6 +276,11 @@ async function main() {
     history.snapshots = history.snapshots.slice(0, CONFIG.historyDays);
     await saveHistory(history);
     await cleanupOldSnapshots();
+    
+    // Save for frontend
+    console.log('🌐 Saving public data for frontend...');
+    await fs.writeFile(TRENDING_JSON, JSON.stringify(snapshot, null, 2), 'utf-8');
+    
     console.log('  ✅ Snapshot saved\n');
 
     // Step 10: Generate markdown content
