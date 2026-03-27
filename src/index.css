@@ -3,7 +3,9 @@
 @theme {
   --color-brand-primary: #8B5CF6; /* Electric Purple */
   --color-brand-secondary: #06B6D4; /* Cyan Spark */
-  --color-background-deep: #0F172A;
+  --color-brand-accent: #F43F5E; /* Rose Pulse */
+  --color-background-deep: #020617;
+  --color-background-surface: #0F172A;
   --font-heading: "Outfit", sans-serif;
   --font-sans: "Inter", sans-serif;
 }
@@ -12,37 +14,76 @@
   font-family: var(--font-sans);
   background-color: var(--color-background-deep);
   color: #f8fafc;
+  overflow-x: hidden;
 }
 
 h1, h2, h3, h4, .font-heading {
   font-family: var(--font-heading);
+  letter-spacing: -0.02em;
 }
 
 /* Glassmorphism utility */
 .glass {
-  background: rgba(30, 41, 59, 0.4);
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
-  border: 1px solid rgba(255, 255, 255, 0.05);
+  background: rgba(15, 23, 42, 0.6);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
 }
 
-.glass-hover:hover {
-  background: rgba(30, 41, 59, 0.6);
-  border-color: rgba(139, 92, 246, 0.3);
-  transition: all 0.3s ease;
+.glass-card {
+  background: linear-gradient(135deg, rgba(30, 41, 59, 0.4) 0%, rgba(15, 23, 42, 0.8) 100%);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.glass-card:hover {
+  background: linear-gradient(135deg, rgba(30, 41, 59, 0.6) 0%, rgba(15, 23, 42, 0.9) 100%);
+  border-color: rgba(139, 92, 246, 0.4);
+  transform: translateY(-4px);
+  box-shadow: 0 12px 40px rgba(139, 92, 246, 0.15);
+}
+
+/* Animations */
+@keyframes gradient-shift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.animate-gradient {
+  background-size: 200% 200%;
+  animation: gradient-shift 8s ease infinite;
+}
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0px); }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
 }
 
 /* Custom scrollbar */
 ::-webkit-scrollbar {
-  width: 8px;
+  width: 10px;
 }
 ::-webkit-scrollbar-track {
-  background: #0F172A;
+  background: #020617;
 }
 ::-webkit-scrollbar-thumb {
   background: #1e293b;
-  border-radius: 4px;
+  border-radius: 5px;
+  border: 2px solid #020617;
 }
 ::-webkit-scrollbar-thumb:hover {
   background: #334155;
+}
+
+/* Text Gradients */
+.text-gradient {
+  @apply bg-clip-text text-transparent bg-linear-to-r from-brand-primary to-brand-secondary;
 }

@@ -20,6 +20,38 @@ const HISTORY_FILE = resolve(DATA_DIR, 'history.json');
 const SNAPSHOT_DIR = resolve(DATA_DIR, 'snapshots');
 const PUBLIC_DATA_DIR = resolve('public', 'data');
 const TRENDING_JSON = resolve(PUBLIC_DATA_DIR, 'trending.json');
+const FEED_JSON = resolve(PUBLIC_DATA_DIR, 'feed.json');
+
+/**
+ * Update deployment feed
+ */
+async function updateFeed(snapshot) {
+  try {
+    let feed = [];
+    try {
+      const content = await fs.readFile(FEED_JSON, 'utf-8');
+      feed = JSON.parse(content);
+    } catch (e) {
+      // Start new feed
+    }
+
+    const newEntry = {
+      id: Date.now().toString(),
+      date: snapshot.date,
+      title: `Daily Update: ${snapshot.repos.length} repos curated`,
+      summary: `Top languages today: ${snapshot.insights.topLanguages.map(l => l.language).join(', ')}. Rising star: ${snapshot.insights.risingStar.name}.`,
+      type: 'update'
+    };
+
+    feed.unshift(newEntry);
+    // Keep last 20 entries
+    feed = feed.slice(0, 20);
+    
+    await fs.writeFile(FEED_JSON, JSON.stringify(feed, null, 2), 'utf-8');
+  } catch (error) {
+    console.warn('  ⚠️ Could not update feed:', error.message);
+  }
+}
 
 /**
  * Ensure data directory exists
@@ -280,6 +312,7 @@ async function main() {
     // Save for frontend
     console.log('🌐 Saving public data for frontend...');
     await fs.writeFile(TRENDING_JSON, JSON.stringify(snapshot, null, 2), 'utf-8');
+    await updateFeed(snapshot);
     
     console.log('  ✅ Snapshot saved\n');
 
