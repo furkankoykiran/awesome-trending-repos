@@ -18,6 +18,8 @@ import { CONFIG, TRENDING_LANGUAGES } from './config.js';
 const DATA_DIR = resolve('.data');
 const HISTORY_FILE = resolve(DATA_DIR, 'history.json');
 const SNAPSHOT_DIR = resolve(DATA_DIR, 'snapshots');
+const PUBLIC_DATA_DIR = resolve('public', 'data');
+const TRENDING_JSON = resolve(PUBLIC_DATA_DIR, 'trending.json');
 
 /**
  * Ensure data directory exists
@@ -26,6 +28,7 @@ async function ensureDataDir() {
   try {
     await fs.mkdir(DATA_DIR, { recursive: true });
     await fs.mkdir(SNAPSHOT_DIR, { recursive: true });
+    await fs.mkdir(PUBLIC_DATA_DIR, { recursive: true });
   } catch (error) {
     // Ignore if already exists
   }
@@ -273,61 +276,23 @@ async function main() {
     history.snapshots = history.snapshots.slice(0, CONFIG.historyDays);
     await saveHistory(history);
     await cleanupOldSnapshots();
+    
+    // Save for frontend
+    console.log('🌐 Saving public data for frontend...');
+    await fs.writeFile(TRENDING_JSON, JSON.stringify(snapshot, null, 2), 'utf-8');
+    
     console.log('  ✅ Snapshot saved\n');
 
-    // Step 10: Generate markdown content
-    console.log('📝 Generating markdown content...');
-    const lastUpdated = now.toUTCString();
-
-    let markdownContent = `## 📈 Today's Trending Repositories\n\n> _Last updated: **${lastUpdated}** | Data source: **${dataSource}** | Repositories: **${repos.length}**\n\n`;
-
-    // Add trending table
-    markdownContent += utils.generateTrendingTable(repos);
-    markdownContent += '\n';
-
-    // Add historical comparison
-    if (historicalComparison && CONFIG.includeHistoricalComparison) {
-      markdownContent += utils.generateComparisonSection(historicalComparison);
-    }
-
-    // Add trend graphs
-    if (trendAnalysis && CONFIG.includeTrendGraphs) {
-      markdownContent += utils.generateTrendGraphs(trendAnalysis);
-    }
-
-    // Add insights section
-    if (CONFIG.includeInsights) {
-      markdownContent += utils.generateInsightsSection(insights);
-    }
-
-    // Add language breakdown
-    if (CONFIG.includeLanguageBreakdown) {
-      markdownContent += utils.generateLanguageBreakdown(repos);
-    }
-
-    console.log('  ✅ Markdown content generated\n');
-
-    // Step 11: Update README
-    console.log('📄 Updating README.md...');
-    const result = await utils.updateReadme(markdownContent);
-
-    if (result.modified) {
-      console.log('  ✅ README.md updated\n');
-    } else {
-      console.log('  ℹ️ No changes needed\n');
-    }
-
-    // Summary
+    // Step 10: Summary
     const elapsed = ((Date.now() - startTime) / 1000).toFixed(2);
     console.log('✨ Update completed successfully!');
     console.log(`⏱️ Elapsed time: ${elapsed}s`);
     console.log(`📦 Repositories processed: ${repos.length}`);
-    console.log(`📝 README ${result.created ? 'created' : result.modified ? 'updated' : 'unchanged'}`);
+    console.log(`📝 public/data/trending.json updated`);
 
     return {
       success: true,
       reposCount: repos.length,
-      readmeUpdated: result.modified || result.created,
       dataSource,
       elapsed,
       historicalComparison
