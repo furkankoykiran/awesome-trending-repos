@@ -121,12 +121,7 @@ JavaScript      ████ 2 (8.0%)
 
 ```text
 awesome-trending-repos/
-├── .github/workflows/
-│   └── update-trends.yml      # Daily cron automation
-├── .data/
-│   ├── history.json           # Historical summary
-│   └── snapshots/             # Daily snapshots (7 days)
-├── src/
+├── scripts/
 │   ├── data-sources/
 │   │   ├── github-trending.js # GitHub scraper
 │   │   ├── github-search.js   # Search API fallback
@@ -134,6 +129,13 @@ awesome-trending-repos/
 │   ├── utils.js               # Essential utilities
 │   ├── config.js              # Configuration
 │   └── update.js              # Main entry point
+├── src/
+│   ├── App.jsx                # React Frontend
+│   ├── main.jsx               # Entry point
+│   └── index.css              # Global styles
+├── public/                    # Static assets
+├── index.html                 # HTML template
+├── vite.config.js             # Vite configuration
 ├── package.json
 └── README.md
 ```
