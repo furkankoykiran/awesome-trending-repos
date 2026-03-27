@@ -1,37 +1,33 @@
-name: Update Trends
+name: Update and Deploy Trends
 
 on:
-  # Daily schedule at midnight UTC
   schedule:
     - cron: '0 0 * * *'
-
-  # Manual trigger
   workflow_dispatch:
-
-  # Optional: Run on push to main (for testing)
   push:
     branches:
       - main
     paths:
       - 'src/**'
+      - 'scripts/**'
       - 'package.json'
       - 'package-lock.json'
       - '.github/workflows/update-trends.yml'
 
-# Prevent concurrent workflow runs
-concurrency:
-  group: update-trends
-  cancel-in-progress: false
-
-# Set permissions for auto-commit
+# Permissions for GitHub Pages
 permissions:
   contents: write
+  pages: write
+  id-token: write
+
+# Prevent concurrent workflow runs
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
 
 jobs:
-  update-trends:
-    name: Update Trending Repositories
+  update-and-build:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -81,18 +77,18 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Deploy to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@v4
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          folder: dist
-          branch: gh-pages
-          clean: true
+          path: './dist'
 
-      - name: Summary
-        if: always()
-        run: |
-          echo "## Update Summary" >> $GITHUB_STEP_SUMMARY
-          echo "" >> $GITHUB_STEP_SUMMARY
-          echo "- **Status**: ${{ steps.update.outcome }}" >> $GITHUB_STEP_SUMMARY
-          echo "- **README Updated**: ${{ steps.verify.outputs.changed }}" >> $GITHUB_STEP_SUMMARY
-          echo "- **Timestamp**: $(date -u +'%Y-%m-%d %H:%M:%S UTC')" >> $GITHUB_STEP_SUMMARY
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: update-and-build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
