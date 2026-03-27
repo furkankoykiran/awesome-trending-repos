@@ -3,10 +3,13 @@
   "version": "1.0.0",
   "description": "A daily-updated, auto-curated list of the most awesome trending open-source repositories. Enriched with deep insights and historical data, powered by GitHub Actions.",
   "type": "module",
-  "main": "src/update.js",
+  "main": "scripts/update.js",
   "scripts": {
-    "update": "node src/update.js",
-    "test": "node src/update.js --dry-run"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "update": "node scripts/update.js",
+    "test": "node scripts/update.js --dry-run"
   },
   "keywords": [
     "awesome-list",
@@ -21,7 +24,24 @@
     "@octokit/plugin-throttling": "^11.0.3",
     "axios": "^1.8.4",
     "cheerio": "^1.0.0",
-    "octokit": "^4.1.2"
+    "clsx": "^2.1.1",
+    "framer-motion": "^12.4.10",
+    "lucide-react": "^0.479.0",
+    "octokit": "^4.1.2",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "recharts": "^2.15.1",
+    "tailwind-merge": "^3.0.2"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.2.2",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.0.12",
+    "vite": "^6.2.1"
   },
   "engines": {
     "node": ">=18.0.0"
