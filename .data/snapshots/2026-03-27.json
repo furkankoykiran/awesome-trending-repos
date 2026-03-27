@@ -4,13 +4,13 @@
     "name": "last30days-skill",
     "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
     "language": "Python",
-    "stars": 12159,
-    "forks": 985,
+    "stars": 12169,
+    "forks": 987,
     "starsToday": 2824,
     "growth": 2824,
     "rank": 1,
     "url": "https://github.com/mvanhorn/last30days-skill",
-    "fetchedAt": "2026-03-27T16:48:41.151Z",
+    "fetchedAt": "2026-03-27T16:53:24.562Z",
     "source": "github-trending"
   },
   {
@@ -18,13 +18,13 @@
     "name": "superpowers",
     "description": "An agentic skills framework & software development methodology that works.",
     "language": "Shell",
-    "stars": 117989,
-    "forks": 9505,
+    "stars": 117992,
+    "forks": 9506,
     "starsToday": 2797,
     "growth": 2797,
     "rank": 1,
     "url": "https://github.com/obra/superpowers",
-    "fetchedAt": "2026-03-27T16:48:41.214Z",
+    "fetchedAt": "2026-03-27T16:53:24.409Z",
     "source": "github-trending"
   },
   {
@@ -32,13 +32,13 @@
     "name": "deer-flow",
     "description": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
     "language": "Python",
-    "stars": 49908,
+    "stars": 49915,
     "forks": 5957,
     "starsToday": 2126,
     "growth": 2126,
     "rank": 9,
     "url": "https://github.com/bytedance/deer-flow",
-    "fetchedAt": "2026-03-27T16:48:41.153Z",
+    "fetchedAt": "2026-03-27T16:53:24.564Z",
     "source": "github-trending"
   },
   {
@@ -46,13 +46,13 @@
     "name": "Deep-Live-Cam",
     "description": "real time face swap and one-click video deepfake with only a single image",
     "language": "Python",
-    "stars": 82535,
-    "forks": 12052,
+    "stars": 82548,
+    "forks": 12056,
     "starsToday": 1546,
     "growth": 1546,
     "rank": 2,
     "url": "https://github.com/hacksider/Deep-Live-Cam",
-    "fetchedAt": "2026-03-27T16:48:41.151Z",
+    "fetchedAt": "2026-03-27T16:53:24.562Z",
     "source": "github-trending"
   },
   {
@@ -60,13 +60,13 @@
     "name": "oh-my-claudecode",
     "description": "Teams-first Multi-agent orchestration for Claude Code",
     "language": "TypeScript",
-    "stars": 13666,
+    "stars": 13671,
     "forks": 897,
     "starsToday": 1402,
     "growth": 1402,
     "rank": 3,
     "url": "https://github.com/Yeachan-Heo/oh-my-claudecode",
-    "fetchedAt": "2026-03-27T16:48:41.444Z",
+    "fetchedAt": "2026-03-27T16:53:24.662Z",
     "source": "github-trending"
   },
   {
@@ -74,13 +74,13 @@
     "name": "chandra",
     "description": "OCR model that handles complex tables, forms, handwriting with full layout.",
     "language": "Python",
-    "stars": 6828,
-    "forks": 723,
+    "stars": 6831,
+    "forks": 724,
     "starsToday": 913,
     "growth": 913,
     "rank": 5,
     "url": "https://github.com/datalab-to/chandra",
-    "fetchedAt": "2026-03-27T16:48:41.152Z",
+    "fetchedAt": "2026-03-27T16:53:24.563Z",
     "source": "github-trending"
   },
   {
@@ -88,13 +88,13 @@
     "name": "agentscope",
     "description": "Build and run agents you can see, understand and trust.",
     "language": "Python",
-    "stars": 21094,
+    "stars": 21097,
     "forks": 2067,
     "starsToday": 911,
     "growth": 911,
     "rank": 7,
     "url": "https://github.com/agentscope-ai/agentscope",
-    "fetchedAt": "2026-03-27T16:48:41.153Z",
+    "fetchedAt": "2026-03-27T16:53:24.563Z",
     "source": "github-trending"
   },
   {
@@ -102,13 +102,13 @@
     "name": "RuView",
     "description": "π RuView: WiFi DensePose turns commodity WiFi signals into real-time human pose estimation, vital sign monitoring, and presence detection — all without a single pixel of video.",
     "language": "Rust",
-    "stars": 43715,
+    "stars": 43716,
     "forks": 5892,
     "starsToday": 897,
     "growth": 897,
     "rank": 1,
     "url": "https://github.com/ruvnet/RuView",
-    "fetchedAt": "2026-03-27T16:48:41.545Z",
+    "fetchedAt": "2026-03-27T16:53:24.474Z",
     "source": "github-trending"
   },
   {
@@ -122,7 +122,7 @@
     "growth": 673,
     "rank": 2,
     "url": "https://github.com/virattt/dexter",
-    "fetchedAt": "2026-03-27T16:48:41.444Z",
+    "fetchedAt": "2026-03-27T16:53:24.662Z",
     "source": "github-trending"
   },
   {
@@ -130,13 +130,13 @@
     "name": "twenty",
     "description": "Building a modern alternative to Salesforce, powered by the community.",
     "language": "TypeScript",
-    "stars": 41805,
+    "stars": 41808,
     "forks": 5557,
     "starsToday": 661,
     "growth": 661,
     "rank": 1,
     "url": "https://github.com/twentyhq/twenty",
-    "fetchedAt": "2026-03-27T16:48:41.444Z",
+    "fetchedAt": "2026-03-27T16:53:24.662Z",
     "source": "github-trending"
   },
   {
@@ -150,7 +150,7 @@
     "growth": 562,
     "rank": 10,
     "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
-    "fetchedAt": "2026-03-27T16:48:41.153Z",
+    "fetchedAt": "2026-03-27T16:53:24.564Z",
     "source": "github-trending"
   },
   {
@@ -158,13 +158,13 @@
     "name": "onyx",
     "description": "Open Source AI Platform - AI Chat with advanced features that works with every LLM",
     "language": "Python",
-    "stars": 18862,
+    "stars": 18865,
     "forks": 2572,
     "starsToday": 512,
     "growth": 512,
     "rank": 6,
     "url": "https://github.com/onyx-dot-app/onyx",
-    "fetchedAt": "2026-03-27T16:48:41.152Z",
+    "fetchedAt": "2026-03-27T16:53:24.563Z",
     "source": "github-trending"
   },
   {
@@ -172,13 +172,13 @@
     "name": "claude-code",
     "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
     "language": "Shell",
-    "stars": 83534,
+    "stars": 83535,
     "forks": 7044,
     "starsToday": 442,
     "growth": 442,
     "rank": 4,
     "url": "https://github.com/anthropics/claude-code",
-    "fetchedAt": "2026-03-27T16:48:41.215Z",
+    "fetchedAt": "2026-03-27T16:53:24.410Z",
     "source": "github-trending"
   },
   {
@@ -192,7 +192,7 @@
     "growth": 339,
     "rank": 14,
     "url": "https://github.com/Fission-AI/OpenSpec",
-    "fetchedAt": "2026-03-27T16:48:41.446Z",
+    "fetchedAt": "2026-03-27T16:53:24.665Z",
     "source": "github-trending"
   },
   {
@@ -200,13 +200,13 @@
     "name": "VibeVoice",
     "description": "Open-Source Frontier Voice AI",
     "language": "Python",
-    "stars": 24534,
+    "stars": 24535,
     "forks": 2695,
     "starsToday": 320,
     "growth": 320,
     "rank": 4,
     "url": "https://github.com/microsoft/VibeVoice",
-    "fetchedAt": "2026-03-27T16:48:41.152Z",
+    "fetchedAt": "2026-03-27T16:53:24.563Z",
     "source": "github-trending"
   },
   {
@@ -220,7 +220,7 @@
     "growth": 297,
     "rank": 3,
     "url": "https://github.com/fathyb/carbonyl",
-    "fetchedAt": "2026-03-27T16:48:41.545Z",
+    "fetchedAt": "2026-03-27T16:53:24.474Z",
     "source": "github-trending"
   },
   {
@@ -228,13 +228,13 @@
     "name": "marketingskills",
     "description": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
     "language": "JavaScript",
-    "stars": 16954,
+    "stars": 16956,
     "forks": 2542,
     "starsToday": 258,
     "growth": 258,
     "rank": 9,
     "url": "https://github.com/coreyhaines31/marketingskills",
-    "fetchedAt": "2026-03-27T16:48:41.000Z",
+    "fetchedAt": "2026-03-27T16:53:24.299Z",
     "source": "github-trending"
   },
   {
@@ -242,13 +242,13 @@
     "name": "claude-skills",
     "description": "+192 Claude Code skills & agent plugins for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, compliance, C-level advisory.",
     "language": "Python",
-    "stars": 7367,
+    "stars": 7368,
     "forks": 882,
     "starsToday": 240,
     "growth": 240,
     "rank": 12,
     "url": "https://github.com/alirezarezvani/claude-skills",
-    "fetchedAt": "2026-03-27T16:48:41.153Z",
+    "fetchedAt": "2026-03-27T16:53:24.564Z",
     "source": "github-trending"
   },
   {
@@ -262,7 +262,7 @@
     "growth": 239,
     "rank": 5,
     "url": "https://github.com/openai/codex",
-    "fetchedAt": "2026-03-27T16:48:41.545Z",
+    "fetchedAt": "2026-03-27T16:53:24.475Z",
     "source": "github-trending"
   },
   {
@@ -270,13 +270,13 @@
     "name": "FreeCAD",
     "description": "Official source code of FreeCAD, a free and opensource multiplatform 3D parametric modeler.",
     "language": "C++",
-    "stars": 29519,
+    "stars": 29523,
     "forks": 5316,
     "starsToday": 173,
     "growth": 173,
     "rank": 1,
     "url": "https://github.com/FreeCAD/FreeCAD",
-    "fetchedAt": "2026-03-27T16:48:41.264Z",
+    "fetchedAt": "2026-03-27T16:53:25.144Z",
     "source": "github-trending"
   },
   {
@@ -284,13 +284,13 @@
     "name": "easy-vibe",
     "description": "A systematic tutorial on vibe coding, help beginners turn ideas into prototypes, MVPs, and launch-ready products.",
     "language": "JavaScript",
-    "stars": 4624,
+    "stars": 4625,
     "forks": 431,
     "starsToday": 161,
     "growth": 161,
     "rank": 12,
     "url": "https://github.com/datawhalechina/easy-vibe",
-    "fetchedAt": "2026-03-27T16:48:41.001Z",
+    "fetchedAt": "2026-03-27T16:53:24.301Z",
     "source": "github-trending"
   },
   {
@@ -299,12 +299,12 @@
     "description": "LLM inference in C/C++",
     "language": "C++",
     "stars": 99583,
-    "forks": 15895,
+    "forks": 15896,
     "starsToday": 149,
     "growth": 149,
     "rank": 19,
     "url": "https://github.com/ggml-org/llama.cpp",
-    "fetchedAt": "2026-03-27T16:48:41.274Z",
+    "fetchedAt": "2026-03-27T16:53:25.147Z",
     "source": "github-trending"
   },
   {
@@ -318,7 +318,7 @@
     "growth": 135,
     "rank": 5,
     "url": "https://github.com/letta-ai/claude-subconscious",
-    "fetchedAt": "2026-03-27T16:48:41.444Z",
+    "fetchedAt": "2026-03-27T16:53:24.663Z",
     "source": "github-trending"
   },
   {
@@ -332,7 +332,7 @@
     "growth": 125,
     "rank": 3,
     "url": "https://github.com/SakanaAI/AI-Scientist-v2",
-    "fetchedAt": "2026-03-27T16:48:41.152Z",
+    "fetchedAt": "2026-03-27T16:53:24.562Z",
     "source": "github-trending"
   },
   {
@@ -346,7 +346,7 @@
     "growth": 109,
     "rank": 8,
     "url": "https://github.com/trustgraph-ai/trustgraph",
-    "fetchedAt": "2026-03-27T16:48:41.153Z",
+    "fetchedAt": "2026-03-27T16:53:24.563Z",
     "source": "github-trending"
   }
 ]
