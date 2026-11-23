@@ -10,6 +10,10 @@ on:
     paths:
       - 'src/**'
       - 'scripts/**'
+      - 'public/**'
+      - 'tests/**'
+      - 'index.html'
+      - 'vite.config.js'
       - 'package.json'
       - 'package-lock.json'
       - '.github/workflows/update-trends.yml'
@@ -38,7 +42,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '24'
           cache: 'npm'
 
       - name: Install dependencies
@@ -56,7 +60,7 @@ jobs:
       - name: Check for changes
         id: verify
         run: |
-          if git diff --quiet README.md .data/ public/data/trending.json; then
+          if git diff --quiet -- README.md .data public/data; then
             echo "changed=false" >> $GITHUB_OUTPUT
           else
             echo "changed=true" >> $GITHUB_OUTPUT
@@ -71,7 +75,7 @@ jobs:
       - name: Commit and push data changes
         if: steps.verify.outputs.changed == 'true'
         run: |
-          git add README.md .data/ public/data/trending.json
+          git add -A README.md .data public/data
           git commit -m "chore: update trending repositories [skip ci]"
           git push
         env:

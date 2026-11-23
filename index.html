@@ -3,37 +3,67 @@
 
 <head>
   <meta charset="UTF-8" />
-  <link rel="icon" type="image/png" href="/favicon.png" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Awesome Trending Repos | Discover the Future of Open Source</title>
-  <meta name="description" content="Daily updated, auto-curated list of trending GitHub repositories with deep insights and historical data." />
-  
-  <!-- SEO Meta Tags -->
-  <meta name="keywords" content="github, trending, repositories, open source, developer, awesome-list, automation" />
+  <meta name="color-scheme" content="dark" />
+  <meta name="theme-color" content="#020617" />
+
+  <title>Awesome Trending Repos | Daily GitHub Trending Dashboard</title>
+  <meta name="description"
+    content="A daily-updated dashboard of the fastest-growing open-source repositories on GitHub: star growth, language insights, rising stars and a seven-day snapshot history." />
   <meta name="author" content="Furkan Köykıran" />
-  <meta name="robots" content="index, follow" />
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+  <link rel="canonical" href="https://furkankoykiran.com.tr/awesome-trending-repos/" />
+
+  <link rel="icon" type="image/png" href="%BASE_URL%favicon.png" />
+  <link rel="apple-touch-icon" href="%BASE_URL%logo.png" />
+  <link rel="manifest" href="%BASE_URL%manifest.webmanifest" />
+  <link rel="sitemap" type="application/xml" title="Sitemap" href="%BASE_URL%sitemap.xml" />
+  <link rel="alternate" type="text/plain" title="llms.txt" href="%BASE_URL%llms.txt" />
 
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Awesome Trending Repos" />
   <meta property="og:url" content="https://furkankoykiran.com.tr/awesome-trending-repos/" />
-  <meta property="og:title" content="Awesome Trending Repos | Discover the Future of Open Source" />
-  <meta property="og:description" content="Daily updated, auto-curated list of trending GitHub repositories with deep insights and historical data." />
-  <meta property="og:image" content="/og-image.png" />
+  <meta property="og:title" content="Awesome Trending Repos | Daily GitHub Trending Dashboard" />
+  <meta property="og:description"
+    content="The fastest-growing open-source repositories on GitHub, refreshed every day with star growth, language insights and a seven-day snapshot history." />
+  <meta property="og:image" content="https://furkankoykiran.com.tr/awesome-trending-repos/og-image.png" />
+  <meta property="og:image:width" content="640" />
+  <meta property="og:image:height" content="336" />
+  <meta property="og:image:alt" content="Awesome Trending Repos dashboard" />
+  <meta property="og:locale" content="en_US" />
 
   <!-- Twitter -->
-  <meta property="twitter:card" content="summary_large_image" />
-  <meta property="twitter:url" content="https://furkankoykiran.com.tr/awesome-trending-repos/" />
-  <meta property="twitter:title" content="Awesome Trending Repos | Discover the Future of Open Source" />
-  <meta property="twitter:description" content="Daily updated, auto-curated list of trending GitHub repositories with deep insights and historical data." />
-  <meta property="twitter:image" content="/og-image.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:url" content="https://furkankoykiran.com.tr/awesome-trending-repos/" />
+  <meta name="twitter:title" content="Awesome Trending Repos | Daily GitHub Trending Dashboard" />
+  <meta name="twitter:description"
+    content="The fastest-growing open-source repositories on GitHub, refreshed every day with star growth, language insights and a seven-day snapshot history." />
+  <meta name="twitter:image" content="https://furkankoykiran.com.tr/awesome-trending-repos/og-image.png" />
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@400;500;600;700&display=swap"
+    rel="stylesheet" />
 </head>
 
 <body class="bg-[#0F172A] text-slate-200 antialiased selection:bg-purple-500/30 selection:text-purple-200">
   <div id="root"></div>
+  <noscript>
+    <main style="max-width: 44rem; margin: 4rem auto; padding: 0 1.5rem; font-family: system-ui, sans-serif; line-height: 1.6">
+      <h1>Awesome Trending Repos</h1>
+      <p>
+        This dashboard needs JavaScript to filter and chart the daily snapshot. The machine-readable data is still
+        available:
+      </p>
+      <ul>
+        <li><a href="%BASE_URL%data/trending.json">Today's snapshot (JSON)</a></li>
+        <li><a href="%BASE_URL%llms.txt">llms.txt</a></li>
+        <li><a href="https://github.com/furkankoykiran/awesome-trending-repos">Source on GitHub</a></li>
+      </ul>
+    </main>
+  </noscript>
   <script type="module" src="/src/main.jsx"></script>
 </body>
 

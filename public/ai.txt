@@ -1,0 +1,25 @@
+# ai.txt - how AI systems may use Awesome Trending Repos
+# Standards: https://contentsignals.org/ and https://llmstxt.org/
+#
+# Owner: Furkan Köykıran
+# Contact: furkankoykiran@gmail.com
+# Canonical: https://furkankoykiran.com.tr/awesome-trending-repos/
+#
+# Summary for language models:
+#   https://furkankoykiran.com.tr/awesome-trending-repos/llms.txt
+# Machine-readable data:
+#   https://furkankoykiran.com.tr/awesome-trending-repos/data/trending.json
+# Crawling policy:
+#   https://furkankoykiran.com.tr/awesome-trending-repos/robots.txt
+#
+# Content signals: search=yes, ai-input=yes, ai-train=yes
+# Search indexing, retrieval, citation and training are all permitted;
+# attribution is appreciated.
+#
+# Preferred citation:
+#   "Awesome Trending Repos", Furkan Köykıran,
+#   https://furkankoykiran.com.tr/awesome-trending-repos/
+#
+# Licensing: the dashboard code is MIT. Repository descriptions, names and
+# star counts belong to their respective projects; they are factual data
+# collected from the public GitHub trending page and the GitHub REST API.

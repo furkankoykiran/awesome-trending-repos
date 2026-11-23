@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+
+# Search, retrieval, citation and training are permitted. Attribution is
+# appreciated; see llms.txt and ai.txt for the preferred citation.
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+Sitemap: https://furkankoykiran.com.tr/awesome-trending-repos/sitemap.xml

@@ -1,0 +1,25 @@
+{
+  "name": "Awesome Trending Repos",
+  "short_name": "Awesome Trends",
+  "description": "Daily GitHub trending repositories with star growth, language insights and historical snapshots.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#020617",
+  "theme_color": "#020617",
+  "lang": "en",
+  "icons": [
+    {
+      "src": "logo.png",
+      "sizes": "640x640",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "favicon.png",
+      "sizes": "640x640",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

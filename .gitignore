@@ -1,4 +1,6 @@
 node_modules/
+dist/
+.ssr/
 
 # OS files
 .DS_Store
@@ -11,4 +13,6 @@ Thumbs.db
 *.swo
 *~
 
-# Note: .data/ is NOT ignored - we track it for historical data
+# Note: .data/ is tracked on purpose so the dashboard has a seven-day
+# history. scripts/update.js prunes old snapshots by the date in the filename,
+# not by file mtime, because a fresh checkout resets mtimes.

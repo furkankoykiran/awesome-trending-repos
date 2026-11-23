@@ -87,3 +87,29 @@ h1, h2, h3, h4, .font-heading {
 .text-gradient {
   @apply bg-clip-text text-transparent bg-linear-to-r from-brand-primary to-brand-secondary;
 }
+
+/* Keyboard focus and motion preferences */
+:focus-visible {
+  outline: 2px solid var(--color-brand-primary);
+  outline-offset: 3px;
+}
+
+[role="tabpanel"]:focus {
+  outline: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  .animate-float,
+  .animate-gradient {
+    animation: none;
+  }
+}
