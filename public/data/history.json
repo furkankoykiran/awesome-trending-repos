@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-11-23T12:58:20.813Z",
+  "generatedAt": "2026-11-23T12:59:58.948Z",
   "firstDate": "2026-03-17",
   "lastDate": "2026-11-23",
   "days": 252,
   "uniqueRepos": 978,
-  "latestTotalStars": 2460321,
+  "latestTotalStars": 2461511,
   "series": [
     {
       "date": "2026-03-17",
@@ -1766,7 +1766,7 @@
     {
       "date": "2026-11-23",
       "repos": 25,
-      "totalStars": 2460321,
+      "totalStars": 2461511,
       "totalGrowth": 15720,
       "topLanguage": "Python"
     }
@@ -1781,8 +1781,8 @@
       "firstDate": "2026-03-17",
       "lastDate": "2026-11-23",
       "starsFirst": 90406,
-      "starsLast": 324574,
-      "starGrowth": 234168,
+      "starsLast": 324636,
+      "starGrowth": 234230,
       "points": [
         {
           "date": "2026-03-17",
@@ -2634,7 +2634,7 @@
         },
         {
           "date": "2026-11-23",
-          "stars": 324574
+          "stars": 324636
         }
       ]
     },
@@ -2647,8 +2647,8 @@
       "firstDate": "2026-04-05",
       "lastDate": "2026-11-23",
       "starsFirst": 11950,
-      "starsLast": 330954,
-      "starGrowth": 319004,
+      "starsLast": 331029,
+      "starGrowth": 319079,
       "points": [
         {
           "date": "2026-04-05",
@@ -3332,7 +3332,7 @@
         },
         {
           "date": "2026-11-23",
-          "stars": 330954
+          "stars": 331029
         }
       ]
     },
@@ -3345,8 +3345,8 @@
       "firstDate": "2026-05-26",
       "lastDate": "2026-11-23",
       "starsFirst": 192345,
-      "starsLast": 309253,
-      "starGrowth": 116908,
+      "starsLast": 309283,
+      "starGrowth": 116938,
       "points": [
         {
           "date": "2026-05-26",
@@ -3722,7 +3722,7 @@
         },
         {
           "date": "2026-11-23",
-          "stars": 309253
+          "stars": 309283
         }
       ]
     },
@@ -6983,9 +6983,9 @@
     },
     {
       "date": "2026-11-23",
-      "obra/superpowers": 324574,
-      "mattpocock/skills": 330954,
-      "affaan-m/ECC": 309253,
+      "obra/superpowers": 324636,
+      "mattpocock/skills": 331029,
+      "affaan-m/ECC": 309283,
       "msitarzewski/agency-agents": null,
       "pbakaus/impeccable": null,
       "addyosmani/agent-skills": null
