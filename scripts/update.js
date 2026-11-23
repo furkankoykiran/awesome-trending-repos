@@ -117,24 +117,31 @@ async function loadSnapshot(date) {
 }
 
 /**
- * Clean up old snapshots
+ * Clean up old snapshots.
+ *
+ * Filenames are the source of truth (YYYY-MM-DD.json). Using mtime here was a
+ * bug: a fresh CI checkout stamps every file with the checkout time, so old
+ * snapshots were never removed.
  */
 async function cleanupOldSnapshots() {
   try {
     const files = await fs.readdir(SNAPSHOT_DIR);
-    const now = new Date();
+    const now = Date.now();
 
     for (const file of files) {
-      const filepath = resolve(SNAPSHOT_DIR, file);
-      const stats = await fs.stat(filepath);
-      const daysSinceModified = (now - stats.mtime) / (1000 * 60 * 60 * 24);
+      const match = /^(\d{4}-\d{2}-\d{2})\.json$/.exec(file);
+      if (!match) continue;
 
-      if (daysSinceModified > CONFIG.historyDays) {
-        await fs.unlink(filepath);
+      const fileDate = Date.parse(`${match[1]}T00:00:00Z`);
+      if (!Number.isFinite(fileDate)) continue;
+
+      const daysSinceSnapshot = (now - fileDate) / (1000 * 60 * 60 * 24);
+      if (daysSinceSnapshot > CONFIG.historyDays) {
+        await fs.unlink(resolve(SNAPSHOT_DIR, file));
       }
     }
   } catch (error) {
-    console.warn('  ⚠️ Could not clean up old snapshots');
+    console.warn('  Could not clean up old snapshots:', error.message);
   }
 }
 

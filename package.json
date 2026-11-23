@@ -4,21 +4,34 @@
   "description": "A daily-updated, auto-curated list of the most awesome trending open-source repositories. Enriched with deep insights and historical data, powered by GitHub Actions.",
   "type": "module",
   "main": "scripts/update.js",
+  "homepage": "https://furkankoykiran.com.tr/awesome-trending-repos/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/furkankoykiran/awesome-trending-repos.git"
+  },
+  "bugs": {
+    "url": "https://github.com/furkankoykiran/awesome-trending-repos/issues"
+  },
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
+    "build": "vite build && vite build --ssr src/entry-server.jsx --outDir .ssr && node scripts/prerender.js && node scripts/verify-build.js",
+    "preview": "vite preview --base /awesome-trending-repos/",
     "update": "node scripts/update.js",
-    "test": "node scripts/update.js --dry-run"
+    "verify": "node scripts/verify-build.js",
+    "test": "node --test tests/data.test.js tests/site.test.js"
   },
   "keywords": [
     "awesome-list",
     "github-trending",
     "open-source",
     "automation",
-    "github-actions"
+    "github-actions",
+    "react",
+    "vite",
+    "dashboard",
+    "prerender"
   ],
-  "author": "",
+  "author": "Furkan Köykıran",
   "license": "MIT",
   "dependencies": {
     "@octokit/plugin-throttling": "^11.0.3",
@@ -44,6 +57,6 @@
     "vite": "^6.2.1"
   },
   "engines": {
-    "node": ">=18.0.0"
+    "node": ">=24.0.0"
   }
 }
