@@ -12,6 +12,7 @@ import { resolve } from 'path';
 import { fetchTrendingWithEnrichment } from './data-sources/github-trending.js';
 import { searchTrendingRepos as searchGitHubTrending } from './data-sources/github-search.js';
 import * as utils from './utils.js';
+import { buildFeed, buildPublicHistory, createHistoryEntry, mergeHistoryEntry } from './history.js';
 import { CONFIG, TRENDING_LANGUAGES } from './config.js';
 
 // Data storage paths
@@ -21,36 +22,23 @@ const SNAPSHOT_DIR = resolve(DATA_DIR, 'snapshots');
 const PUBLIC_DATA_DIR = resolve('public', 'data');
 const TRENDING_JSON = resolve(PUBLIC_DATA_DIR, 'trending.json');
 const FEED_JSON = resolve(PUBLIC_DATA_DIR, 'feed.json');
+const PUBLIC_HISTORY = resolve(PUBLIC_DATA_DIR, 'history.json');
 
 /**
- * Update deployment feed
+ * Rebuild the deployment feed and the public history from the retained
+ * snapshots. Both are derived files: they can always be regenerated with
+ * `node scripts/rebuild-history.js`.
  */
-async function updateFeed(snapshot) {
-  try {
-    let feed = [];
-    try {
-      const content = await fs.readFile(FEED_JSON, 'utf-8');
-      feed = JSON.parse(content);
-    } catch (e) {
-      // Start new feed
-    }
+async function updatePublicHistory(snapshots) {
+  const feed = buildFeed(snapshots);
+  const publicHistory = buildPublicHistory(snapshots);
 
-    const newEntry = {
-      id: Date.now().toString(),
-      date: snapshot.date,
-      title: `Daily Update: ${snapshot.repos.length} repos curated`,
-      summary: `Top languages today: ${snapshot.insights.topLanguages.map(l => l.language).join(', ')}. Rising star: ${snapshot.insights.risingStar.name}.`,
-      type: 'update'
-    };
+  await Promise.all([
+    fs.writeFile(FEED_JSON, JSON.stringify(feed, null, 2), 'utf-8'),
+    fs.writeFile(PUBLIC_HISTORY, JSON.stringify(publicHistory, null, 2), 'utf-8'),
+  ]);
 
-    feed.unshift(newEntry);
-    // Keep last 20 entries
-    feed = feed.slice(0, 20);
-    
-    await fs.writeFile(FEED_JSON, JSON.stringify(feed, null, 2), 'utf-8');
-  } catch (error) {
-    console.warn('  ⚠️ Could not update feed:', error.message);
-  }
+  console.log(`  ✅ History: ${publicHistory.firstDate} -> ${publicHistory.lastDate} (${publicHistory.days} days, ${publicHistory.uniqueRepos} repos)`);
 }
 
 /**
@@ -67,13 +55,40 @@ async function ensureDataDir() {
 }
 
 /**
- * Load historical data
+ * Load historical data.
+ *
+ * The per-day snapshot files are the source of truth, so the in-memory history
+ * is rebuilt from them on every run. `.data/history.json` is only a fallback
+ * for a repository that predates the snapshot directory.
  */
 async function loadHistory() {
   try {
+    const files = (await fs.readdir(SNAPSHOT_DIR))
+      .filter((file) => /^\d{4}-\d{2}-\d{2}\.json$/.test(file))
+      .sort();
+
+    const snapshots = [];
+    for (const file of files) {
+      const repos = JSON.parse(await fs.readFile(resolve(SNAPSHOT_DIR, file), 'utf-8'));
+      if (!Array.isArray(repos) || repos.length === 0) continue;
+      const fetchedAt = repos.find((repo) => repo.fetchedAt)?.fetchedAt;
+      const date = fetchedAt && Number.isFinite(Date.parse(fetchedAt))
+        ? fetchedAt
+        : `${file.slice(0, 10)}T00:00:00.000Z`;
+      snapshots.push(createHistoryEntry(repos, date));
+    }
+
+    if (snapshots.length > 0) {
+      snapshots.sort((a, b) => Date.parse(b.date) - Date.parse(a.date));
+      return { snapshots, lastUpdate: snapshots[0].date };
+    }
+  } catch (error) {
+    // Fall through to the legacy history file.
+  }
+
+  try {
     const content = await fs.readFile(HISTORY_FILE, 'utf-8');
     const history = JSON.parse(content);
-    // Validate history structure
     if (!history.snapshots || !Array.isArray(history.snapshots)) {
       console.warn('  ⚠️ Invalid history format, starting fresh');
       return { snapshots: [], lastUpdate: null };
@@ -117,33 +132,16 @@ async function loadSnapshot(date) {
 }
 
 /**
- * Clean up old snapshots.
+ * Snapshots are never pruned.
  *
- * Filenames are the source of truth (YYYY-MM-DD.json). Using mtime here was a
- * bug: a fresh CI checkout stamps every file with the checkout time, so old
- * snapshots were never removed.
+ * `.data/snapshots/YYYY-MM-DD.json` is the source of truth for the whole
+ * history: one small file per day, kept forever. An earlier version deleted
+ * anything older than `CONFIG.historyDays` (7 days), which is why the
+ * dashboard had no visible history even though the project had been running
+ * for months. Derived files (`history.json`, `public/data/history.json`) are
+ * rebuilt from these snapshots instead.
  */
-async function cleanupOldSnapshots() {
-  try {
-    const files = await fs.readdir(SNAPSHOT_DIR);
-    const now = Date.now();
 
-    for (const file of files) {
-      const match = /^(\d{4}-\d{2}-\d{2})\.json$/.exec(file);
-      if (!match) continue;
-
-      const fileDate = Date.parse(`${match[1]}T00:00:00Z`);
-      if (!Number.isFinite(fileDate)) continue;
-
-      const daysSinceSnapshot = (now - fileDate) / (1000 * 60 * 60 * 24);
-      if (daysSinceSnapshot > CONFIG.historyDays) {
-        await fs.unlink(resolve(SNAPSHOT_DIR, file));
-      }
-    }
-  } catch (error) {
-    console.warn('  Could not clean up old snapshots:', error.message);
-  }
-}
 
 /**
  * Main execution function
@@ -307,20 +305,16 @@ async function main() {
     };
     await saveSnapshot(repos, now);
 
-    // Update history
-    history.snapshots.unshift(snapshot);
-    history.lastUpdate = now.toISOString();
+    // Update history: one entry per day, newest first, kept forever.
+    const entry = createHistoryEntry(repos, now);
+    const snapshots = mergeHistoryEntry(history.snapshots, entry);
+    await saveHistory({ snapshots, lastUpdate: entry.date });
 
-    // Keep only recent history in memory file
-    history.snapshots = history.snapshots.slice(0, CONFIG.historyDays);
-    await saveHistory(history);
-    await cleanupOldSnapshots();
-    
     // Save for frontend
     console.log('🌐 Saving public data for frontend...');
     await fs.writeFile(TRENDING_JSON, JSON.stringify(snapshot, null, 2), 'utf-8');
-    await updateFeed(snapshot);
-    
+    await updatePublicHistory(snapshots);
+
     console.log('  ✅ Snapshot saved\n');
 
     // Step 10: Summary

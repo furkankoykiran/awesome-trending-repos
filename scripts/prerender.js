@@ -16,6 +16,7 @@ import { pathToFileURL } from 'node:url';
 const DIST_INDEX = resolve('dist/index.html');
 const TRENDING = resolve('public/data/trending.json');
 const FEED = resolve('public/data/feed.json');
+const HISTORY = resolve('public/data/history.json');
 const SSR_ENTRY = resolve('.ssr/entry-server.js');
 const SITE_URL = 'https://furkankoykiran.com.tr/awesome-trending-repos/';
 
@@ -43,7 +44,7 @@ function buildStructuredData(snapshot) {
     name: 'Awesome Trending Repos',
     url: SITE_URL,
     description:
-      'A daily-updated dashboard of the fastest-growing open-source repositories on GitHub, with star growth, language insights and a seven-day snapshot history.',
+      'A daily-updated dashboard of the fastest-growing open-source repositories on GitHub, with star growth, language insights and a full archive of daily snapshots going back to March 2026.',
     applicationCategory: 'DeveloperApplication',
     operatingSystem: 'Any',
     browserRequirements: 'Requires JavaScript',
@@ -99,12 +100,16 @@ function buildSitemap(snapshot) {
 `;
 }
 
-function buildLlms(snapshot) {
+function buildLlms(snapshot, history) {
   const repos = Array.isArray(snapshot.repos) ? snapshot.repos.slice(0, 25) : [];
   const lines = repos.map(
     (repo, index) =>
       `${index + 1}. ${repo.owner}/${repo.name} (${repo.language || 'unknown'}, ${repo.stars || 0} stars, +${repo.starsToday || 0} today) - ${repo.url}`
   );
+  const historyLine =
+    history && history.days
+      ? `History: ${history.days} daily snapshots from ${history.firstDate} to ${history.lastDate}, ${history.uniqueRepos} unique repositories. Raw archive: .data/snapshots/ (one JSON file per day).`
+      : 'History: the archive starts with the first daily snapshot.';
   return `# Awesome Trending Repos
 
 > A daily-updated, auto-curated dashboard of the fastest-growing open-source repositories on GitHub.
@@ -112,6 +117,7 @@ function buildLlms(snapshot) {
 Canonical: ${SITE_URL}
 Snapshot: ${snapshot.date || 'unknown'}
 Data: ${SITE_URL}data/trending.json
+${historyLine}
 
 ## Today's repositories
 
@@ -124,10 +130,11 @@ Cite the dashboard as "Awesome Trending Repos, Furkan Köykıran" with the canon
 }
 
 async function main() {
-  const [html, snapshot, feed] = await Promise.all([
+  const [html, snapshot, feed, history] = await Promise.all([
     fs.readFile(DIST_INDEX, 'utf8'),
     readJson(TRENDING, null),
     readJson(FEED, []),
+    readJson(HISTORY, null),
   ]);
 
   if (!snapshot || !Array.isArray(snapshot.repos) || snapshot.repos.length === 0) {
@@ -135,7 +142,21 @@ async function main() {
   }
 
   const { render } = await import(pathToFileURL(SSR_ENTRY).href);
-  const markup = render(snapshot, Array.isArray(feed) ? feed : []);
+  const markup = render(snapshot, Array.isArray(feed) ? feed : [], history);
+
+  // The full archive is ~150 kB. Embed only the counters needed for the hero
+  // and let the History tab fetch data/history.json on demand.
+  const latest = history?.series?.[history.series.length - 1];
+  const historySummary = history
+    ? {
+        firstDate: history.firstDate,
+        lastDate: history.lastDate,
+        days: history.days,
+        uniqueRepos: history.uniqueRepos,
+        latestTotalStars: latest?.totalStars ?? history.latestTotalStars ?? 0,
+        latestTotalGrowth: latest?.totalGrowth ?? 0,
+      }
+    : null;
 
   if (!markup || markup.length < 1000) {
     throw new Error('SSR render returned too little markup');
@@ -143,7 +164,7 @@ async function main() {
 
   const dataScript = `<script>window.__ATR_DATA__=${escapeForScript(snapshot)};window.__ATR_FEED__=${escapeForScript(
     Array.isArray(feed) ? feed : []
-  )};</script>`;
+  )};window.__ATR_HISTORY__=${escapeForScript(historySummary)};</script>`;
   const structured = `<script type="application/ld+json">${escapeForScript(
     buildStructuredData(snapshot)
   )}</script>`;
@@ -165,7 +186,7 @@ async function main() {
   await Promise.all([
     fs.writeFile(DIST_INDEX, output, 'utf8'),
     fs.writeFile(resolve('dist/sitemap.xml'), buildSitemap(snapshot), 'utf8'),
-    fs.writeFile(resolve('dist/llms.txt'), buildLlms(snapshot), 'utf8'),
+    fs.writeFile(resolve('dist/llms.txt'), buildLlms(snapshot, history), 'utf8'),
   ]);
 
   const repoChecks = snapshot.repos.slice(0, 3).map((repo) => `${repo.owner}/${repo.name}`);

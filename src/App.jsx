@@ -14,23 +14,29 @@ import {
 } from 'lucide-react';
 import { formatCount, getLangColor } from './lib/format.js';
 
-// Charts pull in recharts and its d3 dependencies, so they live in a separate
-// chunk that is only fetched when someone opens the Stats tab.
+// Charts pull in recharts and its d3 dependencies, so they live in separate
+// chunks that are only fetched when someone opens the Stats or History tab.
 const StatsPanel = lazy(() => import('./StatsPanel.jsx'));
+const HistoryPanel = lazy(() => import('./HistoryPanel.jsx'));
 
 const TABS = [
   { id: 'Trending', label: 'Trending' },
   { id: 'Stats', label: 'Stats' },
+  { id: 'History', label: 'History' },
   { id: 'Feed', label: 'Feed' },
 ];
 
-const App = ({ initialData = null, initialFeed = [] }) => {
+const App = ({ initialData = null, initialFeed = [], initialHistory = null }) => {
   const [data, setData] = useState(initialData);
   const [feed, setFeed] = useState(initialFeed);
+  const [history, setHistory] = useState(initialHistory);
+  const [historyLoadState, setHistoryLoadState] = useState(
+    initialHistory?.series?.length ? 'ready' : 'idle'
+  );
   const [loading, setLoading] = useState(!initialData);
   const [error, setError] = useState('');
   const [filter, setFilter] = useState('All');
-  const [activeTab, setActiveTab] = useState('Trending'); // Trending, Stats, Feed
+  const [activeTab, setActiveTab] = useState('Trending'); // Trending, Stats, History, Feed
   const [searchQuery, setSearchQuery] = useState('');
 
   useEffect(() => {
@@ -38,9 +44,10 @@ const App = ({ initialData = null, initialFeed = [] }) => {
 
     const fetchData = async () => {
       try {
-        const [trendingRes, feedRes] = await Promise.all([
+        const [trendingRes, feedRes, historyRes] = await Promise.all([
           fetch('./data/trending.json'),
-          fetch('./data/feed.json').catch(() => ({ json: () => [] }))
+          fetch('./data/feed.json').catch(() => ({ json: () => [] })),
+          fetch('./data/history.json').catch(() => ({ json: () => null }))
         ]);
         
         const trendingJson = await trendingRes.json();
@@ -50,9 +57,17 @@ const App = ({ initialData = null, initialFeed = [] }) => {
         } catch (e) {
           feedJson = [];
         }
+        let historyJson = null;
+        try {
+          historyJson = await historyRes.json();
+        } catch (e) {
+          historyJson = null;
+        }
 
         setData(trendingJson);
         setFeed(Array.isArray(feedJson) ? feedJson : []);
+        setHistory(historyJson);
+        setHistoryLoadState(historyJson?.series?.length ? 'ready' : 'error');
       } catch (error) {
         console.error('Error fetching data:', error);
         setError('The daily snapshot could not be loaded. Please try again in a moment.');
@@ -62,6 +77,35 @@ const App = ({ initialData = null, initialFeed = [] }) => {
     };
     fetchData();
   }, [initialData]);
+
+  // The full archive is ~150 kB, so it is not embedded in the HTML. Fetch it
+  // the first time someone opens the History tab; the prerendered summary is
+  // enough for the hero counters and for crawlers.
+  useEffect(() => {
+    if (activeTab !== 'History' || historyLoadState !== 'idle') return;
+
+    let cancelled = false;
+    setHistoryLoadState('loading');
+
+    fetch('./data/history.json')
+      .then((response) => (response.ok ? response.json() : null))
+      .then((json) => {
+        if (cancelled) return;
+        if (json?.series?.length) {
+          setHistory(json);
+          setHistoryLoadState('ready');
+        } else {
+          setHistoryLoadState('error');
+        }
+      })
+      .catch(() => {
+        if (!cancelled) setHistoryLoadState('error');
+      });
+
+    return () => {
+      cancelled = true;
+    };
+  }, [activeTab, historyLoadState]);
 
   if (error) {
     return (
@@ -102,6 +146,12 @@ const App = ({ initialData = null, initialFeed = [] }) => {
   });
 
   const languages = ['All', ...new Set(repos.map(r => r.language).filter(Boolean))];
+  const historyDays = Number(history?.days) || 0;
+  const historyStart = history?.firstDate
+    ? new Date(history.firstDate).toLocaleDateString('en-US', { month: 'short', year: 'numeric' })
+    : null;
+  const historyLoading = historyLoadState === 'loading';
+  const historyFailed = historyLoadState === 'error';
 
   return (
     <MotionConfig reducedMotion="user">
@@ -196,6 +246,12 @@ const App = ({ initialData = null, initialFeed = [] }) => {
                     Discover tomorrow's breakout projects today. Real-time insights, 
                     growth tracking, and historical data served in a premium experience.
                   </p>
+                  {historyDays > 1 && (
+                    <p className="text-sm font-bold uppercase tracking-[0.2em] text-slate-500">
+                      {formatCount(historyDays)} days of history · {formatCount(history.uniqueRepos || 0)} repositories
+                      {historyStart ? ` · since ${historyStart}` : ''}
+                    </p>
+                  )}
                 </div>
               </div>
 
@@ -337,6 +393,61 @@ const App = ({ initialData = null, initialFeed = [] }) => {
             </Suspense>
           )}
 
+          {activeTab === 'History' && (
+            <Suspense
+              fallback={
+                <div
+                  className="space-y-12"
+                  role="status"
+                  aria-live="polite"
+                  aria-label="Loading history"
+                >
+                  <div className="space-y-3">
+                    <h2 className="text-5xl font-heading font-black tracking-tight text-gradient">The Long View</h2>
+                    <p className="text-xl text-slate-400 font-medium">Loading the archive…</p>
+                  </div>
+                  <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
+                    <div className="glass rounded-[2.5rem] border-white/5 h-96 animate-pulse" />
+                    <div className="glass rounded-[2.5rem] border-white/5 h-96 animate-pulse" />
+                  </div>
+                </div>
+              }
+            >
+              {historyLoading ? (
+                <div
+                  className="space-y-12"
+                  role="status"
+                  aria-live="polite"
+                  aria-label="Loading the history archive"
+                >
+                  <div className="space-y-3">
+                    <h2 className="text-5xl font-heading font-black tracking-tight text-gradient">The Long View</h2>
+                    <p className="text-xl text-slate-400 font-medium">Loading the archive…</p>
+                  </div>
+                  <div className="grid grid-cols-2 lg:grid-cols-4 gap-5">
+                    {[0, 1, 2, 3].map((key) => (
+                      <div key={key} className="glass-card rounded-[1.75rem] h-28 animate-pulse" />
+                    ))}
+                  </div>
+                  <div className="glass rounded-[2.5rem] border-white/5 h-96 animate-pulse" />
+                </div>
+              ) : historyFailed ? (
+                <div className="glass p-12 rounded-[2.5rem] border-dashed border-2 border-white/5 text-center space-y-4">
+                  <h2 className="text-2xl font-bold">The archive could not be loaded</h2>
+                  <p className="text-slate-500 font-medium">
+                    The daily snapshot is fine, but <code>data/history.json</code> did not arrive.
+                    Reload the page or open the raw file directly.
+                  </p>
+                  <a href="./data/history.json" className="inline-flex px-6 py-3 rounded-2xl bg-brand-primary text-white font-bold">
+                    Open data/history.json
+                  </a>
+                </div>
+              ) : (
+                <HistoryPanel history={history} initialData={initialData} />
+              )}
+            </Suspense>
+          )}
+
           {activeTab === 'Feed' && (
             <motion.div
               key="feed"
@@ -442,6 +553,7 @@ const App = ({ initialData = null, initialFeed = [] }) => {
             <div className="flex flex-col gap-4 text-sm font-bold text-slate-400">
               <button type="button" onClick={() => setActiveTab('Trending')} className="text-left hover:text-brand-primary transition-colors">Trending Now</button>
               <button type="button" onClick={() => setActiveTab('Stats')} className="text-left hover:text-brand-primary transition-colors">Visual Stats</button>
+              <button type="button" onClick={() => setActiveTab('History')} className="text-left hover:text-brand-primary transition-colors">History Archive</button>
               <button type="button" onClick={() => setActiveTab('Feed')} className="text-left hover:text-brand-primary transition-colors">Deployment Feed</button>
             </div>
           </div>

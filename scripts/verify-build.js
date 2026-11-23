@@ -20,17 +20,32 @@ const exists = (file) =>
     .catch(() => false);
 
 async function main() {
-  const [html, snapshot] = await Promise.all([read('index.html'), read('data/trending.json')]);
+  const [html, snapshot, historyRaw] = await Promise.all([
+    read('index.html'),
+    read('data/trending.json'),
+    read('data/history.json'),
+  ]);
   const data = JSON.parse(snapshot);
+  const history = JSON.parse(historyRaw);
   const problems = [];
 
   if (html.length < 20_000) problems.push('dist/index.html looks like an empty shell');
   if (html.includes('<div id="root"></div>')) problems.push('dist/index.html was not prerendered');
   if (!html.includes('window.__ATR_DATA__')) problems.push('hydration snapshot is missing');
+  if (!html.includes('window.__ATR_HISTORY__')) problems.push('history snapshot is missing');
   if (!html.includes('"@type":"WebApplication"') && !html.includes('"@type": "WebApplication"')) {
     problems.push('WebApplication JSON-LD is missing');
   }
   if (!html.includes(`${BASE}assets/`)) problems.push(`asset URLs do not use the ${BASE} base path`);
+
+  if (!Array.isArray(history.series) || history.series.length === 0) {
+    problems.push('data/history.json has no daily series');
+  } else if (!Number.isFinite(history.days) || history.days < 1) {
+    problems.push('data/history.json has an invalid day count');
+  }
+  if (!html.includes('days of history')) {
+    problems.push('prerendered HTML does not mention the retained history');
+  }
 
   for (const repo of data.repos.slice(0, 3)) {
     const name = `${repo.owner}/${repo.name}`;
@@ -45,6 +60,7 @@ async function main() {
     'manifest.webmanifest',
     '.well-known/security.txt',
     'data/feed.json',
+    'data/history.json',
   ];
   const checks = await Promise.all(required.map(exists));
   required.forEach((file, index) => {

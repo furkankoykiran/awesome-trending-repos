@@ -13,6 +13,6 @@ Thumbs.db
 *.swo
 *~
 
-# Note: .data/ is tracked on purpose so the dashboard has a seven-day
-# history. scripts/update.js prunes old snapshots by the date in the filename,
-# not by file mtime, because a fresh checkout resets mtimes.
+# Note: .data/ is tracked on purpose. `.data/snapshots/YYYY-MM-DD.json` is the
+# source of truth for the whole history and is kept forever; `history.json` and
+# `public/data/history.json` are derived from it by scripts/history.js.

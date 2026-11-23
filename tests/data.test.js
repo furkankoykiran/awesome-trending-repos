@@ -55,12 +55,39 @@ test('deployment feed is a bounded, newest-first list', async () => {
   assert.deepEqual(dates, [...dates].sort((a, b) => b - a), 'feed must be newest first');
 });
 
-test('tracked history stays inside the seven-day window', async () => {
+test('history keeps every daily snapshot', async () => {
   const history = await readJson('.data/history.json');
 
   assert.ok(Array.isArray(history.snapshots), 'history.snapshots must be an array');
-  assert.ok(history.snapshots.length <= 7, 'history must keep at most seven snapshots');
+  assert.ok(history.snapshots.length > 7, 'history must retain more than the old seven-day window');
 
   const dates = history.snapshots.map((entry) => Date.parse(entry.date));
   assert.deepEqual(dates, [...dates].sort((a, b) => b - a), 'history must be newest first');
+
+  const days = new Set(history.snapshots.map((entry) => entry.date.slice(0, 10)));
+  assert.equal(days.size, history.snapshots.length, 'history must hold one entry per day');
+});
+
+test('public history is a complete, chart-ready series', async () => {
+  const history = await readJson('public/data/history.json');
+
+  assert.ok(Number.isFinite(history.days) && history.days > 0, 'days must be a positive number');
+  assert.ok(Number.isFinite(Date.parse(history.firstDate)), 'firstDate must be ISO-8601');
+  assert.ok(Number.isFinite(Date.parse(history.lastDate)), 'lastDate must be ISO-8601');
+  assert.ok(Array.isArray(history.series), 'series must be an array');
+  assert.equal(history.series.length, history.days, 'series must have one row per day');
+  assert.ok(history.uniqueRepos > 0, 'uniqueRepos must be positive');
+
+  for (const row of history.series) {
+    assert.ok(Number.isFinite(Date.parse(row.date)), 'series date must be ISO-8601');
+    assert.ok(Number.isFinite(row.totalStars), 'totalStars must be a number');
+    assert.ok(Number.isFinite(row.totalGrowth), 'totalGrowth must be a number');
+  }
+
+  assert.ok(Array.isArray(history.topRepos) && history.topRepos.length > 0, 'topRepos must not be empty');
+  for (const repo of history.topRepos) {
+    assert.equal(typeof repo.key, 'string', 'top repo key is required');
+    assert.ok(repo.appearances > 0, 'top repo must have at least one appearance');
+    assert.ok(Number.isFinite(repo.starGrowth), 'top repo starGrowth must be a number');
+  }
 });

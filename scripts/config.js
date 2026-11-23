@@ -61,7 +61,9 @@ export const LANGUAGE_COLORS = {
 export const CONFIG = {
   // Data collection settings
   maxRepos: 25,  // Top 25 repos is enough - cleaner and faster
-  historyDays: 7,
+  // Snapshots are retained forever; historyDays is kept for compatibility with
+  // older configuration files but no longer deletes anything.
+  historyDays: null,
   fallbackToSearch: true,
   filterLanguages: true,
 
