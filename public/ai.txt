@@ -9,6 +9,8 @@
 #   https://furkankoykiran.com.tr/awesome-trending-repos/llms.txt
 # Machine-readable data:
 #   https://furkankoykiran.com.tr/awesome-trending-repos/data/trending.json
+#   https://furkankoykiran.com.tr/awesome-trending-repos/data/history.json
+#   https://furkankoykiran.com.tr/awesome-trending-repos/data/feed.json
 # Crawling policy:
 #   https://furkankoykiran.com.tr/awesome-trending-repos/robots.txt
 #

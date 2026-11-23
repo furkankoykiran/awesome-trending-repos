@@ -1,16 +1,142 @@
 [
   {
-    "id": "1795433220239",
-    "date": "2026-11-23T11:26:58.247Z",
+    "id": "1795433219891",
+    "date": "2026-11-23T11:26:59.891Z",
     "title": "Daily Update: 25 repos curated",
     "summary": "Top languages today: Python, TypeScript, Shell, C++, JavaScript. Rising star: Claude-BugHunter.",
     "type": "update"
   },
   {
-    "id": "1774632521738",
-    "date": "2026-03-27T17:28:38.588Z",
+    "id": "1795323273189",
+    "date": "2026-11-22T04:54:33.189Z",
     "title": "Daily Update: 25 repos curated",
-    "summary": "Top languages today: Python, TypeScript, Rust, Shell, JavaScript. Rising star: last30days-skill.",
+    "summary": "Top languages today: Python, TypeScript, Shell, C++, JavaScript. Rising star: Claude-BugHunter.",
+    "type": "update"
+  },
+  {
+    "id": "1795238945550",
+    "date": "2026-11-21T05:29:05.550Z",
+    "title": "Daily Update: 25 repos curated",
+    "summary": "Top languages today: Python, TypeScript, Shell, Go, JavaScript. Rising star: Claude-BugHunter.",
+    "type": "update"
+  },
+  {
+    "id": "1795152913172",
+    "date": "2026-11-20T05:35:13.172Z",
+    "title": "Daily Update: 25 repos curated",
+    "summary": "Top languages today: Python, TypeScript, Shell, C++, JavaScript. Rising star: superpowers.",
+    "type": "update"
+  },
+  {
+    "id": "1795067182699",
+    "date": "2026-11-19T05:46:22.699Z",
+    "title": "Daily Update: 25 repos curated",
+    "summary": "Top languages today: Python, TypeScript, Go, JavaScript, Shell. Rising star: paper-orchestra.",
+    "type": "update"
+  },
+  {
+    "id": "1794980808305",
+    "date": "2026-11-18T05:46:48.305Z",
+    "title": "Daily Update: 25 repos curated",
+    "summary": "Top languages today: TypeScript, Python, JavaScript, Go, Shell. Rising star: superpowers.",
+    "type": "update"
+  },
+  {
+    "id": "1794896543646",
+    "date": "2026-11-17T06:22:23.646Z",
+    "title": "Daily Update: 25 repos curated",
+    "summary": "Top languages today: TypeScript, Python, JavaScript, Shell, Go. Rising star: superpowers.",
+    "type": "update"
+  },
+  {
+    "id": "1794803767219",
+    "date": "2026-11-16T04:36:07.219Z",
+    "title": "Daily Update: 25 repos curated",
+    "summary": "Top languages today: TypeScript, Python, Go, Rust, C++. Rising star: modern-web-guidance-src.",
+    "type": "update"
+  },
+  {
+    "id": "1794717577598",
+    "date": "2026-11-15T04:39:37.598Z",
+    "title": "Daily Update: 25 repos curated",
+    "summary": "Top languages today: TypeScript, Go, Shell, C++, Rust. Rising star: modern-web-guidance-src.",
+    "type": "update"
+  },
+  {
+    "id": "1794631656617",
+    "date": "2026-11-14T04:47:36.617Z",
+    "title": "Daily Update: 25 repos curated",
+    "summary": "Top languages today: JavaScript, TypeScript, Shell, Python, C++. Rising star: modern-web-guidance-src.",
+    "type": "update"
+  },
+  {
+    "id": "1794545663940",
+    "date": "2026-11-13T04:54:23.940Z",
+    "title": "Daily Update: 25 repos curated",
+    "summary": "Top languages today: TypeScript, Python, Swift, Go, Shell. Rising star: astryx.",
+    "type": "update"
+  },
+  {
+    "id": "1794461867869",
+    "date": "2026-11-12T05:37:47.869Z",
+    "title": "Daily Update: 25 repos curated",
+    "summary": "Top languages today: Python, TypeScript, Rust, Shell, JavaScript. Rising star: astryx.",
+    "type": "update"
+  },
+  {
+    "id": "1794371538335",
+    "date": "2026-11-11T04:32:18.335Z",
+    "title": "Daily Update: 25 repos curated",
+    "summary": "Top languages today: Python, JavaScript, TypeScript, Shell, Rust. Rising star: astryx.",
+    "type": "update"
+  },
+  {
+    "id": "1794289789543",
+    "date": "2026-11-10T05:49:49.543Z",
+    "title": "Daily Update: 25 repos curated",
+    "summary": "Top languages today: Python, TypeScript, Rust, Shell, C++. Rising star: sherlock.",
+    "type": "update"
+  },
+  {
+    "id": "1794198516361",
+    "date": "2026-11-09T04:28:36.361Z",
+    "title": "Daily Update: 25 repos curated",
+    "summary": "Top languages today: Rust, TypeScript, Python, JavaScript, Shell. Rising star: sherlock.",
+    "type": "update"
+  },
+  {
+    "id": "1794111224999",
+    "date": "2026-11-08T04:13:44.999Z",
+    "title": "Daily Update: 25 repos curated",
+    "summary": "Top languages today: TypeScript, Python, Rust, Shell, JavaScript. Rising star: rea.",
+    "type": "update"
+  },
+  {
+    "id": "1794025738868",
+    "date": "2026-11-07T04:28:58.868Z",
+    "title": "Daily Update: 25 repos curated",
+    "summary": "Top languages today: Python, JavaScript, TypeScript, Rust, Shell. Rising star: security-audit-skill.",
+    "type": "update"
+  },
+  {
+    "id": "1793940995206",
+    "date": "2026-11-06T04:56:35.206Z",
+    "title": "Daily Update: 25 repos curated",
+    "summary": "Top languages today: Python, Rust, Shell, TypeScript, JavaScript. Rising star: auto-ontology.",
+    "type": "update"
+  },
+  {
+    "id": "1793854611763",
+    "date": "2026-11-05T04:56:51.763Z",
+    "title": "Daily Update: 25 repos curated",
+    "summary": "Top languages today: Python, TypeScript, Rust, Shell, Java. Rising star: agent-desktop.",
+    "type": "update"
+  },
+  {
+    "id": "1793767359034",
+    "date": "2026-11-04T04:42:39.034Z",
+    "title": "Daily Update: 25 repos curated",
+    "summary": "Top languages today: Python, Rust, TypeScript, Shell, Java. Rising star: agent-desktop.",
     "type": "update"
   }
 ]

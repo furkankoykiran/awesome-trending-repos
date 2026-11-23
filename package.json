@@ -18,7 +18,8 @@
     "preview": "vite preview --base /awesome-trending-repos/",
     "update": "node scripts/update.js",
     "verify": "node scripts/verify-build.js",
-    "test": "node --test tests/data.test.js tests/site.test.js"
+    "test": "node --test tests/data.test.js tests/history.test.js tests/site.test.js",
+    "rebuild-history": "node scripts/rebuild-history.js"
   },
   "keywords": [
     "awesome-list",

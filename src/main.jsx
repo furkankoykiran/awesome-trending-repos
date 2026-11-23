@@ -8,10 +8,11 @@ import './index.css';
 // away; in development the snapshot is absent and App fetches it.
 const initialData = window.__ATR_DATA__ || null;
 const initialFeed = Array.isArray(window.__ATR_FEED__) ? window.__ATR_FEED__ : [];
+const initialHistory = window.__ATR_HISTORY__ || null;
 const root = document.getElementById('root');
 const app = (
   <React.StrictMode>
-    <App initialData={initialData} initialFeed={initialFeed} />
+    <App initialData={initialData} initialFeed={initialFeed} initialHistory={initialHistory} />
   </React.StrictMode>
 );
 

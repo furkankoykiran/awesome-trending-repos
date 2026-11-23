@@ -1,0 +1,6994 @@
+{
+  "generatedAt": "2026-11-23T12:58:20.813Z",
+  "firstDate": "2026-03-17",
+  "lastDate": "2026-11-23",
+  "days": 252,
+  "uniqueRepos": 978,
+  "latestTotalStars": 2460321,
+  "series": [
+    {
+      "date": "2026-03-17",
+      "repos": 25,
+      "totalStars": 553491,
+      "totalGrowth": 16079,
+      "topLanguage": "TypeScript"
+    },
+    {
+      "date": "2026-03-18",
+      "repos": 25,
+      "totalStars": 562360,
+      "totalGrowth": 15459,
+      "topLanguage": "TypeScript"
+    },
+    {
+      "date": "2026-03-19",
+      "repos": 25,
+      "totalStars": 573190,
+      "totalGrowth": 20418,
+      "topLanguage": "TypeScript"
+    },
+    {
+      "date": "2026-03-20",
+      "repos": 25,
+      "totalStars": 748879,
+      "totalGrowth": 20956,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-03-21",
+      "repos": 25,
+      "totalStars": 1151200,
+      "totalGrowth": 19123,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-03-22",
+      "repos": 25,
+      "totalStars": 1066636,
+      "totalGrowth": 18375,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-03-23",
+      "repos": 25,
+      "totalStars": 1106645,
+      "totalGrowth": 20300,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-03-24",
+      "repos": 25,
+      "totalStars": 1270800,
+      "totalGrowth": 33223,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-03-25",
+      "repos": 25,
+      "totalStars": 1368182,
+      "totalGrowth": 31165,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-03-26",
+      "repos": 25,
+      "totalStars": 1079127,
+      "totalGrowth": 27351,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-03-27",
+      "repos": 25,
+      "totalStars": 847323,
+      "totalGrowth": 18811,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-03-28",
+      "repos": 25,
+      "totalStars": 945012,
+      "totalGrowth": 18487,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-03-29",
+      "repos": 25,
+      "totalStars": 993190,
+      "totalGrowth": 15727,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-03-30",
+      "repos": 25,
+      "totalStars": 996390,
+      "totalGrowth": 15553,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-03-31",
+      "repos": 25,
+      "totalStars": 1510890,
+      "totalGrowth": 20205,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-04-01",
+      "repos": 25,
+      "totalStars": 1791732,
+      "totalGrowth": 34173,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-04-02",
+      "repos": 25,
+      "totalStars": 1691600,
+      "totalGrowth": 40170,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-04-03",
+      "repos": 25,
+      "totalStars": 883673,
+      "totalGrowth": 24854,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-04-04",
+      "repos": 25,
+      "totalStars": 1100499,
+      "totalGrowth": 19442,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-04-05",
+      "repos": 25,
+      "totalStars": 1309321,
+      "totalGrowth": 14664,
+      "topLanguage": "TypeScript"
+    },
+    {
+      "date": "2026-04-06",
+      "repos": 25,
+      "totalStars": 1535573,
+      "totalGrowth": 12588,
+      "topLanguage": "TypeScript"
+    },
+    {
+      "date": "2026-04-07",
+      "repos": 25,
+      "totalStars": 1414952,
+      "totalGrowth": 16083,
+      "topLanguage": "TypeScript"
+    },
+    {
+      "date": "2026-04-08",
+      "repos": 25,
+      "totalStars": 1615562,
+      "totalGrowth": 18940,
+      "topLanguage": "TypeScript"
+    },
+    {
+      "date": "2026-04-09",
+      "repos": 25,
+      "totalStars": 723474,
+      "totalGrowth": 21791,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-04-10",
+      "repos": 25,
+      "totalStars": 1231581,
+      "totalGrowth": 24021,
+      "topLanguage": "TypeScript"
+    },
+    {
+      "date": "2026-04-11",
+      "repos": 25,
+      "totalStars": 1045229,
+      "totalGrowth": 26370,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-04-12",
+      "repos": 25,
+      "totalStars": 946103,
+      "totalGrowth": 24683,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-04-13",
+      "repos": 25,
+      "totalStars": 1249224,
+      "totalGrowth": 25130,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-04-14",
+      "repos": 25,
+      "totalStars": 1036709,
+      "totalGrowth": 31285,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-04-15",
+      "repos": 25,
+      "totalStars": 865492,
+      "totalGrowth": 28211,
+      "topLanguage": "TypeScript"
+    },
+    {
+      "date": "2026-04-16",
+      "repos": 25,
+      "totalStars": 1451102,
+      "totalGrowth": 23590,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-04-17",
+      "repos": 25,
+      "totalStars": 1147336,
+      "totalGrowth": 17080,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-04-18",
+      "repos": 25,
+      "totalStars": 1550946,
+      "totalGrowth": 15612,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-04-19",
+      "repos": 25,
+      "totalStars": 1147437,
+      "totalGrowth": 12614,
+      "topLanguage": "TypeScript"
+    },
+    {
+      "date": "2026-04-20",
+      "repos": 25,
+      "totalStars": 913071,
+      "totalGrowth": 10201,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-04-21",
+      "repos": 25,
+      "totalStars": 979724,
+      "totalGrowth": 13182,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-04-22",
+      "repos": 25,
+      "totalStars": 1074393,
+      "totalGrowth": 12882,
+      "topLanguage": "TypeScript"
+    },
+    {
+      "date": "2026-04-23",
+      "repos": 25,
+      "totalStars": 1079130,
+      "totalGrowth": 15850,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-04-24",
+      "repos": 25,
+      "totalStars": 1206839,
+      "totalGrowth": 19699,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-04-25",
+      "repos": 25,
+      "totalStars": 1104619,
+      "totalGrowth": 19904,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-04-26",
+      "repos": 25,
+      "totalStars": 1437259,
+      "totalGrowth": 17059,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-04-27",
+      "repos": 25,
+      "totalStars": 1645250,
+      "totalGrowth": 14050,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-04-28",
+      "repos": 25,
+      "totalStars": 1511792,
+      "totalGrowth": 22071,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-04-29",
+      "repos": 25,
+      "totalStars": 1974705,
+      "totalGrowth": 25555,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-04-30",
+      "repos": 25,
+      "totalStars": 1676226,
+      "totalGrowth": 35620,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-05-01",
+      "repos": 25,
+      "totalStars": 2003758,
+      "totalGrowth": 28903,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-05-02",
+      "repos": 25,
+      "totalStars": 1329431,
+      "totalGrowth": 17295,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-05-03",
+      "repos": 25,
+      "totalStars": 835660,
+      "totalGrowth": 12981,
+      "topLanguage": "Rust"
+    },
+    {
+      "date": "2026-05-04",
+      "repos": 25,
+      "totalStars": 991545,
+      "totalGrowth": 13704,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-05-05",
+      "repos": 25,
+      "totalStars": 680678,
+      "totalGrowth": 15505,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-05-06",
+      "repos": 25,
+      "totalStars": 1295957,
+      "totalGrowth": 18605,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-05-07",
+      "repos": 25,
+      "totalStars": 1221121,
+      "totalGrowth": 22309,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-05-08",
+      "repos": 25,
+      "totalStars": 1105451,
+      "totalGrowth": 21730,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-05-09",
+      "repos": 25,
+      "totalStars": 986861,
+      "totalGrowth": 22013,
+      "topLanguage": "TypeScript"
+    },
+    {
+      "date": "2026-05-10",
+      "repos": 25,
+      "totalStars": 995207,
+      "totalGrowth": 22363,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-05-11",
+      "repos": 25,
+      "totalStars": 1413434,
+      "totalGrowth": 15094,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-05-12",
+      "repos": 25,
+      "totalStars": 937180,
+      "totalGrowth": 17920,
+      "topLanguage": "TypeScript"
+    },
+    {
+      "date": "2026-05-13",
+      "repos": 25,
+      "totalStars": 1074214,
+      "totalGrowth": 23354,
+      "topLanguage": "TypeScript"
+    },
+    {
+      "date": "2026-05-14",
+      "repos": 25,
+      "totalStars": 1231587,
+      "totalGrowth": 22190,
+      "topLanguage": "TypeScript"
+    },
+    {
+      "date": "2026-05-15",
+      "repos": 25,
+      "totalStars": 1308107,
+      "totalGrowth": 24864,
+      "topLanguage": "TypeScript"
+    },
+    {
+      "date": "2026-05-16",
+      "repos": 25,
+      "totalStars": 1178691,
+      "totalGrowth": 18168,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-05-17",
+      "repos": 25,
+      "totalStars": 1464327,
+      "totalGrowth": 13947,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-05-18",
+      "repos": 25,
+      "totalStars": 1139837,
+      "totalGrowth": 15544,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-05-19",
+      "repos": 25,
+      "totalStars": 620550,
+      "totalGrowth": 22876,
+      "topLanguage": "TypeScript"
+    },
+    {
+      "date": "2026-05-20",
+      "repos": 25,
+      "totalStars": 978707,
+      "totalGrowth": 29195,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-05-21",
+      "repos": 25,
+      "totalStars": 1079013,
+      "totalGrowth": 24862,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-05-22",
+      "repos": 25,
+      "totalStars": 1088297,
+      "totalGrowth": 26523,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-05-23",
+      "repos": 25,
+      "totalStars": 1523194,
+      "totalGrowth": 22949,
+      "topLanguage": "TypeScript"
+    },
+    {
+      "date": "2026-05-24",
+      "repos": 25,
+      "totalStars": 1495807,
+      "totalGrowth": 18302,
+      "topLanguage": "TypeScript"
+    },
+    {
+      "date": "2026-05-25",
+      "repos": 25,
+      "totalStars": 978160,
+      "totalGrowth": 19081,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-05-26",
+      "repos": 25,
+      "totalStars": 1668866,
+      "totalGrowth": 23800,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-05-27",
+      "repos": 25,
+      "totalStars": 1474413,
+      "totalGrowth": 28155,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-05-28",
+      "repos": 25,
+      "totalStars": 1524617,
+      "totalGrowth": 26478,
+      "topLanguage": "TypeScript"
+    },
+    {
+      "date": "2026-05-29",
+      "repos": 25,
+      "totalStars": 2024834,
+      "totalGrowth": 28513,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-05-30",
+      "repos": 25,
+      "totalStars": 1562893,
+      "totalGrowth": 21427,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-05-31",
+      "repos": 25,
+      "totalStars": 1627047,
+      "totalGrowth": 16913,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-06-01",
+      "repos": 25,
+      "totalStars": 960133,
+      "totalGrowth": 13528,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-06-02",
+      "repos": 25,
+      "totalStars": 1283591,
+      "totalGrowth": 20104,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-06-03",
+      "repos": 25,
+      "totalStars": 1655731,
+      "totalGrowth": 21649,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-06-04",
+      "repos": 25,
+      "totalStars": 2294069,
+      "totalGrowth": 21938,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-06-05",
+      "repos": 25,
+      "totalStars": 1793741,
+      "totalGrowth": 19041,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-06-06",
+      "repos": 25,
+      "totalStars": 1913234,
+      "totalGrowth": 15624,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-06-07",
+      "repos": 25,
+      "totalStars": 1661909,
+      "totalGrowth": 9152,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-06-08",
+      "repos": 25,
+      "totalStars": 1660076,
+      "totalGrowth": 14729,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-06-09",
+      "repos": 25,
+      "totalStars": 1270318,
+      "totalGrowth": 19507,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-06-10",
+      "repos": 25,
+      "totalStars": 1124183,
+      "totalGrowth": 19943,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-06-11",
+      "repos": 25,
+      "totalStars": 1220555,
+      "totalGrowth": 19379,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-06-12",
+      "repos": 25,
+      "totalStars": 1310498,
+      "totalGrowth": 17796,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-06-13",
+      "repos": 25,
+      "totalStars": 1788970,
+      "totalGrowth": 17998,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-06-14",
+      "repos": 25,
+      "totalStars": 1621511,
+      "totalGrowth": 10470,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-06-15",
+      "repos": 25,
+      "totalStars": 1605837,
+      "totalGrowth": 10677,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-06-16",
+      "repos": 25,
+      "totalStars": 1437584,
+      "totalGrowth": 10968,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-06-17",
+      "repos": 25,
+      "totalStars": 1880089,
+      "totalGrowth": 14937,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-06-18",
+      "repos": 25,
+      "totalStars": 1929465,
+      "totalGrowth": 12344,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-06-19",
+      "repos": 25,
+      "totalStars": 1790047,
+      "totalGrowth": 13412,
+      "topLanguage": "TypeScript"
+    },
+    {
+      "date": "2026-06-20",
+      "repos": 25,
+      "totalStars": 1415991,
+      "totalGrowth": 14274,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-06-21",
+      "repos": 25,
+      "totalStars": 1803672,
+      "totalGrowth": 17411,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-06-22",
+      "repos": 25,
+      "totalStars": 2113409,
+      "totalGrowth": 17447,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-06-23",
+      "repos": 25,
+      "totalStars": 1395465,
+      "totalGrowth": 19398,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-06-24",
+      "repos": 25,
+      "totalStars": 1842342,
+      "totalGrowth": 22265,
+      "topLanguage": "TypeScript"
+    },
+    {
+      "date": "2026-06-25",
+      "repos": 25,
+      "totalStars": 1553506,
+      "totalGrowth": 20834,
+      "topLanguage": "TypeScript"
+    },
+    {
+      "date": "2026-06-26",
+      "repos": 25,
+      "totalStars": 1538813,
+      "totalGrowth": 21282,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-06-27",
+      "repos": 25,
+      "totalStars": 1336277,
+      "totalGrowth": 21271,
+      "topLanguage": "TypeScript"
+    },
+    {
+      "date": "2026-06-28",
+      "repos": 25,
+      "totalStars": 1693818,
+      "totalGrowth": 14339,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-06-29",
+      "repos": 25,
+      "totalStars": 1028858,
+      "totalGrowth": 10675,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-06-30",
+      "repos": 25,
+      "totalStars": 1124780,
+      "totalGrowth": 16152,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-07-01",
+      "repos": 25,
+      "totalStars": 1022139,
+      "totalGrowth": 15978,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-07-02",
+      "repos": 25,
+      "totalStars": 1264807,
+      "totalGrowth": 16749,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-07-03",
+      "repos": 25,
+      "totalStars": 2164206,
+      "totalGrowth": 19213,
+      "topLanguage": "TypeScript"
+    },
+    {
+      "date": "2026-07-04",
+      "repos": 25,
+      "totalStars": 1598103,
+      "totalGrowth": 19839,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-07-05",
+      "repos": 25,
+      "totalStars": 1697581,
+      "totalGrowth": 12967,
+      "topLanguage": "JavaScript"
+    },
+    {
+      "date": "2026-07-06",
+      "repos": 25,
+      "totalStars": 2028145,
+      "totalGrowth": 15438,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-07-07",
+      "repos": 25,
+      "totalStars": 1901569,
+      "totalGrowth": 18746,
+      "topLanguage": "JavaScript"
+    },
+    {
+      "date": "2026-07-08",
+      "repos": 25,
+      "totalStars": 1357669,
+      "totalGrowth": 21500,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-07-09",
+      "repos": 25,
+      "totalStars": 1297361,
+      "totalGrowth": 16497,
+      "topLanguage": "JavaScript"
+    },
+    {
+      "date": "2026-07-10",
+      "repos": 25,
+      "totalStars": 1194491,
+      "totalGrowth": 19739,
+      "topLanguage": "TypeScript"
+    },
+    {
+      "date": "2026-07-11",
+      "repos": 25,
+      "totalStars": 2047301,
+      "totalGrowth": 10878,
+      "topLanguage": "JavaScript"
+    },
+    {
+      "date": "2026-07-12",
+      "repos": 25,
+      "totalStars": 2177802,
+      "totalGrowth": 9625,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-07-13",
+      "repos": 25,
+      "totalStars": 2214706,
+      "totalGrowth": 8891,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-07-14",
+      "repos": 25,
+      "totalStars": 2023874,
+      "totalGrowth": 12245,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-07-15",
+      "repos": 25,
+      "totalStars": 2118610,
+      "totalGrowth": 19247,
+      "topLanguage": "TypeScript"
+    },
+    {
+      "date": "2026-07-16",
+      "repos": 25,
+      "totalStars": 1992070,
+      "totalGrowth": 16366,
+      "topLanguage": "TypeScript"
+    },
+    {
+      "date": "2026-07-17",
+      "repos": 25,
+      "totalStars": 1889439,
+      "totalGrowth": 16039,
+      "topLanguage": "TypeScript"
+    },
+    {
+      "date": "2026-07-18",
+      "repos": 25,
+      "totalStars": 2021483,
+      "totalGrowth": 12123,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-07-19",
+      "repos": 25,
+      "totalStars": 1388643,
+      "totalGrowth": 7584,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-07-20",
+      "repos": 25,
+      "totalStars": 1301037,
+      "totalGrowth": 12071,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-07-21",
+      "repos": 25,
+      "totalStars": 802200,
+      "totalGrowth": 19498,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-07-22",
+      "repos": 25,
+      "totalStars": 1293988,
+      "totalGrowth": 24726,
+      "topLanguage": "TypeScript"
+    },
+    {
+      "date": "2026-07-23",
+      "repos": 25,
+      "totalStars": 1226987,
+      "totalGrowth": 27350,
+      "topLanguage": "TypeScript"
+    },
+    {
+      "date": "2026-07-24",
+      "repos": 25,
+      "totalStars": 1070233,
+      "totalGrowth": 21819,
+      "topLanguage": "TypeScript"
+    },
+    {
+      "date": "2026-07-25",
+      "repos": 25,
+      "totalStars": 1365938,
+      "totalGrowth": 21163,
+      "topLanguage": "Rust"
+    },
+    {
+      "date": "2026-07-26",
+      "repos": 25,
+      "totalStars": 1383494,
+      "totalGrowth": 17051,
+      "topLanguage": "TypeScript"
+    },
+    {
+      "date": "2026-07-27",
+      "repos": 25,
+      "totalStars": 1244891,
+      "totalGrowth": 12416,
+      "topLanguage": "JavaScript"
+    },
+    {
+      "date": "2026-07-28",
+      "repos": 25,
+      "totalStars": 1531244,
+      "totalGrowth": 13621,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-07-29",
+      "repos": 25,
+      "totalStars": 1448675,
+      "totalGrowth": 15001,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-07-30",
+      "repos": 25,
+      "totalStars": 1228690,
+      "totalGrowth": 14271,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-07-31",
+      "repos": 25,
+      "totalStars": 1584972,
+      "totalGrowth": 14792,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-08-01",
+      "repos": 25,
+      "totalStars": 2005534,
+      "totalGrowth": 12140,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-08-02",
+      "repos": 25,
+      "totalStars": 1640338,
+      "totalGrowth": 8869,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-08-03",
+      "repos": 25,
+      "totalStars": 1485148,
+      "totalGrowth": 7604,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-08-04",
+      "repos": 25,
+      "totalStars": 1769003,
+      "totalGrowth": 11120,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-08-05",
+      "repos": 25,
+      "totalStars": 1944089,
+      "totalGrowth": 16536,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-08-06",
+      "repos": 25,
+      "totalStars": 2070308,
+      "totalGrowth": 15526,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-08-07",
+      "repos": 25,
+      "totalStars": 2074644,
+      "totalGrowth": 17358,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-08-08",
+      "repos": 25,
+      "totalStars": 2346445,
+      "totalGrowth": 16737,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-08-09",
+      "repos": 25,
+      "totalStars": 2325222,
+      "totalGrowth": 13683,
+      "topLanguage": "TypeScript"
+    },
+    {
+      "date": "2026-08-10",
+      "repos": 25,
+      "totalStars": 2056632,
+      "totalGrowth": 11171,
+      "topLanguage": "TypeScript"
+    },
+    {
+      "date": "2026-08-11",
+      "repos": 25,
+      "totalStars": 1812605,
+      "totalGrowth": 15373,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-08-12",
+      "repos": 25,
+      "totalStars": 2336248,
+      "totalGrowth": 16062,
+      "topLanguage": "TypeScript"
+    },
+    {
+      "date": "2026-08-13",
+      "repos": 25,
+      "totalStars": 2161228,
+      "totalGrowth": 17473,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-08-14",
+      "repos": 25,
+      "totalStars": 2316018,
+      "totalGrowth": 18183,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-08-15",
+      "repos": 25,
+      "totalStars": 1573585,
+      "totalGrowth": 17729,
+      "topLanguage": "TypeScript"
+    },
+    {
+      "date": "2026-08-16",
+      "repos": 25,
+      "totalStars": 1766424,
+      "totalGrowth": 14121,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-08-17",
+      "repos": 25,
+      "totalStars": 1638775,
+      "totalGrowth": 9293,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-08-18",
+      "repos": 25,
+      "totalStars": 1825138,
+      "totalGrowth": 13534,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-08-19",
+      "repos": 25,
+      "totalStars": 1773259,
+      "totalGrowth": 15457,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-08-20",
+      "repos": 25,
+      "totalStars": 1884050,
+      "totalGrowth": 16367,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-08-21",
+      "repos": 25,
+      "totalStars": 1782712,
+      "totalGrowth": 17444,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-08-22",
+      "repos": 25,
+      "totalStars": 1905842,
+      "totalGrowth": 20798,
+      "topLanguage": "Rust"
+    },
+    {
+      "date": "2026-08-23",
+      "repos": 25,
+      "totalStars": 2371208,
+      "totalGrowth": 15017,
+      "topLanguage": "TypeScript"
+    },
+    {
+      "date": "2026-08-24",
+      "repos": 25,
+      "totalStars": 2564978,
+      "totalGrowth": 18538,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-08-25",
+      "repos": 25,
+      "totalStars": 2271661,
+      "totalGrowth": 18647,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-08-26",
+      "repos": 25,
+      "totalStars": 2356637,
+      "totalGrowth": 17582,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-08-27",
+      "repos": 25,
+      "totalStars": 1609969,
+      "totalGrowth": 20583,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-08-28",
+      "repos": 25,
+      "totalStars": 1863916,
+      "totalGrowth": 21219,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-08-29",
+      "repos": 25,
+      "totalStars": 1540538,
+      "totalGrowth": 23751,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-08-30",
+      "repos": 25,
+      "totalStars": 1575999,
+      "totalGrowth": 19159,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-08-31",
+      "repos": 25,
+      "totalStars": 1629235,
+      "totalGrowth": 16022,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-09-01",
+      "repos": 25,
+      "totalStars": 1224258,
+      "totalGrowth": 20155,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-09-02",
+      "repos": 25,
+      "totalStars": 2230046,
+      "totalGrowth": 17474,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-09-03",
+      "repos": 25,
+      "totalStars": 1983283,
+      "totalGrowth": 18391,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-09-04",
+      "repos": 25,
+      "totalStars": 2068853,
+      "totalGrowth": 18637,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-09-05",
+      "repos": 25,
+      "totalStars": 2329065,
+      "totalGrowth": 18381,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-09-06",
+      "repos": 25,
+      "totalStars": 2669463,
+      "totalGrowth": 16849,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-09-07",
+      "repos": 25,
+      "totalStars": 2854072,
+      "totalGrowth": 14042,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-09-08",
+      "repos": 25,
+      "totalStars": 2431094,
+      "totalGrowth": 15077,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-09-09",
+      "repos": 25,
+      "totalStars": 1980578,
+      "totalGrowth": 19206,
+      "topLanguage": "TypeScript"
+    },
+    {
+      "date": "2026-09-10",
+      "repos": 25,
+      "totalStars": 1929441,
+      "totalGrowth": 18821,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-09-11",
+      "repos": 25,
+      "totalStars": 1371885,
+      "totalGrowth": 16935,
+      "topLanguage": "TypeScript"
+    },
+    {
+      "date": "2026-09-12",
+      "repos": 25,
+      "totalStars": 2135400,
+      "totalGrowth": 19170,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-09-13",
+      "repos": 25,
+      "totalStars": 1041738,
+      "totalGrowth": 13713,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-09-14",
+      "repos": 25,
+      "totalStars": 889615,
+      "totalGrowth": 14326,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-09-15",
+      "repos": 25,
+      "totalStars": 1072469,
+      "totalGrowth": 20033,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-09-16",
+      "repos": 25,
+      "totalStars": 1453755,
+      "totalGrowth": 21003,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-09-17",
+      "repos": 25,
+      "totalStars": 1523045,
+      "totalGrowth": 19747,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-09-18",
+      "repos": 25,
+      "totalStars": 1834630,
+      "totalGrowth": 22449,
+      "topLanguage": "TypeScript"
+    },
+    {
+      "date": "2026-09-19",
+      "repos": 25,
+      "totalStars": 1990255,
+      "totalGrowth": 18994,
+      "topLanguage": "TypeScript"
+    },
+    {
+      "date": "2026-09-20",
+      "repos": 25,
+      "totalStars": 1651661,
+      "totalGrowth": 13901,
+      "topLanguage": "TypeScript"
+    },
+    {
+      "date": "2026-09-21",
+      "repos": 25,
+      "totalStars": 881579,
+      "totalGrowth": 11773,
+      "topLanguage": "TypeScript"
+    },
+    {
+      "date": "2026-09-22",
+      "repos": 25,
+      "totalStars": 1801216,
+      "totalGrowth": 10487,
+      "topLanguage": "TypeScript"
+    },
+    {
+      "date": "2026-09-23",
+      "repos": 25,
+      "totalStars": 1411139,
+      "totalGrowth": 13599,
+      "topLanguage": "TypeScript"
+    },
+    {
+      "date": "2026-09-24",
+      "repos": 25,
+      "totalStars": 1418656,
+      "totalGrowth": 12015,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-09-25",
+      "repos": 25,
+      "totalStars": 1320177,
+      "totalGrowth": 15770,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-09-26",
+      "repos": 25,
+      "totalStars": 2366434,
+      "totalGrowth": 14413,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-09-27",
+      "repos": 25,
+      "totalStars": 1895750,
+      "totalGrowth": 12976,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-09-28",
+      "repos": 25,
+      "totalStars": 1358643,
+      "totalGrowth": 19706,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-09-29",
+      "repos": 25,
+      "totalStars": 923782,
+      "totalGrowth": 20497,
+      "topLanguage": "TypeScript"
+    },
+    {
+      "date": "2026-09-30",
+      "repos": 25,
+      "totalStars": 1747622,
+      "totalGrowth": 21338,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-10-01",
+      "repos": 25,
+      "totalStars": 1993778,
+      "totalGrowth": 18202,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-10-02",
+      "repos": 25,
+      "totalStars": 1938036,
+      "totalGrowth": 16530,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-10-03",
+      "repos": 25,
+      "totalStars": 1946249,
+      "totalGrowth": 11081,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-10-04",
+      "repos": 25,
+      "totalStars": 2114254,
+      "totalGrowth": 11880,
+      "topLanguage": "TypeScript"
+    },
+    {
+      "date": "2026-10-05",
+      "repos": 25,
+      "totalStars": 2301995,
+      "totalGrowth": 13500,
+      "topLanguage": "TypeScript"
+    },
+    {
+      "date": "2026-10-06",
+      "repos": 25,
+      "totalStars": 2261857,
+      "totalGrowth": 16856,
+      "topLanguage": "TypeScript"
+    },
+    {
+      "date": "2026-10-07",
+      "repos": 25,
+      "totalStars": 1794571,
+      "totalGrowth": 18979,
+      "topLanguage": "JavaScript"
+    },
+    {
+      "date": "2026-10-08",
+      "repos": 25,
+      "totalStars": 1148038,
+      "totalGrowth": 21502,
+      "topLanguage": "TypeScript"
+    },
+    {
+      "date": "2026-10-09",
+      "repos": 25,
+      "totalStars": 1158312,
+      "totalGrowth": 27221,
+      "topLanguage": "TypeScript"
+    },
+    {
+      "date": "2026-10-10",
+      "repos": 25,
+      "totalStars": 1788648,
+      "totalGrowth": 36902,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-10-11",
+      "repos": 25,
+      "totalStars": 1451671,
+      "totalGrowth": 46408,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-10-12",
+      "repos": 25,
+      "totalStars": 1965902,
+      "totalGrowth": 45032,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-10-13",
+      "repos": 25,
+      "totalStars": 2402612,
+      "totalGrowth": 70126,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-10-14",
+      "repos": 25,
+      "totalStars": 2067512,
+      "totalGrowth": 78992,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-10-15",
+      "repos": 25,
+      "totalStars": 2192617,
+      "totalGrowth": 65258,
+      "topLanguage": "TypeScript"
+    },
+    {
+      "date": "2026-10-16",
+      "repos": 25,
+      "totalStars": 2486986,
+      "totalGrowth": 53964,
+      "topLanguage": "TypeScript"
+    },
+    {
+      "date": "2026-10-17",
+      "repos": 25,
+      "totalStars": 2392993,
+      "totalGrowth": 44729,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-10-18",
+      "repos": 25,
+      "totalStars": 2254371,
+      "totalGrowth": 16567,
+      "topLanguage": "TypeScript"
+    },
+    {
+      "date": "2026-10-19",
+      "repos": 25,
+      "totalStars": 2035236,
+      "totalGrowth": 19015,
+      "topLanguage": "TypeScript"
+    },
+    {
+      "date": "2026-10-20",
+      "repos": 25,
+      "totalStars": 1620142,
+      "totalGrowth": 21441,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-10-21",
+      "repos": 25,
+      "totalStars": 2723938,
+      "totalGrowth": 24429,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-10-22",
+      "repos": 25,
+      "totalStars": 2573746,
+      "totalGrowth": 20575,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-10-23",
+      "repos": 25,
+      "totalStars": 2331255,
+      "totalGrowth": 18649,
+      "topLanguage": "TypeScript"
+    },
+    {
+      "date": "2026-10-24",
+      "repos": 25,
+      "totalStars": 2047395,
+      "totalGrowth": 16185,
+      "topLanguage": "TypeScript"
+    },
+    {
+      "date": "2026-10-25",
+      "repos": 25,
+      "totalStars": 1883007,
+      "totalGrowth": 13888,
+      "topLanguage": "TypeScript"
+    },
+    {
+      "date": "2026-10-26",
+      "repos": 25,
+      "totalStars": 1966565,
+      "totalGrowth": 14924,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-10-27",
+      "repos": 25,
+      "totalStars": 2125143,
+      "totalGrowth": 19380,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-10-28",
+      "repos": 25,
+      "totalStars": 2088428,
+      "totalGrowth": 27460,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-10-29",
+      "repos": 25,
+      "totalStars": 2261393,
+      "totalGrowth": 22037,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-10-30",
+      "repos": 25,
+      "totalStars": 2289267,
+      "totalGrowth": 21885,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-10-31",
+      "repos": 25,
+      "totalStars": 2169283,
+      "totalGrowth": 19843,
+      "topLanguage": "TypeScript"
+    },
+    {
+      "date": "2026-11-01",
+      "repos": 25,
+      "totalStars": 2305279,
+      "totalGrowth": 19720,
+      "topLanguage": "TypeScript"
+    },
+    {
+      "date": "2026-11-02",
+      "repos": 25,
+      "totalStars": 2407405,
+      "totalGrowth": 21229,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-11-03",
+      "repos": 25,
+      "totalStars": 2408412,
+      "totalGrowth": 23256,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-11-04",
+      "repos": 25,
+      "totalStars": 2197713,
+      "totalGrowth": 21168,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-11-05",
+      "repos": 25,
+      "totalStars": 2015520,
+      "totalGrowth": 19907,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-11-06",
+      "repos": 25,
+      "totalStars": 1449100,
+      "totalGrowth": 20481,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-11-07",
+      "repos": 25,
+      "totalStars": 2445882,
+      "totalGrowth": 18201,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-11-08",
+      "repos": 25,
+      "totalStars": 3539189,
+      "totalGrowth": 18815,
+      "topLanguage": "TypeScript"
+    },
+    {
+      "date": "2026-11-09",
+      "repos": 25,
+      "totalStars": 1737518,
+      "totalGrowth": 13879,
+      "topLanguage": "Rust"
+    },
+    {
+      "date": "2026-11-10",
+      "repos": 25,
+      "totalStars": 1633004,
+      "totalGrowth": 20088,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-11-11",
+      "repos": 25,
+      "totalStars": 2162165,
+      "totalGrowth": 20843,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-11-12",
+      "repos": 25,
+      "totalStars": 1789522,
+      "totalGrowth": 15968,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-11-13",
+      "repos": 25,
+      "totalStars": 1708413,
+      "totalGrowth": 12616,
+      "topLanguage": "TypeScript"
+    },
+    {
+      "date": "2026-11-14",
+      "repos": 25,
+      "totalStars": 2394449,
+      "totalGrowth": 12769,
+      "topLanguage": "JavaScript"
+    },
+    {
+      "date": "2026-11-15",
+      "repos": 25,
+      "totalStars": 1699591,
+      "totalGrowth": 10916,
+      "topLanguage": "TypeScript"
+    },
+    {
+      "date": "2026-11-16",
+      "repos": 25,
+      "totalStars": 527457,
+      "totalGrowth": 11276,
+      "topLanguage": "TypeScript"
+    },
+    {
+      "date": "2026-11-17",
+      "repos": 25,
+      "totalStars": 1224635,
+      "totalGrowth": 16814,
+      "topLanguage": "TypeScript"
+    },
+    {
+      "date": "2026-11-18",
+      "repos": 25,
+      "totalStars": 2022603,
+      "totalGrowth": 22165,
+      "topLanguage": "TypeScript"
+    },
+    {
+      "date": "2026-11-19",
+      "repos": 25,
+      "totalStars": 1980284,
+      "totalGrowth": 16942,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-11-20",
+      "repos": 25,
+      "totalStars": 2398882,
+      "totalGrowth": 16694,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-11-21",
+      "repos": 25,
+      "totalStars": 2431470,
+      "totalGrowth": 17696,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-11-22",
+      "repos": 25,
+      "totalStars": 2321779,
+      "totalGrowth": 14754,
+      "topLanguage": "Python"
+    },
+    {
+      "date": "2026-11-23",
+      "repos": 25,
+      "totalStars": 2460321,
+      "totalGrowth": 15720,
+      "topLanguage": "Python"
+    }
+  ],
+  "topRepos": [
+    {
+      "key": "obra/superpowers",
+      "owner": "obra",
+      "name": "superpowers",
+      "language": "Shell",
+      "appearances": 213,
+      "firstDate": "2026-03-17",
+      "lastDate": "2026-11-23",
+      "starsFirst": 90406,
+      "starsLast": 324574,
+      "starGrowth": 234168,
+      "points": [
+        {
+          "date": "2026-03-17",
+          "stars": 90406
+        },
+        {
+          "date": "2026-03-18",
+          "stars": 92273
+        },
+        {
+          "date": "2026-03-19",
+          "stars": 96145
+        },
+        {
+          "date": "2026-03-20",
+          "stars": 99144
+        },
+        {
+          "date": "2026-03-21",
+          "stars": 101509
+        },
+        {
+          "date": "2026-03-22",
+          "stars": 103322
+        },
+        {
+          "date": "2026-03-23",
+          "stars": 105144
+        },
+        {
+          "date": "2026-03-25",
+          "stars": 110400
+        },
+        {
+          "date": "2026-03-26",
+          "stars": 112635
+        },
+        {
+          "date": "2026-03-27",
+          "stars": 118050
+        },
+        {
+          "date": "2026-03-28",
+          "stars": 118487
+        },
+        {
+          "date": "2026-03-29",
+          "stars": 120734
+        },
+        {
+          "date": "2026-03-30",
+          "stars": 122856
+        },
+        {
+          "date": "2026-03-31",
+          "stars": 125595
+        },
+        {
+          "date": "2026-04-01",
+          "stars": 128127
+        },
+        {
+          "date": "2026-04-02",
+          "stars": 130222
+        },
+        {
+          "date": "2026-04-04",
+          "stars": 134015
+        },
+        {
+          "date": "2026-04-05",
+          "stars": 135161
+        },
+        {
+          "date": "2026-04-06",
+          "stars": 136180
+        },
+        {
+          "date": "2026-04-07",
+          "stars": 137437
+        },
+        {
+          "date": "2026-04-08",
+          "stars": 139312
+        },
+        {
+          "date": "2026-04-09",
+          "stars": 141473
+        },
+        {
+          "date": "2026-04-10",
+          "stars": 143703
+        },
+        {
+          "date": "2026-04-11",
+          "stars": 145719
+        },
+        {
+          "date": "2026-04-12",
+          "stars": 147142
+        },
+        {
+          "date": "2026-04-13",
+          "stars": 148422
+        },
+        {
+          "date": "2026-04-15",
+          "stars": 152248
+        },
+        {
+          "date": "2026-04-16",
+          "stars": 154259
+        },
+        {
+          "date": "2026-04-17",
+          "stars": 156150
+        },
+        {
+          "date": "2026-04-18",
+          "stars": 157753
+        },
+        {
+          "date": "2026-04-19",
+          "stars": 158865
+        },
+        {
+          "date": "2026-04-22",
+          "stars": 163010
+        },
+        {
+          "date": "2026-04-23",
+          "stars": 164327
+        },
+        {
+          "date": "2026-04-24",
+          "stars": 165654
+        },
+        {
+          "date": "2026-04-25",
+          "stars": 166772
+        },
+        {
+          "date": "2026-04-26",
+          "stars": 167615
+        },
+        {
+          "date": "2026-04-29",
+          "stars": 171551
+        },
+        {
+          "date": "2026-04-30",
+          "stars": 173098
+        },
+        {
+          "date": "2026-05-01",
+          "stars": 174578
+        },
+        {
+          "date": "2026-05-02",
+          "stars": 175622
+        },
+        {
+          "date": "2026-05-03",
+          "stars": 176542
+        },
+        {
+          "date": "2026-05-04",
+          "stars": 177377
+        },
+        {
+          "date": "2026-05-07",
+          "stars": 180650
+        },
+        {
+          "date": "2026-05-08",
+          "stars": 181946
+        },
+        {
+          "date": "2026-05-09",
+          "stars": 183235
+        },
+        {
+          "date": "2026-05-10",
+          "stars": 184348
+        },
+        {
+          "date": "2026-05-11",
+          "stars": 185278
+        },
+        {
+          "date": "2026-05-12",
+          "stars": 186604
+        },
+        {
+          "date": "2026-05-13",
+          "stars": 187983
+        },
+        {
+          "date": "2026-05-14",
+          "stars": 189504
+        },
+        {
+          "date": "2026-05-15",
+          "stars": 191175
+        },
+        {
+          "date": "2026-05-16",
+          "stars": 192807
+        },
+        {
+          "date": "2026-05-17",
+          "stars": 194000
+        },
+        {
+          "date": "2026-05-18",
+          "stars": 195127
+        },
+        {
+          "date": "2026-05-20",
+          "stars": 198375
+        },
+        {
+          "date": "2026-05-21",
+          "stars": 200014
+        },
+        {
+          "date": "2026-05-22",
+          "stars": 201505
+        },
+        {
+          "date": "2026-05-23",
+          "stars": 202879
+        },
+        {
+          "date": "2026-05-24",
+          "stars": 203977
+        },
+        {
+          "date": "2026-05-27",
+          "stars": 207945
+        },
+        {
+          "date": "2026-05-28",
+          "stars": 209518
+        },
+        {
+          "date": "2026-05-29",
+          "stars": 211067
+        },
+        {
+          "date": "2026-05-30",
+          "stars": 212278
+        },
+        {
+          "date": "2026-05-31",
+          "stars": 212956
+        },
+        {
+          "date": "2026-06-03",
+          "stars": 215879
+        },
+        {
+          "date": "2026-06-04",
+          "stars": 216925
+        },
+        {
+          "date": "2026-06-05",
+          "stars": 217943
+        },
+        {
+          "date": "2026-06-06",
+          "stars": 218899
+        },
+        {
+          "date": "2026-06-07",
+          "stars": 219658
+        },
+        {
+          "date": "2026-06-08",
+          "stars": 220402
+        },
+        {
+          "date": "2026-06-09",
+          "stars": 221417
+        },
+        {
+          "date": "2026-06-10",
+          "stars": 222424
+        },
+        {
+          "date": "2026-06-11",
+          "stars": 223591
+        },
+        {
+          "date": "2026-06-12",
+          "stars": 224826
+        },
+        {
+          "date": "2026-06-13",
+          "stars": 225998
+        },
+        {
+          "date": "2026-06-14",
+          "stars": 226925
+        },
+        {
+          "date": "2026-06-15",
+          "stars": 227825
+        },
+        {
+          "date": "2026-06-17",
+          "stars": 229876
+        },
+        {
+          "date": "2026-06-18",
+          "stars": 231060
+        },
+        {
+          "date": "2026-06-19",
+          "stars": 232413
+        },
+        {
+          "date": "2026-06-20",
+          "stars": 233347
+        },
+        {
+          "date": "2026-06-21",
+          "stars": 234236
+        },
+        {
+          "date": "2026-06-22",
+          "stars": 235004
+        },
+        {
+          "date": "2026-06-23",
+          "stars": 236001
+        },
+        {
+          "date": "2026-06-24",
+          "stars": 236925
+        },
+        {
+          "date": "2026-06-25",
+          "stars": 237780
+        },
+        {
+          "date": "2026-06-26",
+          "stars": 238672
+        },
+        {
+          "date": "2026-06-27",
+          "stars": 239439
+        },
+        {
+          "date": "2026-06-28",
+          "stars": 240055
+        },
+        {
+          "date": "2026-07-01",
+          "stars": 242485
+        },
+        {
+          "date": "2026-07-02",
+          "stars": 243445
+        },
+        {
+          "date": "2026-07-03",
+          "stars": 244533
+        },
+        {
+          "date": "2026-07-04",
+          "stars": 245574
+        },
+        {
+          "date": "2026-07-05",
+          "stars": 246244
+        },
+        {
+          "date": "2026-07-06",
+          "stars": 246969
+        },
+        {
+          "date": "2026-07-07",
+          "stars": 247821
+        },
+        {
+          "date": "2026-07-08",
+          "stars": 248779
+        },
+        {
+          "date": "2026-07-09",
+          "stars": 249917
+        },
+        {
+          "date": "2026-07-10",
+          "stars": 250951
+        },
+        {
+          "date": "2026-07-11",
+          "stars": 251818
+        },
+        {
+          "date": "2026-07-12",
+          "stars": 252489
+        },
+        {
+          "date": "2026-07-15",
+          "stars": 254718
+        },
+        {
+          "date": "2026-07-16",
+          "stars": 255432
+        },
+        {
+          "date": "2026-07-17",
+          "stars": 256017
+        },
+        {
+          "date": "2026-07-18",
+          "stars": 256686
+        },
+        {
+          "date": "2026-07-19",
+          "stars": 257138
+        },
+        {
+          "date": "2026-07-22",
+          "stars": 258818
+        },
+        {
+          "date": "2026-07-23",
+          "stars": 259497
+        },
+        {
+          "date": "2026-07-24",
+          "stars": 260094
+        },
+        {
+          "date": "2026-07-25",
+          "stars": 260626
+        },
+        {
+          "date": "2026-07-26",
+          "stars": 261126
+        },
+        {
+          "date": "2026-07-27",
+          "stars": 261622
+        },
+        {
+          "date": "2026-07-28",
+          "stars": 262159
+        },
+        {
+          "date": "2026-07-29",
+          "stars": 262737
+        },
+        {
+          "date": "2026-07-30",
+          "stars": 263325
+        },
+        {
+          "date": "2026-07-31",
+          "stars": 263996
+        },
+        {
+          "date": "2026-08-01",
+          "stars": 264479
+        },
+        {
+          "date": "2026-08-02",
+          "stars": 264811
+        },
+        {
+          "date": "2026-08-04",
+          "stars": 265765
+        },
+        {
+          "date": "2026-08-05",
+          "stars": 266526
+        },
+        {
+          "date": "2026-08-06",
+          "stars": 267341
+        },
+        {
+          "date": "2026-08-07",
+          "stars": 268143
+        },
+        {
+          "date": "2026-08-08",
+          "stars": 268750
+        },
+        {
+          "date": "2026-08-09",
+          "stars": 269323
+        },
+        {
+          "date": "2026-08-10",
+          "stars": 269738
+        },
+        {
+          "date": "2026-08-11",
+          "stars": 270246
+        },
+        {
+          "date": "2026-08-12",
+          "stars": 270766
+        },
+        {
+          "date": "2026-08-13",
+          "stars": 271267
+        },
+        {
+          "date": "2026-08-14",
+          "stars": 271764
+        },
+        {
+          "date": "2026-08-15",
+          "stars": 272185
+        },
+        {
+          "date": "2026-08-16",
+          "stars": 272502
+        },
+        {
+          "date": "2026-08-19",
+          "stars": 273691
+        },
+        {
+          "date": "2026-08-20",
+          "stars": 274272
+        },
+        {
+          "date": "2026-08-21",
+          "stars": 274949
+        },
+        {
+          "date": "2026-08-22",
+          "stars": 275660
+        },
+        {
+          "date": "2026-08-23",
+          "stars": 276193
+        },
+        {
+          "date": "2026-08-24",
+          "stars": 276681
+        },
+        {
+          "date": "2026-08-25",
+          "stars": 277118
+        },
+        {
+          "date": "2026-08-26",
+          "stars": 277577
+        },
+        {
+          "date": "2026-08-27",
+          "stars": 278260
+        },
+        {
+          "date": "2026-08-28",
+          "stars": 278784
+        },
+        {
+          "date": "2026-08-29",
+          "stars": 279116
+        },
+        {
+          "date": "2026-08-30",
+          "stars": 279404
+        },
+        {
+          "date": "2026-09-01",
+          "stars": 280113
+        },
+        {
+          "date": "2026-09-02",
+          "stars": 280476
+        },
+        {
+          "date": "2026-09-03",
+          "stars": 280875
+        },
+        {
+          "date": "2026-09-04",
+          "stars": 281393
+        },
+        {
+          "date": "2026-09-05",
+          "stars": 281811
+        },
+        {
+          "date": "2026-09-06",
+          "stars": 282125
+        },
+        {
+          "date": "2026-09-09",
+          "stars": 283424
+        },
+        {
+          "date": "2026-09-10",
+          "stars": 284088
+        },
+        {
+          "date": "2026-09-11",
+          "stars": 284749
+        },
+        {
+          "date": "2026-09-12",
+          "stars": 285405
+        },
+        {
+          "date": "2026-09-13",
+          "stars": 285840
+        },
+        {
+          "date": "2026-09-14",
+          "stars": 286248
+        },
+        {
+          "date": "2026-09-16",
+          "stars": 287213
+        },
+        {
+          "date": "2026-09-17",
+          "stars": 287666
+        },
+        {
+          "date": "2026-09-18",
+          "stars": 288174
+        },
+        {
+          "date": "2026-09-19",
+          "stars": 288567
+        },
+        {
+          "date": "2026-09-20",
+          "stars": 288869
+        },
+        {
+          "date": "2026-09-22",
+          "stars": 289764
+        },
+        {
+          "date": "2026-09-23",
+          "stars": 290251
+        },
+        {
+          "date": "2026-09-24",
+          "stars": 290746
+        },
+        {
+          "date": "2026-09-25",
+          "stars": 291263
+        },
+        {
+          "date": "2026-09-26",
+          "stars": 291699
+        },
+        {
+          "date": "2026-09-27",
+          "stars": 291973
+        },
+        {
+          "date": "2026-09-30",
+          "stars": 293053
+        },
+        {
+          "date": "2026-10-01",
+          "stars": 293515
+        },
+        {
+          "date": "2026-10-02",
+          "stars": 294037
+        },
+        {
+          "date": "2026-10-03",
+          "stars": 294513
+        },
+        {
+          "date": "2026-10-04",
+          "stars": 294962
+        },
+        {
+          "date": "2026-10-05",
+          "stars": 295324
+        },
+        {
+          "date": "2026-10-06",
+          "stars": 295698
+        },
+        {
+          "date": "2026-10-10",
+          "stars": 296935
+        },
+        {
+          "date": "2026-10-13",
+          "stars": 298297
+        },
+        {
+          "date": "2026-10-14",
+          "stars": 298724
+        },
+        {
+          "date": "2026-10-15",
+          "stars": 299216
+        },
+        {
+          "date": "2026-10-16",
+          "stars": 299994
+        },
+        {
+          "date": "2026-10-17",
+          "stars": 300718
+        },
+        {
+          "date": "2026-10-18",
+          "stars": 301253
+        },
+        {
+          "date": "2026-10-19",
+          "stars": 301694
+        },
+        {
+          "date": "2026-10-21",
+          "stars": 302651
+        },
+        {
+          "date": "2026-10-22",
+          "stars": 303205
+        },
+        {
+          "date": "2026-10-23",
+          "stars": 303793
+        },
+        {
+          "date": "2026-10-24",
+          "stars": 304274
+        },
+        {
+          "date": "2026-10-25",
+          "stars": 304664
+        },
+        {
+          "date": "2026-10-26",
+          "stars": 305102
+        },
+        {
+          "date": "2026-10-27",
+          "stars": 305681
+        },
+        {
+          "date": "2026-10-28",
+          "stars": 306575
+        },
+        {
+          "date": "2026-10-29",
+          "stars": 307570
+        },
+        {
+          "date": "2026-10-30",
+          "stars": 308720
+        },
+        {
+          "date": "2026-10-31",
+          "stars": 309506
+        },
+        {
+          "date": "2026-11-01",
+          "stars": 310140
+        },
+        {
+          "date": "2026-11-02",
+          "stars": 310729
+        },
+        {
+          "date": "2026-11-03",
+          "stars": 311344
+        },
+        {
+          "date": "2026-11-04",
+          "stars": 311968
+        },
+        {
+          "date": "2026-11-05",
+          "stars": 312548
+        },
+        {
+          "date": "2026-11-07",
+          "stars": 313686
+        },
+        {
+          "date": "2026-11-08",
+          "stars": 314175
+        },
+        {
+          "date": "2026-11-09",
+          "stars": 314661
+        },
+        {
+          "date": "2026-11-10",
+          "stars": 315266
+        },
+        {
+          "date": "2026-11-11",
+          "stars": 315827
+        },
+        {
+          "date": "2026-11-12",
+          "stars": 316392
+        },
+        {
+          "date": "2026-11-13",
+          "stars": 316884
+        },
+        {
+          "date": "2026-11-14",
+          "stars": 317294
+        },
+        {
+          "date": "2026-11-15",
+          "stars": 317702
+        },
+        {
+          "date": "2026-11-17",
+          "stars": 318788
+        },
+        {
+          "date": "2026-11-18",
+          "stars": 319496
+        },
+        {
+          "date": "2026-11-19",
+          "stars": 321450
+        },
+        {
+          "date": "2026-11-20",
+          "stars": 322247
+        },
+        {
+          "date": "2026-11-21",
+          "stars": 322960
+        },
+        {
+          "date": "2026-11-22",
+          "stars": 323830
+        },
+        {
+          "date": "2026-11-23",
+          "stars": 324574
+        }
+      ]
+    },
+    {
+      "key": "mattpocock/skills",
+      "owner": "mattpocock",
+      "name": "skills",
+      "language": "Shell",
+      "appearances": 171,
+      "firstDate": "2026-04-05",
+      "lastDate": "2026-11-23",
+      "starsFirst": 11950,
+      "starsLast": 330954,
+      "starGrowth": 319004,
+      "points": [
+        {
+          "date": "2026-04-05",
+          "stars": 11950
+        },
+        {
+          "date": "2026-04-07",
+          "stars": 12539
+        },
+        {
+          "date": "2026-04-08",
+          "stars": 12927
+        },
+        {
+          "date": "2026-04-09",
+          "stars": 13179
+        },
+        {
+          "date": "2026-04-10",
+          "stars": 13507
+        },
+        {
+          "date": "2026-04-11",
+          "stars": 13842
+        },
+        {
+          "date": "2026-04-12",
+          "stars": 14098
+        },
+        {
+          "date": "2026-04-15",
+          "stars": 15028
+        },
+        {
+          "date": "2026-04-17",
+          "stars": 15715
+        },
+        {
+          "date": "2026-04-18",
+          "stars": 16056
+        },
+        {
+          "date": "2026-04-19",
+          "stars": 16262
+        },
+        {
+          "date": "2026-04-25",
+          "stars": 18196
+        },
+        {
+          "date": "2026-04-26",
+          "stars": 20011
+        },
+        {
+          "date": "2026-04-27",
+          "stars": 23619
+        },
+        {
+          "date": "2026-04-28",
+          "stars": 30225
+        },
+        {
+          "date": "2026-04-29",
+          "stars": 37290
+        },
+        {
+          "date": "2026-04-30",
+          "stars": 44535
+        },
+        {
+          "date": "2026-05-01",
+          "stars": 49458
+        },
+        {
+          "date": "2026-05-02",
+          "stars": 52539
+        },
+        {
+          "date": "2026-05-03",
+          "stars": 55048
+        },
+        {
+          "date": "2026-05-13",
+          "stars": 76006
+        },
+        {
+          "date": "2026-05-14",
+          "stars": 78966
+        },
+        {
+          "date": "2026-05-15",
+          "stars": 82266
+        },
+        {
+          "date": "2026-05-16",
+          "stars": 84953
+        },
+        {
+          "date": "2026-05-17",
+          "stars": 86854
+        },
+        {
+          "date": "2026-05-18",
+          "stars": 88952
+        },
+        {
+          "date": "2026-05-20",
+          "stars": 94460
+        },
+        {
+          "date": "2026-05-21",
+          "stars": 96951
+        },
+        {
+          "date": "2026-05-22",
+          "stars": 99056
+        },
+        {
+          "date": "2026-05-23",
+          "stars": 101037
+        },
+        {
+          "date": "2026-05-29",
+          "stars": 110177
+        },
+        {
+          "date": "2026-05-30",
+          "stars": 111503
+        },
+        {
+          "date": "2026-06-03",
+          "stars": 115263
+        },
+        {
+          "date": "2026-06-04",
+          "stars": 116439
+        },
+        {
+          "date": "2026-06-05",
+          "stars": 117623
+        },
+        {
+          "date": "2026-06-06",
+          "stars": 118681
+        },
+        {
+          "date": "2026-06-07",
+          "stars": 119492
+        },
+        {
+          "date": "2026-06-08",
+          "stars": 120405
+        },
+        {
+          "date": "2026-06-10",
+          "stars": 123179
+        },
+        {
+          "date": "2026-06-11",
+          "stars": 124388
+        },
+        {
+          "date": "2026-06-12",
+          "stars": 125724
+        },
+        {
+          "date": "2026-06-13",
+          "stars": 126947
+        },
+        {
+          "date": "2026-06-14",
+          "stars": 127816
+        },
+        {
+          "date": "2026-06-17",
+          "stars": 131906
+        },
+        {
+          "date": "2026-06-18",
+          "stars": 133568
+        },
+        {
+          "date": "2026-06-19",
+          "stars": 135412
+        },
+        {
+          "date": "2026-06-20",
+          "stars": 136845
+        },
+        {
+          "date": "2026-06-21",
+          "stars": 138226
+        },
+        {
+          "date": "2026-06-22",
+          "stars": 139742
+        },
+        {
+          "date": "2026-06-23",
+          "stars": 141624
+        },
+        {
+          "date": "2026-06-24",
+          "stars": 143301
+        },
+        {
+          "date": "2026-06-25",
+          "stars": 144856
+        },
+        {
+          "date": "2026-06-26",
+          "stars": 146304
+        },
+        {
+          "date": "2026-06-27",
+          "stars": 147467
+        },
+        {
+          "date": "2026-06-28",
+          "stars": 148352
+        },
+        {
+          "date": "2026-07-01",
+          "stars": 151716
+        },
+        {
+          "date": "2026-07-03",
+          "stars": 154450
+        },
+        {
+          "date": "2026-07-04",
+          "stars": 155627
+        },
+        {
+          "date": "2026-07-05",
+          "stars": 156638
+        },
+        {
+          "date": "2026-07-06",
+          "stars": 157607
+        },
+        {
+          "date": "2026-07-08",
+          "stars": 159904
+        },
+        {
+          "date": "2026-07-09",
+          "stars": 161466
+        },
+        {
+          "date": "2026-07-10",
+          "stars": 163152
+        },
+        {
+          "date": "2026-07-11",
+          "stars": 164712
+        },
+        {
+          "date": "2026-07-12",
+          "stars": 165818
+        },
+        {
+          "date": "2026-07-13",
+          "stars": 166943
+        },
+        {
+          "date": "2026-07-14",
+          "stars": 168478
+        },
+        {
+          "date": "2026-07-15",
+          "stars": 170363
+        },
+        {
+          "date": "2026-07-16",
+          "stars": 172396
+        },
+        {
+          "date": "2026-07-17",
+          "stars": 174358
+        },
+        {
+          "date": "2026-07-18",
+          "stars": 175703
+        },
+        {
+          "date": "2026-07-19",
+          "stars": 176644
+        },
+        {
+          "date": "2026-07-23",
+          "stars": 182567
+        },
+        {
+          "date": "2026-07-24",
+          "stars": 184776
+        },
+        {
+          "date": "2026-07-25",
+          "stars": 186853
+        },
+        {
+          "date": "2026-07-26",
+          "stars": 188335
+        },
+        {
+          "date": "2026-07-27",
+          "stars": 189767
+        },
+        {
+          "date": "2026-07-29",
+          "stars": 193073
+        },
+        {
+          "date": "2026-07-30",
+          "stars": 194670
+        },
+        {
+          "date": "2026-07-31",
+          "stars": 196410
+        },
+        {
+          "date": "2026-08-01",
+          "stars": 197905
+        },
+        {
+          "date": "2026-08-02",
+          "stars": 199040
+        },
+        {
+          "date": "2026-08-05",
+          "stars": 203375
+        },
+        {
+          "date": "2026-08-06",
+          "stars": 205085
+        },
+        {
+          "date": "2026-08-07",
+          "stars": 207207
+        },
+        {
+          "date": "2026-08-08",
+          "stars": 208835
+        },
+        {
+          "date": "2026-08-09",
+          "stars": 210039
+        },
+        {
+          "date": "2026-08-12",
+          "stars": 213866
+        },
+        {
+          "date": "2026-08-14",
+          "stars": 216440
+        },
+        {
+          "date": "2026-08-15",
+          "stars": 217585
+        },
+        {
+          "date": "2026-08-16",
+          "stars": 218390
+        },
+        {
+          "date": "2026-08-18",
+          "stars": 220347
+        },
+        {
+          "date": "2026-08-19",
+          "stars": 221515
+        },
+        {
+          "date": "2026-08-20",
+          "stars": 223811
+        },
+        {
+          "date": "2026-08-21",
+          "stars": 226519
+        },
+        {
+          "date": "2026-08-22",
+          "stars": 229509
+        },
+        {
+          "date": "2026-08-23",
+          "stars": 232059
+        },
+        {
+          "date": "2026-08-24",
+          "stars": 233862
+        },
+        {
+          "date": "2026-08-25",
+          "stars": 235398
+        },
+        {
+          "date": "2026-08-26",
+          "stars": 236732
+        },
+        {
+          "date": "2026-08-27",
+          "stars": 238250
+        },
+        {
+          "date": "2026-08-28",
+          "stars": 239550
+        },
+        {
+          "date": "2026-08-29",
+          "stars": 240356
+        },
+        {
+          "date": "2026-08-30",
+          "stars": 241106
+        },
+        {
+          "date": "2026-09-02",
+          "stars": 244060
+        },
+        {
+          "date": "2026-09-03",
+          "stars": 245366
+        },
+        {
+          "date": "2026-09-04",
+          "stars": 247638
+        },
+        {
+          "date": "2026-09-05",
+          "stars": 250524
+        },
+        {
+          "date": "2026-09-06",
+          "stars": 252768
+        },
+        {
+          "date": "2026-09-07",
+          "stars": 254778
+        },
+        {
+          "date": "2026-09-08",
+          "stars": 256176
+        },
+        {
+          "date": "2026-09-09",
+          "stars": 257038
+        },
+        {
+          "date": "2026-09-12",
+          "stars": 259845
+        },
+        {
+          "date": "2026-09-16",
+          "stars": 262935
+        },
+        {
+          "date": "2026-09-17",
+          "stars": 263697
+        },
+        {
+          "date": "2026-09-18",
+          "stars": 264583
+        },
+        {
+          "date": "2026-09-19",
+          "stars": 265308
+        },
+        {
+          "date": "2026-09-20",
+          "stars": 265898
+        },
+        {
+          "date": "2026-09-22",
+          "stars": 267226
+        },
+        {
+          "date": "2026-09-23",
+          "stars": 267921
+        },
+        {
+          "date": "2026-09-24",
+          "stars": 268548
+        },
+        {
+          "date": "2026-09-25",
+          "stars": 269171
+        },
+        {
+          "date": "2026-09-26",
+          "stars": 269770
+        },
+        {
+          "date": "2026-09-27",
+          "stars": 270313
+        },
+        {
+          "date": "2026-09-30",
+          "stars": 272203
+        },
+        {
+          "date": "2026-10-01",
+          "stars": 273091
+        },
+        {
+          "date": "2026-10-02",
+          "stars": 274026
+        },
+        {
+          "date": "2026-10-03",
+          "stars": 274777
+        },
+        {
+          "date": "2026-10-04",
+          "stars": 275431
+        },
+        {
+          "date": "2026-10-05",
+          "stars": 276291
+        },
+        {
+          "date": "2026-10-06",
+          "stars": 277201
+        },
+        {
+          "date": "2026-10-07",
+          "stars": 278295
+        },
+        {
+          "date": "2026-10-08",
+          "stars": 279878
+        },
+        {
+          "date": "2026-10-09",
+          "stars": 281335
+        },
+        {
+          "date": "2026-10-10",
+          "stars": 282972
+        },
+        {
+          "date": "2026-10-11",
+          "stars": 284690
+        },
+        {
+          "date": "2026-10-12",
+          "stars": 286513
+        },
+        {
+          "date": "2026-10-13",
+          "stars": 288259
+        },
+        {
+          "date": "2026-10-14",
+          "stars": 289884
+        },
+        {
+          "date": "2026-10-15",
+          "stars": 291436
+        },
+        {
+          "date": "2026-10-16",
+          "stars": 292997
+        },
+        {
+          "date": "2026-10-17",
+          "stars": 294167
+        },
+        {
+          "date": "2026-10-21",
+          "stars": 298808
+        },
+        {
+          "date": "2026-10-22",
+          "stars": 299982
+        },
+        {
+          "date": "2026-10-23",
+          "stars": 300988
+        },
+        {
+          "date": "2026-10-24",
+          "stars": 301867
+        },
+        {
+          "date": "2026-10-25",
+          "stars": 302580
+        },
+        {
+          "date": "2026-10-27",
+          "stars": 304167
+        },
+        {
+          "date": "2026-10-28",
+          "stars": 304992
+        },
+        {
+          "date": "2026-10-29",
+          "stars": 305877
+        },
+        {
+          "date": "2026-10-30",
+          "stars": 306735
+        },
+        {
+          "date": "2026-10-31",
+          "stars": 307582
+        },
+        {
+          "date": "2026-11-01",
+          "stars": 308535
+        },
+        {
+          "date": "2026-11-02",
+          "stars": 309379
+        },
+        {
+          "date": "2026-11-03",
+          "stars": 310430
+        },
+        {
+          "date": "2026-11-04",
+          "stars": 311671
+        },
+        {
+          "date": "2026-11-05",
+          "stars": 313608
+        },
+        {
+          "date": "2026-11-06",
+          "stars": 315550
+        },
+        {
+          "date": "2026-11-07",
+          "stars": 316866
+        },
+        {
+          "date": "2026-11-08",
+          "stars": 317843
+        },
+        {
+          "date": "2026-11-11",
+          "stars": 321112
+        },
+        {
+          "date": "2026-11-12",
+          "stars": 322207
+        },
+        {
+          "date": "2026-11-13",
+          "stars": 323150
+        },
+        {
+          "date": "2026-11-14",
+          "stars": 323906
+        },
+        {
+          "date": "2026-11-15",
+          "stars": 324570
+        },
+        {
+          "date": "2026-11-18",
+          "stars": 326909
+        },
+        {
+          "date": "2026-11-19",
+          "stars": 327594
+        },
+        {
+          "date": "2026-11-20",
+          "stars": 328297
+        },
+        {
+          "date": "2026-11-21",
+          "stars": 329098
+        },
+        {
+          "date": "2026-11-22",
+          "stars": 329863
+        },
+        {
+          "date": "2026-11-23",
+          "stars": 330954
+        }
+      ]
+    },
+    {
+      "key": "affaan-m/ECC",
+      "owner": "affaan-m",
+      "name": "ECC",
+      "language": "JavaScript",
+      "appearances": 94,
+      "firstDate": "2026-05-26",
+      "lastDate": "2026-11-23",
+      "starsFirst": 192345,
+      "starsLast": 309253,
+      "starGrowth": 116908,
+      "points": [
+        {
+          "date": "2026-05-26",
+          "stars": 192345
+        },
+        {
+          "date": "2026-05-27",
+          "stars": 194357
+        },
+        {
+          "date": "2026-05-28",
+          "stars": 196012
+        },
+        {
+          "date": "2026-05-29",
+          "stars": 197263
+        },
+        {
+          "date": "2026-05-30",
+          "stars": 198582
+        },
+        {
+          "date": "2026-05-31",
+          "stars": 199297
+        },
+        {
+          "date": "2026-06-02",
+          "stars": 202216
+        },
+        {
+          "date": "2026-06-03",
+          "stars": 203953
+        },
+        {
+          "date": "2026-06-04",
+          "stars": 205741
+        },
+        {
+          "date": "2026-06-05",
+          "stars": 207226
+        },
+        {
+          "date": "2026-06-06",
+          "stars": 208359
+        },
+        {
+          "date": "2026-06-21",
+          "stars": 218857
+        },
+        {
+          "date": "2026-06-22",
+          "stars": 219331
+        },
+        {
+          "date": "2026-06-24",
+          "stars": 220528
+        },
+        {
+          "date": "2026-06-26",
+          "stars": 221753
+        },
+        {
+          "date": "2026-07-02",
+          "stars": 224658
+        },
+        {
+          "date": "2026-07-03",
+          "stars": 225231
+        },
+        {
+          "date": "2026-07-04",
+          "stars": 225711
+        },
+        {
+          "date": "2026-07-05",
+          "stars": 226060
+        },
+        {
+          "date": "2026-07-06",
+          "stars": 226352
+        },
+        {
+          "date": "2026-07-11",
+          "stars": 228286
+        },
+        {
+          "date": "2026-07-12",
+          "stars": 228628
+        },
+        {
+          "date": "2026-07-13",
+          "stars": 228971
+        },
+        {
+          "date": "2026-07-14",
+          "stars": 229283
+        },
+        {
+          "date": "2026-07-16",
+          "stars": 230144
+        },
+        {
+          "date": "2026-07-21",
+          "stars": 231589
+        },
+        {
+          "date": "2026-07-22",
+          "stars": 231917
+        },
+        {
+          "date": "2026-07-26",
+          "stars": 233339
+        },
+        {
+          "date": "2026-07-27",
+          "stars": 233695
+        },
+        {
+          "date": "2026-07-28",
+          "stars": 234209
+        },
+        {
+          "date": "2026-07-29",
+          "stars": 234862
+        },
+        {
+          "date": "2026-07-30",
+          "stars": 235616
+        },
+        {
+          "date": "2026-07-31",
+          "stars": 236265
+        },
+        {
+          "date": "2026-08-01",
+          "stars": 236655
+        },
+        {
+          "date": "2026-08-08",
+          "stars": 238581
+        },
+        {
+          "date": "2026-08-09",
+          "stars": 238818
+        },
+        {
+          "date": "2026-08-10",
+          "stars": 239027
+        },
+        {
+          "date": "2026-08-11",
+          "stars": 239254
+        },
+        {
+          "date": "2026-08-12",
+          "stars": 239489
+        },
+        {
+          "date": "2026-08-14",
+          "stars": 239985
+        },
+        {
+          "date": "2026-08-20",
+          "stars": 241194
+        },
+        {
+          "date": "2026-08-21",
+          "stars": 241472
+        },
+        {
+          "date": "2026-08-22",
+          "stars": 241796
+        },
+        {
+          "date": "2026-08-23",
+          "stars": 242175
+        },
+        {
+          "date": "2026-08-24",
+          "stars": 242558
+        },
+        {
+          "date": "2026-08-25",
+          "stars": 242935
+        },
+        {
+          "date": "2026-08-26",
+          "stars": 243211
+        },
+        {
+          "date": "2026-08-28",
+          "stars": 243830
+        },
+        {
+          "date": "2026-08-30",
+          "stars": 244307
+        },
+        {
+          "date": "2026-08-31",
+          "stars": 244765
+        },
+        {
+          "date": "2026-09-01",
+          "stars": 245313
+        },
+        {
+          "date": "2026-09-02",
+          "stars": 245798
+        },
+        {
+          "date": "2026-09-03",
+          "stars": 246401
+        },
+        {
+          "date": "2026-09-04",
+          "stars": 247273
+        },
+        {
+          "date": "2026-09-05",
+          "stars": 248576
+        },
+        {
+          "date": "2026-09-06",
+          "stars": 249996
+        },
+        {
+          "date": "2026-09-07",
+          "stars": 251498
+        },
+        {
+          "date": "2026-09-08",
+          "stars": 252957
+        },
+        {
+          "date": "2026-09-09",
+          "stars": 254388
+        },
+        {
+          "date": "2026-09-10",
+          "stars": 255244
+        },
+        {
+          "date": "2026-09-17",
+          "stars": 260384
+        },
+        {
+          "date": "2026-09-18",
+          "stars": 261245
+        },
+        {
+          "date": "2026-09-19",
+          "stars": 262125
+        },
+        {
+          "date": "2026-09-20",
+          "stars": 263011
+        },
+        {
+          "date": "2026-09-21",
+          "stars": 263863
+        },
+        {
+          "date": "2026-09-23",
+          "stars": 265516
+        },
+        {
+          "date": "2026-10-01",
+          "stars": 270264
+        },
+        {
+          "date": "2026-10-02",
+          "stars": 270760
+        },
+        {
+          "date": "2026-10-03",
+          "stars": 271429
+        },
+        {
+          "date": "2026-10-04",
+          "stars": 272335
+        },
+        {
+          "date": "2026-10-05",
+          "stars": 273043
+        },
+        {
+          "date": "2026-10-06",
+          "stars": 273734
+        },
+        {
+          "date": "2026-10-07",
+          "stars": 274369
+        },
+        {
+          "date": "2026-10-13",
+          "stars": 278039
+        },
+        {
+          "date": "2026-10-16",
+          "stars": 280487
+        },
+        {
+          "date": "2026-10-17",
+          "stars": 281586
+        },
+        {
+          "date": "2026-10-18",
+          "stars": 282578
+        },
+        {
+          "date": "2026-10-19",
+          "stars": 283359
+        },
+        {
+          "date": "2026-10-26",
+          "stars": 288921
+        },
+        {
+          "date": "2026-10-27",
+          "stars": 289963
+        },
+        {
+          "date": "2026-10-28",
+          "stars": 291006
+        },
+        {
+          "date": "2026-10-29",
+          "stars": 291886
+        },
+        {
+          "date": "2026-10-30",
+          "stars": 292797
+        },
+        {
+          "date": "2026-10-31",
+          "stars": 293472
+        },
+        {
+          "date": "2026-11-03",
+          "stars": 295799
+        },
+        {
+          "date": "2026-11-05",
+          "stars": 297353
+        },
+        {
+          "date": "2026-11-14",
+          "stars": 302526
+        },
+        {
+          "date": "2026-11-17",
+          "stars": 304785
+        },
+        {
+          "date": "2026-11-18",
+          "stars": 305740
+        },
+        {
+          "date": "2026-11-19",
+          "stars": 306703
+        },
+        {
+          "date": "2026-11-20",
+          "stars": 307383
+        },
+        {
+          "date": "2026-11-21",
+          "stars": 307945
+        },
+        {
+          "date": "2026-11-22",
+          "stars": 308457
+        },
+        {
+          "date": "2026-11-23",
+          "stars": 309253
+        }
+      ]
+    },
+    {
+      "key": "msitarzewski/agency-agents",
+      "owner": "msitarzewski",
+      "name": "agency-agents",
+      "language": "Shell",
+      "appearances": 89,
+      "firstDate": "2026-04-01",
+      "lastDate": "2026-11-17",
+      "starsFirst": 67448,
+      "starsLast": 168882,
+      "starGrowth": 101434,
+      "points": [
+        {
+          "date": "2026-04-01",
+          "stars": 67448
+        },
+        {
+          "date": "2026-04-02",
+          "stars": 68199
+        },
+        {
+          "date": "2026-04-05",
+          "stars": 71095
+        },
+        {
+          "date": "2026-04-06",
+          "stars": 72015
+        },
+        {
+          "date": "2026-04-07",
+          "stars": 73063
+        },
+        {
+          "date": "2026-04-08",
+          "stars": 74411
+        },
+        {
+          "date": "2026-04-09",
+          "stars": 75811
+        },
+        {
+          "date": "2026-04-10",
+          "stars": 76869
+        },
+        {
+          "date": "2026-04-18",
+          "stars": 81667
+        },
+        {
+          "date": "2026-04-19",
+          "stars": 82612
+        },
+        {
+          "date": "2026-04-20",
+          "stars": 83398
+        },
+        {
+          "date": "2026-04-21",
+          "stars": 84097
+        },
+        {
+          "date": "2026-04-23",
+          "stars": 85381
+        },
+        {
+          "date": "2026-04-25",
+          "stars": 86451
+        },
+        {
+          "date": "2026-05-01",
+          "stars": 89612
+        },
+        {
+          "date": "2026-05-02",
+          "stars": 90129
+        },
+        {
+          "date": "2026-05-03",
+          "stars": 90577
+        },
+        {
+          "date": "2026-05-04",
+          "stars": 91401
+        },
+        {
+          "date": "2026-05-05",
+          "stars": 92630
+        },
+        {
+          "date": "2026-05-06",
+          "stars": 93612
+        },
+        {
+          "date": "2026-05-07",
+          "stars": 94360
+        },
+        {
+          "date": "2026-05-16",
+          "stars": 97929
+        },
+        {
+          "date": "2026-05-17",
+          "stars": 98442
+        },
+        {
+          "date": "2026-05-18",
+          "stars": 99089
+        },
+        {
+          "date": "2026-05-19",
+          "stars": 100036
+        },
+        {
+          "date": "2026-05-20",
+          "stars": 101603
+        },
+        {
+          "date": "2026-05-21",
+          "stars": 102834
+        },
+        {
+          "date": "2026-05-22",
+          "stars": 103668
+        },
+        {
+          "date": "2026-05-23",
+          "stars": 104231
+        },
+        {
+          "date": "2026-06-02",
+          "stars": 106701
+        },
+        {
+          "date": "2026-06-03",
+          "stars": 106986
+        },
+        {
+          "date": "2026-06-04",
+          "stars": 107240
+        },
+        {
+          "date": "2026-06-05",
+          "stars": 107471
+        },
+        {
+          "date": "2026-06-07",
+          "stars": 107932
+        },
+        {
+          "date": "2026-06-10",
+          "stars": 108907
+        },
+        {
+          "date": "2026-06-11",
+          "stars": 110428
+        },
+        {
+          "date": "2026-06-12",
+          "stars": 111565
+        },
+        {
+          "date": "2026-06-13",
+          "stars": 112414
+        },
+        {
+          "date": "2026-06-14",
+          "stars": 112883
+        },
+        {
+          "date": "2026-06-29",
+          "stars": 117537
+        },
+        {
+          "date": "2026-06-30",
+          "stars": 118870
+        },
+        {
+          "date": "2026-07-01",
+          "stars": 120872
+        },
+        {
+          "date": "2026-07-02",
+          "stars": 123392
+        },
+        {
+          "date": "2026-07-03",
+          "stars": 125609
+        },
+        {
+          "date": "2026-07-04",
+          "stars": 126530
+        },
+        {
+          "date": "2026-07-12",
+          "stars": 130495
+        },
+        {
+          "date": "2026-07-20",
+          "stars": 134012
+        },
+        {
+          "date": "2026-07-21",
+          "stars": 134774
+        },
+        {
+          "date": "2026-07-22",
+          "stars": 135451
+        },
+        {
+          "date": "2026-07-23",
+          "stars": 135903
+        },
+        {
+          "date": "2026-08-03",
+          "stars": 138209
+        },
+        {
+          "date": "2026-08-09",
+          "stars": 139680
+        },
+        {
+          "date": "2026-08-10",
+          "stars": 140712
+        },
+        {
+          "date": "2026-08-11",
+          "stars": 141846
+        },
+        {
+          "date": "2026-08-12",
+          "stars": 143280
+        },
+        {
+          "date": "2026-08-13",
+          "stars": 144595
+        },
+        {
+          "date": "2026-08-14",
+          "stars": 145202
+        },
+        {
+          "date": "2026-08-22",
+          "stars": 147188
+        },
+        {
+          "date": "2026-08-23",
+          "stars": 147368
+        },
+        {
+          "date": "2026-08-24",
+          "stars": 147626
+        },
+        {
+          "date": "2026-08-31",
+          "stars": 149077
+        },
+        {
+          "date": "2026-09-02",
+          "stars": 149539
+        },
+        {
+          "date": "2026-09-08",
+          "stars": 150790
+        },
+        {
+          "date": "2026-09-10",
+          "stars": 151333
+        },
+        {
+          "date": "2026-09-11",
+          "stars": 151563
+        },
+        {
+          "date": "2026-09-17",
+          "stars": 152938
+        },
+        {
+          "date": "2026-09-22",
+          "stars": 154009
+        },
+        {
+          "date": "2026-09-30",
+          "stars": 155365
+        },
+        {
+          "date": "2026-10-03",
+          "stars": 155830
+        },
+        {
+          "date": "2026-10-05",
+          "stars": 156738
+        },
+        {
+          "date": "2026-10-06",
+          "stars": 157358
+        },
+        {
+          "date": "2026-10-07",
+          "stars": 157910
+        },
+        {
+          "date": "2026-10-08",
+          "stars": 158317
+        },
+        {
+          "date": "2026-10-09",
+          "stars": 158363
+        },
+        {
+          "date": "2026-10-14",
+          "stars": 159920
+        },
+        {
+          "date": "2026-10-15",
+          "stars": 160126
+        },
+        {
+          "date": "2026-10-19",
+          "stars": 161233
+        },
+        {
+          "date": "2026-10-20",
+          "stars": 161821
+        },
+        {
+          "date": "2026-10-21",
+          "stars": 162442
+        },
+        {
+          "date": "2026-10-22",
+          "stars": 162976
+        },
+        {
+          "date": "2026-10-23",
+          "stars": 163311
+        },
+        {
+          "date": "2026-10-30",
+          "stars": 165207
+        },
+        {
+          "date": "2026-10-31",
+          "stars": 165533
+        },
+        {
+          "date": "2026-11-08",
+          "stars": 167139
+        },
+        {
+          "date": "2026-11-09",
+          "stars": 167341
+        },
+        {
+          "date": "2026-11-10",
+          "stars": 167540
+        },
+        {
+          "date": "2026-11-14",
+          "stars": 168178
+        },
+        {
+          "date": "2026-11-15",
+          "stars": 168389
+        },
+        {
+          "date": "2026-11-17",
+          "stars": 168882
+        }
+      ]
+    },
+    {
+      "key": "pbakaus/impeccable",
+      "owner": "pbakaus",
+      "name": "impeccable",
+      "language": "Rust",
+      "appearances": 77,
+      "firstDate": "2026-03-23",
+      "lastDate": "2026-11-18",
+      "starsFirst": 12334,
+      "starsLast": 112361,
+      "starGrowth": 100027,
+      "points": [
+        {
+          "date": "2026-03-23",
+          "stars": 12334
+        },
+        {
+          "date": "2026-03-25",
+          "stars": 13269
+        },
+        {
+          "date": "2026-03-26",
+          "stars": 13560
+        },
+        {
+          "date": "2026-04-08",
+          "stars": 16839
+        },
+        {
+          "date": "2026-04-09",
+          "stars": 17353
+        },
+        {
+          "date": "2026-04-10",
+          "stars": 17809
+        },
+        {
+          "date": "2026-04-11",
+          "stars": 18219
+        },
+        {
+          "date": "2026-04-12",
+          "stars": 18489
+        },
+        {
+          "date": "2026-04-17",
+          "stars": 19986
+        },
+        {
+          "date": "2026-04-18",
+          "stars": 20317
+        },
+        {
+          "date": "2026-04-19",
+          "stars": 20494
+        },
+        {
+          "date": "2026-04-30",
+          "stars": 23415
+        },
+        {
+          "date": "2026-05-01",
+          "stars": 23802
+        },
+        {
+          "date": "2026-05-02",
+          "stars": 24087
+        },
+        {
+          "date": "2026-05-10",
+          "stars": 26561
+        },
+        {
+          "date": "2026-05-26",
+          "stars": 30228
+        },
+        {
+          "date": "2026-05-29",
+          "stars": 31053
+        },
+        {
+          "date": "2026-05-30",
+          "stars": 31360
+        },
+        {
+          "date": "2026-05-31",
+          "stars": 31636
+        },
+        {
+          "date": "2026-06-01",
+          "stars": 31967
+        },
+        {
+          "date": "2026-06-02",
+          "stars": 32690
+        },
+        {
+          "date": "2026-06-03",
+          "stars": 33497
+        },
+        {
+          "date": "2026-06-04",
+          "stars": 34079
+        },
+        {
+          "date": "2026-06-05",
+          "stars": 34436
+        },
+        {
+          "date": "2026-06-10",
+          "stars": 36797
+        },
+        {
+          "date": "2026-06-25",
+          "stars": 41140
+        },
+        {
+          "date": "2026-06-26",
+          "stars": 41423
+        },
+        {
+          "date": "2026-07-04",
+          "stars": 43313
+        },
+        {
+          "date": "2026-07-05",
+          "stars": 43517
+        },
+        {
+          "date": "2026-07-09",
+          "stars": 44756
+        },
+        {
+          "date": "2026-07-10",
+          "stars": 45103
+        },
+        {
+          "date": "2026-07-11",
+          "stars": 45431
+        },
+        {
+          "date": "2026-07-12",
+          "stars": 45715
+        },
+        {
+          "date": "2026-07-13",
+          "stars": 46014
+        },
+        {
+          "date": "2026-07-26",
+          "stars": 50145
+        },
+        {
+          "date": "2026-07-27",
+          "stars": 50740
+        },
+        {
+          "date": "2026-07-28",
+          "stars": 51599
+        },
+        {
+          "date": "2026-07-29",
+          "stars": 52267
+        },
+        {
+          "date": "2026-07-30",
+          "stars": 52638
+        },
+        {
+          "date": "2026-08-06",
+          "stars": 55851
+        },
+        {
+          "date": "2026-08-08",
+          "stars": 56731
+        },
+        {
+          "date": "2026-08-21",
+          "stars": 61084
+        },
+        {
+          "date": "2026-08-22",
+          "stars": 61390
+        },
+        {
+          "date": "2026-08-25",
+          "stars": 62247
+        },
+        {
+          "date": "2026-08-29",
+          "stars": 63643
+        },
+        {
+          "date": "2026-09-03",
+          "stars": 65033
+        },
+        {
+          "date": "2026-09-04",
+          "stars": 65373
+        },
+        {
+          "date": "2026-09-05",
+          "stars": 65630
+        },
+        {
+          "date": "2026-09-06",
+          "stars": 65847
+        },
+        {
+          "date": "2026-09-24",
+          "stars": 70391
+        },
+        {
+          "date": "2026-09-25",
+          "stars": 70824
+        },
+        {
+          "date": "2026-09-26",
+          "stars": 71236
+        },
+        {
+          "date": "2026-09-27",
+          "stars": 71601
+        },
+        {
+          "date": "2026-09-30",
+          "stars": 72639
+        },
+        {
+          "date": "2026-10-01",
+          "stars": 73100
+        },
+        {
+          "date": "2026-10-02",
+          "stars": 73762
+        },
+        {
+          "date": "2026-10-03",
+          "stars": 74401
+        },
+        {
+          "date": "2026-10-04",
+          "stars": 75427
+        },
+        {
+          "date": "2026-10-05",
+          "stars": 76410
+        },
+        {
+          "date": "2026-10-06",
+          "stars": 77156
+        },
+        {
+          "date": "2026-10-07",
+          "stars": 77790
+        },
+        {
+          "date": "2026-10-20",
+          "stars": 83288
+        },
+        {
+          "date": "2026-10-21",
+          "stars": 83913
+        },
+        {
+          "date": "2026-10-22",
+          "stars": 84499
+        },
+        {
+          "date": "2026-10-23",
+          "stars": 85044
+        },
+        {
+          "date": "2026-10-24",
+          "stars": 85591
+        },
+        {
+          "date": "2026-10-25",
+          "stars": 86499
+        },
+        {
+          "date": "2026-10-26",
+          "stars": 87853
+        },
+        {
+          "date": "2026-10-27",
+          "stars": 89358
+        },
+        {
+          "date": "2026-10-28",
+          "stars": 90799
+        },
+        {
+          "date": "2026-10-29",
+          "stars": 93134
+        },
+        {
+          "date": "2026-10-30",
+          "stars": 95682
+        },
+        {
+          "date": "2026-10-31",
+          "stars": 97217
+        },
+        {
+          "date": "2026-11-01",
+          "stars": 98427
+        },
+        {
+          "date": "2026-11-02",
+          "stars": 99555
+        },
+        {
+          "date": "2026-11-06",
+          "stars": 104101
+        },
+        {
+          "date": "2026-11-18",
+          "stars": 112361
+        }
+      ]
+    },
+    {
+      "key": "addyosmani/agent-skills",
+      "owner": "addyosmani",
+      "name": "agent-skills",
+      "language": "JavaScript",
+      "appearances": 72,
+      "firstDate": "2026-04-23",
+      "lastDate": "2026-11-15",
+      "starsFirst": 21189,
+      "starsLast": 117628,
+      "starGrowth": 96439,
+      "points": [
+        {
+          "date": "2026-04-23",
+          "stars": 21189
+        },
+        {
+          "date": "2026-04-24",
+          "stars": 21930
+        },
+        {
+          "date": "2026-04-25",
+          "stars": 22690
+        },
+        {
+          "date": "2026-04-26",
+          "stars": 23005
+        },
+        {
+          "date": "2026-04-28",
+          "stars": 24578
+        },
+        {
+          "date": "2026-04-29",
+          "stars": 25293
+        },
+        {
+          "date": "2026-05-01",
+          "stars": 26703
+        },
+        {
+          "date": "2026-05-07",
+          "stars": 30460
+        },
+        {
+          "date": "2026-05-08",
+          "stars": 32952
+        },
+        {
+          "date": "2026-05-09",
+          "stars": 35359
+        },
+        {
+          "date": "2026-05-10",
+          "stars": 37377
+        },
+        {
+          "date": "2026-05-11",
+          "stars": 38398
+        },
+        {
+          "date": "2026-05-21",
+          "stars": 44252
+        },
+        {
+          "date": "2026-05-22",
+          "stars": 44591
+        },
+        {
+          "date": "2026-05-28",
+          "stars": 46475
+        },
+        {
+          "date": "2026-06-01",
+          "stars": 47415
+        },
+        {
+          "date": "2026-06-06",
+          "stars": 48460
+        },
+        {
+          "date": "2026-06-08",
+          "stars": 48947
+        },
+        {
+          "date": "2026-06-09",
+          "stars": 49288
+        },
+        {
+          "date": "2026-06-10",
+          "stars": 49822
+        },
+        {
+          "date": "2026-06-11",
+          "stars": 51781
+        },
+        {
+          "date": "2026-06-12",
+          "stars": 54720
+        },
+        {
+          "date": "2026-06-13",
+          "stars": 56798
+        },
+        {
+          "date": "2026-06-14",
+          "stars": 58374
+        },
+        {
+          "date": "2026-06-15",
+          "stars": 59474
+        },
+        {
+          "date": "2026-06-24",
+          "stars": 65960
+        },
+        {
+          "date": "2026-06-30",
+          "stars": 67957
+        },
+        {
+          "date": "2026-07-07",
+          "stars": 70945
+        },
+        {
+          "date": "2026-07-08",
+          "stars": 72237
+        },
+        {
+          "date": "2026-07-09",
+          "stars": 74290
+        },
+        {
+          "date": "2026-07-10",
+          "stars": 75975
+        },
+        {
+          "date": "2026-07-11",
+          "stars": 76852
+        },
+        {
+          "date": "2026-08-02",
+          "stars": 81256
+        },
+        {
+          "date": "2026-08-06",
+          "stars": 82012
+        },
+        {
+          "date": "2026-08-07",
+          "stars": 82997
+        },
+        {
+          "date": "2026-08-08",
+          "stars": 83909
+        },
+        {
+          "date": "2026-08-09",
+          "stars": 84576
+        },
+        {
+          "date": "2026-08-10",
+          "stars": 85154
+        },
+        {
+          "date": "2026-08-11",
+          "stars": 85749
+        },
+        {
+          "date": "2026-08-12",
+          "stars": 86239
+        },
+        {
+          "date": "2026-08-26",
+          "stars": 89765
+        },
+        {
+          "date": "2026-08-27",
+          "stars": 90114
+        },
+        {
+          "date": "2026-08-28",
+          "stars": 90371
+        },
+        {
+          "date": "2026-08-31",
+          "stars": 90963
+        },
+        {
+          "date": "2026-09-02",
+          "stars": 91490
+        },
+        {
+          "date": "2026-09-05",
+          "stars": 92289
+        },
+        {
+          "date": "2026-09-06",
+          "stars": 92459
+        },
+        {
+          "date": "2026-09-17",
+          "stars": 95528
+        },
+        {
+          "date": "2026-09-18",
+          "stars": 95921
+        },
+        {
+          "date": "2026-09-19",
+          "stars": 96449
+        },
+        {
+          "date": "2026-09-20",
+          "stars": 97111
+        },
+        {
+          "date": "2026-09-21",
+          "stars": 97762
+        },
+        {
+          "date": "2026-09-22",
+          "stars": 98172
+        },
+        {
+          "date": "2026-10-03",
+          "stars": 100564
+        },
+        {
+          "date": "2026-10-04",
+          "stars": 100891
+        },
+        {
+          "date": "2026-10-05",
+          "stars": 101259
+        },
+        {
+          "date": "2026-10-06",
+          "stars": 101568
+        },
+        {
+          "date": "2026-10-07",
+          "stars": 102147
+        },
+        {
+          "date": "2026-10-08",
+          "stars": 102933
+        },
+        {
+          "date": "2026-10-09",
+          "stars": 103458
+        },
+        {
+          "date": "2026-10-10",
+          "stars": 104101
+        },
+        {
+          "date": "2026-10-11",
+          "stars": 104559
+        },
+        {
+          "date": "2026-10-19",
+          "stars": 108247
+        },
+        {
+          "date": "2026-10-27",
+          "stars": 110850
+        },
+        {
+          "date": "2026-10-28",
+          "stars": 111200
+        },
+        {
+          "date": "2026-10-29",
+          "stars": 111499
+        },
+        {
+          "date": "2026-10-31",
+          "stars": 112026
+        },
+        {
+          "date": "2026-11-11",
+          "stars": 115289
+        },
+        {
+          "date": "2026-11-12",
+          "stars": 116099
+        },
+        {
+          "date": "2026-11-13",
+          "stars": 116790
+        },
+        {
+          "date": "2026-11-14",
+          "stars": 117206
+        },
+        {
+          "date": "2026-11-15",
+          "stars": 117628
+        }
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "date": "2026-03-17",
+      "obra/superpowers": 90406,
+      "mattpocock/skills": null,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-03-18",
+      "obra/superpowers": 92273,
+      "mattpocock/skills": null,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-03-19",
+      "obra/superpowers": 96145,
+      "mattpocock/skills": null,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-03-20",
+      "obra/superpowers": 99144,
+      "mattpocock/skills": null,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-03-21",
+      "obra/superpowers": 101509,
+      "mattpocock/skills": null,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-03-22",
+      "obra/superpowers": 103322,
+      "mattpocock/skills": null,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-03-23",
+      "obra/superpowers": 105144,
+      "mattpocock/skills": null,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": 12334,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-03-24",
+      "obra/superpowers": null,
+      "mattpocock/skills": null,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-03-25",
+      "obra/superpowers": 110400,
+      "mattpocock/skills": null,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": 13269,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-03-26",
+      "obra/superpowers": 112635,
+      "mattpocock/skills": null,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": 13560,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-03-27",
+      "obra/superpowers": 118050,
+      "mattpocock/skills": null,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-03-28",
+      "obra/superpowers": 118487,
+      "mattpocock/skills": null,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-03-29",
+      "obra/superpowers": 120734,
+      "mattpocock/skills": null,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-03-30",
+      "obra/superpowers": 122856,
+      "mattpocock/skills": null,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-03-31",
+      "obra/superpowers": 125595,
+      "mattpocock/skills": null,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-04-01",
+      "obra/superpowers": 128127,
+      "mattpocock/skills": null,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": 67448,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-04-02",
+      "obra/superpowers": 130222,
+      "mattpocock/skills": null,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": 68199,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-04-03",
+      "obra/superpowers": null,
+      "mattpocock/skills": null,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-04-04",
+      "obra/superpowers": 134015,
+      "mattpocock/skills": null,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-04-05",
+      "obra/superpowers": 135161,
+      "mattpocock/skills": 11950,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": 71095,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-04-06",
+      "obra/superpowers": 136180,
+      "mattpocock/skills": null,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": 72015,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-04-07",
+      "obra/superpowers": 137437,
+      "mattpocock/skills": 12539,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": 73063,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-04-08",
+      "obra/superpowers": 139312,
+      "mattpocock/skills": 12927,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": 74411,
+      "pbakaus/impeccable": 16839,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-04-09",
+      "obra/superpowers": 141473,
+      "mattpocock/skills": 13179,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": 75811,
+      "pbakaus/impeccable": 17353,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-04-10",
+      "obra/superpowers": 143703,
+      "mattpocock/skills": 13507,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": 76869,
+      "pbakaus/impeccable": 17809,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-04-11",
+      "obra/superpowers": 145719,
+      "mattpocock/skills": 13842,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": 18219,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-04-12",
+      "obra/superpowers": 147142,
+      "mattpocock/skills": 14098,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": 18489,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-04-13",
+      "obra/superpowers": 148422,
+      "mattpocock/skills": null,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-04-14",
+      "obra/superpowers": null,
+      "mattpocock/skills": null,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-04-15",
+      "obra/superpowers": 152248,
+      "mattpocock/skills": 15028,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-04-16",
+      "obra/superpowers": 154259,
+      "mattpocock/skills": null,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-04-17",
+      "obra/superpowers": 156150,
+      "mattpocock/skills": 15715,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": 19986,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-04-18",
+      "obra/superpowers": 157753,
+      "mattpocock/skills": 16056,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": 81667,
+      "pbakaus/impeccable": 20317,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-04-19",
+      "obra/superpowers": 158865,
+      "mattpocock/skills": 16262,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": 82612,
+      "pbakaus/impeccable": 20494,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-04-20",
+      "obra/superpowers": null,
+      "mattpocock/skills": null,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": 83398,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-04-21",
+      "obra/superpowers": null,
+      "mattpocock/skills": null,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": 84097,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-04-22",
+      "obra/superpowers": 163010,
+      "mattpocock/skills": null,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-04-23",
+      "obra/superpowers": 164327,
+      "mattpocock/skills": null,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": 85381,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": 21189
+    },
+    {
+      "date": "2026-04-24",
+      "obra/superpowers": 165654,
+      "mattpocock/skills": null,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": 21930
+    },
+    {
+      "date": "2026-04-25",
+      "obra/superpowers": 166772,
+      "mattpocock/skills": 18196,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": 86451,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": 22690
+    },
+    {
+      "date": "2026-04-26",
+      "obra/superpowers": 167615,
+      "mattpocock/skills": 20011,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": 23005
+    },
+    {
+      "date": "2026-04-27",
+      "obra/superpowers": null,
+      "mattpocock/skills": 23619,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-04-28",
+      "obra/superpowers": null,
+      "mattpocock/skills": 30225,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": 24578
+    },
+    {
+      "date": "2026-04-29",
+      "obra/superpowers": 171551,
+      "mattpocock/skills": 37290,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": 25293
+    },
+    {
+      "date": "2026-04-30",
+      "obra/superpowers": 173098,
+      "mattpocock/skills": 44535,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": 23415,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-05-01",
+      "obra/superpowers": 174578,
+      "mattpocock/skills": 49458,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": 89612,
+      "pbakaus/impeccable": 23802,
+      "addyosmani/agent-skills": 26703
+    },
+    {
+      "date": "2026-05-02",
+      "obra/superpowers": 175622,
+      "mattpocock/skills": 52539,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": 90129,
+      "pbakaus/impeccable": 24087,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-05-03",
+      "obra/superpowers": 176542,
+      "mattpocock/skills": 55048,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": 90577,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-05-04",
+      "obra/superpowers": 177377,
+      "mattpocock/skills": null,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": 91401,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-05-05",
+      "obra/superpowers": null,
+      "mattpocock/skills": null,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": 92630,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-05-06",
+      "obra/superpowers": null,
+      "mattpocock/skills": null,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": 93612,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-05-07",
+      "obra/superpowers": 180650,
+      "mattpocock/skills": null,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": 94360,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": 30460
+    },
+    {
+      "date": "2026-05-08",
+      "obra/superpowers": 181946,
+      "mattpocock/skills": null,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": 32952
+    },
+    {
+      "date": "2026-05-09",
+      "obra/superpowers": 183235,
+      "mattpocock/skills": null,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": 35359
+    },
+    {
+      "date": "2026-05-10",
+      "obra/superpowers": 184348,
+      "mattpocock/skills": null,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": 26561,
+      "addyosmani/agent-skills": 37377
+    },
+    {
+      "date": "2026-05-11",
+      "obra/superpowers": 185278,
+      "mattpocock/skills": null,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": 38398
+    },
+    {
+      "date": "2026-05-12",
+      "obra/superpowers": 186604,
+      "mattpocock/skills": null,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-05-13",
+      "obra/superpowers": 187983,
+      "mattpocock/skills": 76006,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-05-14",
+      "obra/superpowers": 189504,
+      "mattpocock/skills": 78966,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-05-15",
+      "obra/superpowers": 191175,
+      "mattpocock/skills": 82266,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-05-16",
+      "obra/superpowers": 192807,
+      "mattpocock/skills": 84953,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": 97929,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-05-17",
+      "obra/superpowers": 194000,
+      "mattpocock/skills": 86854,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": 98442,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-05-18",
+      "obra/superpowers": 195127,
+      "mattpocock/skills": 88952,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": 99089,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-05-19",
+      "obra/superpowers": null,
+      "mattpocock/skills": null,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": 100036,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-05-20",
+      "obra/superpowers": 198375,
+      "mattpocock/skills": 94460,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": 101603,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-05-21",
+      "obra/superpowers": 200014,
+      "mattpocock/skills": 96951,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": 102834,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": 44252
+    },
+    {
+      "date": "2026-05-22",
+      "obra/superpowers": 201505,
+      "mattpocock/skills": 99056,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": 103668,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": 44591
+    },
+    {
+      "date": "2026-05-23",
+      "obra/superpowers": 202879,
+      "mattpocock/skills": 101037,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": 104231,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-05-24",
+      "obra/superpowers": 203977,
+      "mattpocock/skills": null,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-05-25",
+      "obra/superpowers": null,
+      "mattpocock/skills": null,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-05-26",
+      "obra/superpowers": null,
+      "mattpocock/skills": null,
+      "affaan-m/ECC": 192345,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": 30228,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-05-27",
+      "obra/superpowers": 207945,
+      "mattpocock/skills": null,
+      "affaan-m/ECC": 194357,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-05-28",
+      "obra/superpowers": 209518,
+      "mattpocock/skills": null,
+      "affaan-m/ECC": 196012,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": 46475
+    },
+    {
+      "date": "2026-05-29",
+      "obra/superpowers": 211067,
+      "mattpocock/skills": 110177,
+      "affaan-m/ECC": 197263,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": 31053,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-05-30",
+      "obra/superpowers": 212278,
+      "mattpocock/skills": 111503,
+      "affaan-m/ECC": 198582,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": 31360,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-05-31",
+      "obra/superpowers": 212956,
+      "mattpocock/skills": null,
+      "affaan-m/ECC": 199297,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": 31636,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-06-01",
+      "obra/superpowers": null,
+      "mattpocock/skills": null,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": 31967,
+      "addyosmani/agent-skills": 47415
+    },
+    {
+      "date": "2026-06-02",
+      "obra/superpowers": null,
+      "mattpocock/skills": null,
+      "affaan-m/ECC": 202216,
+      "msitarzewski/agency-agents": 106701,
+      "pbakaus/impeccable": 32690,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-06-03",
+      "obra/superpowers": 215879,
+      "mattpocock/skills": 115263,
+      "affaan-m/ECC": 203953,
+      "msitarzewski/agency-agents": 106986,
+      "pbakaus/impeccable": 33497,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-06-04",
+      "obra/superpowers": 216925,
+      "mattpocock/skills": 116439,
+      "affaan-m/ECC": 205741,
+      "msitarzewski/agency-agents": 107240,
+      "pbakaus/impeccable": 34079,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-06-05",
+      "obra/superpowers": 217943,
+      "mattpocock/skills": 117623,
+      "affaan-m/ECC": 207226,
+      "msitarzewski/agency-agents": 107471,
+      "pbakaus/impeccable": 34436,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-06-06",
+      "obra/superpowers": 218899,
+      "mattpocock/skills": 118681,
+      "affaan-m/ECC": 208359,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": 48460
+    },
+    {
+      "date": "2026-06-07",
+      "obra/superpowers": 219658,
+      "mattpocock/skills": 119492,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": 107932,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-06-08",
+      "obra/superpowers": 220402,
+      "mattpocock/skills": 120405,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": 48947
+    },
+    {
+      "date": "2026-06-09",
+      "obra/superpowers": 221417,
+      "mattpocock/skills": null,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": 49288
+    },
+    {
+      "date": "2026-06-10",
+      "obra/superpowers": 222424,
+      "mattpocock/skills": 123179,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": 108907,
+      "pbakaus/impeccable": 36797,
+      "addyosmani/agent-skills": 49822
+    },
+    {
+      "date": "2026-06-11",
+      "obra/superpowers": 223591,
+      "mattpocock/skills": 124388,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": 110428,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": 51781
+    },
+    {
+      "date": "2026-06-12",
+      "obra/superpowers": 224826,
+      "mattpocock/skills": 125724,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": 111565,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": 54720
+    },
+    {
+      "date": "2026-06-13",
+      "obra/superpowers": 225998,
+      "mattpocock/skills": 126947,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": 112414,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": 56798
+    },
+    {
+      "date": "2026-06-14",
+      "obra/superpowers": 226925,
+      "mattpocock/skills": 127816,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": 112883,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": 58374
+    },
+    {
+      "date": "2026-06-15",
+      "obra/superpowers": 227825,
+      "mattpocock/skills": null,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": 59474
+    },
+    {
+      "date": "2026-06-16",
+      "obra/superpowers": null,
+      "mattpocock/skills": null,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-06-17",
+      "obra/superpowers": 229876,
+      "mattpocock/skills": 131906,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-06-18",
+      "obra/superpowers": 231060,
+      "mattpocock/skills": 133568,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-06-19",
+      "obra/superpowers": 232413,
+      "mattpocock/skills": 135412,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-06-20",
+      "obra/superpowers": 233347,
+      "mattpocock/skills": 136845,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-06-21",
+      "obra/superpowers": 234236,
+      "mattpocock/skills": 138226,
+      "affaan-m/ECC": 218857,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-06-22",
+      "obra/superpowers": 235004,
+      "mattpocock/skills": 139742,
+      "affaan-m/ECC": 219331,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-06-23",
+      "obra/superpowers": 236001,
+      "mattpocock/skills": 141624,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-06-24",
+      "obra/superpowers": 236925,
+      "mattpocock/skills": 143301,
+      "affaan-m/ECC": 220528,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": 65960
+    },
+    {
+      "date": "2026-06-25",
+      "obra/superpowers": 237780,
+      "mattpocock/skills": 144856,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": 41140,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-06-26",
+      "obra/superpowers": 238672,
+      "mattpocock/skills": 146304,
+      "affaan-m/ECC": 221753,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": 41423,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-06-27",
+      "obra/superpowers": 239439,
+      "mattpocock/skills": 147467,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-06-28",
+      "obra/superpowers": 240055,
+      "mattpocock/skills": 148352,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-06-29",
+      "obra/superpowers": null,
+      "mattpocock/skills": null,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": 117537,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-06-30",
+      "obra/superpowers": null,
+      "mattpocock/skills": null,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": 118870,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": 67957
+    },
+    {
+      "date": "2026-07-01",
+      "obra/superpowers": 242485,
+      "mattpocock/skills": 151716,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": 120872,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-07-02",
+      "obra/superpowers": 243445,
+      "mattpocock/skills": null,
+      "affaan-m/ECC": 224658,
+      "msitarzewski/agency-agents": 123392,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-07-03",
+      "obra/superpowers": 244533,
+      "mattpocock/skills": 154450,
+      "affaan-m/ECC": 225231,
+      "msitarzewski/agency-agents": 125609,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-07-04",
+      "obra/superpowers": 245574,
+      "mattpocock/skills": 155627,
+      "affaan-m/ECC": 225711,
+      "msitarzewski/agency-agents": 126530,
+      "pbakaus/impeccable": 43313,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-07-05",
+      "obra/superpowers": 246244,
+      "mattpocock/skills": 156638,
+      "affaan-m/ECC": 226060,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": 43517,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-07-06",
+      "obra/superpowers": 246969,
+      "mattpocock/skills": 157607,
+      "affaan-m/ECC": 226352,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-07-07",
+      "obra/superpowers": 247821,
+      "mattpocock/skills": null,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": 70945
+    },
+    {
+      "date": "2026-07-08",
+      "obra/superpowers": 248779,
+      "mattpocock/skills": 159904,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": 72237
+    },
+    {
+      "date": "2026-07-09",
+      "obra/superpowers": 249917,
+      "mattpocock/skills": 161466,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": 44756,
+      "addyosmani/agent-skills": 74290
+    },
+    {
+      "date": "2026-07-10",
+      "obra/superpowers": 250951,
+      "mattpocock/skills": 163152,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": 45103,
+      "addyosmani/agent-skills": 75975
+    },
+    {
+      "date": "2026-07-11",
+      "obra/superpowers": 251818,
+      "mattpocock/skills": 164712,
+      "affaan-m/ECC": 228286,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": 45431,
+      "addyosmani/agent-skills": 76852
+    },
+    {
+      "date": "2026-07-12",
+      "obra/superpowers": 252489,
+      "mattpocock/skills": 165818,
+      "affaan-m/ECC": 228628,
+      "msitarzewski/agency-agents": 130495,
+      "pbakaus/impeccable": 45715,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-07-13",
+      "obra/superpowers": null,
+      "mattpocock/skills": 166943,
+      "affaan-m/ECC": 228971,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": 46014,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-07-14",
+      "obra/superpowers": null,
+      "mattpocock/skills": 168478,
+      "affaan-m/ECC": 229283,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-07-15",
+      "obra/superpowers": 254718,
+      "mattpocock/skills": 170363,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-07-16",
+      "obra/superpowers": 255432,
+      "mattpocock/skills": 172396,
+      "affaan-m/ECC": 230144,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-07-17",
+      "obra/superpowers": 256017,
+      "mattpocock/skills": 174358,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-07-18",
+      "obra/superpowers": 256686,
+      "mattpocock/skills": 175703,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-07-19",
+      "obra/superpowers": 257138,
+      "mattpocock/skills": 176644,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-07-20",
+      "obra/superpowers": null,
+      "mattpocock/skills": null,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": 134012,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-07-21",
+      "obra/superpowers": null,
+      "mattpocock/skills": null,
+      "affaan-m/ECC": 231589,
+      "msitarzewski/agency-agents": 134774,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-07-22",
+      "obra/superpowers": 258818,
+      "mattpocock/skills": null,
+      "affaan-m/ECC": 231917,
+      "msitarzewski/agency-agents": 135451,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-07-23",
+      "obra/superpowers": 259497,
+      "mattpocock/skills": 182567,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": 135903,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-07-24",
+      "obra/superpowers": 260094,
+      "mattpocock/skills": 184776,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-07-25",
+      "obra/superpowers": 260626,
+      "mattpocock/skills": 186853,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-07-26",
+      "obra/superpowers": 261126,
+      "mattpocock/skills": 188335,
+      "affaan-m/ECC": 233339,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": 50145,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-07-27",
+      "obra/superpowers": 261622,
+      "mattpocock/skills": 189767,
+      "affaan-m/ECC": 233695,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": 50740,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-07-28",
+      "obra/superpowers": 262159,
+      "mattpocock/skills": null,
+      "affaan-m/ECC": 234209,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": 51599,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-07-29",
+      "obra/superpowers": 262737,
+      "mattpocock/skills": 193073,
+      "affaan-m/ECC": 234862,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": 52267,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-07-30",
+      "obra/superpowers": 263325,
+      "mattpocock/skills": 194670,
+      "affaan-m/ECC": 235616,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": 52638,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-07-31",
+      "obra/superpowers": 263996,
+      "mattpocock/skills": 196410,
+      "affaan-m/ECC": 236265,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-08-01",
+      "obra/superpowers": 264479,
+      "mattpocock/skills": 197905,
+      "affaan-m/ECC": 236655,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-08-02",
+      "obra/superpowers": 264811,
+      "mattpocock/skills": 199040,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": 81256
+    },
+    {
+      "date": "2026-08-03",
+      "obra/superpowers": null,
+      "mattpocock/skills": null,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": 138209,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-08-04",
+      "obra/superpowers": 265765,
+      "mattpocock/skills": null,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-08-05",
+      "obra/superpowers": 266526,
+      "mattpocock/skills": 203375,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-08-06",
+      "obra/superpowers": 267341,
+      "mattpocock/skills": 205085,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": 55851,
+      "addyosmani/agent-skills": 82012
+    },
+    {
+      "date": "2026-08-07",
+      "obra/superpowers": 268143,
+      "mattpocock/skills": 207207,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": 82997
+    },
+    {
+      "date": "2026-08-08",
+      "obra/superpowers": 268750,
+      "mattpocock/skills": 208835,
+      "affaan-m/ECC": 238581,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": 56731,
+      "addyosmani/agent-skills": 83909
+    },
+    {
+      "date": "2026-08-09",
+      "obra/superpowers": 269323,
+      "mattpocock/skills": 210039,
+      "affaan-m/ECC": 238818,
+      "msitarzewski/agency-agents": 139680,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": 84576
+    },
+    {
+      "date": "2026-08-10",
+      "obra/superpowers": 269738,
+      "mattpocock/skills": null,
+      "affaan-m/ECC": 239027,
+      "msitarzewski/agency-agents": 140712,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": 85154
+    },
+    {
+      "date": "2026-08-11",
+      "obra/superpowers": 270246,
+      "mattpocock/skills": null,
+      "affaan-m/ECC": 239254,
+      "msitarzewski/agency-agents": 141846,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": 85749
+    },
+    {
+      "date": "2026-08-12",
+      "obra/superpowers": 270766,
+      "mattpocock/skills": 213866,
+      "affaan-m/ECC": 239489,
+      "msitarzewski/agency-agents": 143280,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": 86239
+    },
+    {
+      "date": "2026-08-13",
+      "obra/superpowers": 271267,
+      "mattpocock/skills": null,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": 144595,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-08-14",
+      "obra/superpowers": 271764,
+      "mattpocock/skills": 216440,
+      "affaan-m/ECC": 239985,
+      "msitarzewski/agency-agents": 145202,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-08-15",
+      "obra/superpowers": 272185,
+      "mattpocock/skills": 217585,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-08-16",
+      "obra/superpowers": 272502,
+      "mattpocock/skills": 218390,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-08-17",
+      "obra/superpowers": null,
+      "mattpocock/skills": null,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-08-18",
+      "obra/superpowers": null,
+      "mattpocock/skills": 220347,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-08-19",
+      "obra/superpowers": 273691,
+      "mattpocock/skills": 221515,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-08-20",
+      "obra/superpowers": 274272,
+      "mattpocock/skills": 223811,
+      "affaan-m/ECC": 241194,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-08-21",
+      "obra/superpowers": 274949,
+      "mattpocock/skills": 226519,
+      "affaan-m/ECC": 241472,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": 61084,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-08-22",
+      "obra/superpowers": 275660,
+      "mattpocock/skills": 229509,
+      "affaan-m/ECC": 241796,
+      "msitarzewski/agency-agents": 147188,
+      "pbakaus/impeccable": 61390,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-08-23",
+      "obra/superpowers": 276193,
+      "mattpocock/skills": 232059,
+      "affaan-m/ECC": 242175,
+      "msitarzewski/agency-agents": 147368,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-08-24",
+      "obra/superpowers": 276681,
+      "mattpocock/skills": 233862,
+      "affaan-m/ECC": 242558,
+      "msitarzewski/agency-agents": 147626,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-08-25",
+      "obra/superpowers": 277118,
+      "mattpocock/skills": 235398,
+      "affaan-m/ECC": 242935,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": 62247,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-08-26",
+      "obra/superpowers": 277577,
+      "mattpocock/skills": 236732,
+      "affaan-m/ECC": 243211,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": 89765
+    },
+    {
+      "date": "2026-08-27",
+      "obra/superpowers": 278260,
+      "mattpocock/skills": 238250,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": 90114
+    },
+    {
+      "date": "2026-08-28",
+      "obra/superpowers": 278784,
+      "mattpocock/skills": 239550,
+      "affaan-m/ECC": 243830,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": 90371
+    },
+    {
+      "date": "2026-08-29",
+      "obra/superpowers": 279116,
+      "mattpocock/skills": 240356,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": 63643,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-08-30",
+      "obra/superpowers": 279404,
+      "mattpocock/skills": 241106,
+      "affaan-m/ECC": 244307,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-08-31",
+      "obra/superpowers": null,
+      "mattpocock/skills": null,
+      "affaan-m/ECC": 244765,
+      "msitarzewski/agency-agents": 149077,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": 90963
+    },
+    {
+      "date": "2026-09-01",
+      "obra/superpowers": 280113,
+      "mattpocock/skills": null,
+      "affaan-m/ECC": 245313,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-09-02",
+      "obra/superpowers": 280476,
+      "mattpocock/skills": 244060,
+      "affaan-m/ECC": 245798,
+      "msitarzewski/agency-agents": 149539,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": 91490
+    },
+    {
+      "date": "2026-09-03",
+      "obra/superpowers": 280875,
+      "mattpocock/skills": 245366,
+      "affaan-m/ECC": 246401,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": 65033,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-09-04",
+      "obra/superpowers": 281393,
+      "mattpocock/skills": 247638,
+      "affaan-m/ECC": 247273,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": 65373,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-09-05",
+      "obra/superpowers": 281811,
+      "mattpocock/skills": 250524,
+      "affaan-m/ECC": 248576,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": 65630,
+      "addyosmani/agent-skills": 92289
+    },
+    {
+      "date": "2026-09-06",
+      "obra/superpowers": 282125,
+      "mattpocock/skills": 252768,
+      "affaan-m/ECC": 249996,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": 65847,
+      "addyosmani/agent-skills": 92459
+    },
+    {
+      "date": "2026-09-07",
+      "obra/superpowers": null,
+      "mattpocock/skills": 254778,
+      "affaan-m/ECC": 251498,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-09-08",
+      "obra/superpowers": null,
+      "mattpocock/skills": 256176,
+      "affaan-m/ECC": 252957,
+      "msitarzewski/agency-agents": 150790,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-09-09",
+      "obra/superpowers": 283424,
+      "mattpocock/skills": 257038,
+      "affaan-m/ECC": 254388,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-09-10",
+      "obra/superpowers": 284088,
+      "mattpocock/skills": null,
+      "affaan-m/ECC": 255244,
+      "msitarzewski/agency-agents": 151333,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-09-11",
+      "obra/superpowers": 284749,
+      "mattpocock/skills": null,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": 151563,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-09-12",
+      "obra/superpowers": 285405,
+      "mattpocock/skills": 259845,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-09-13",
+      "obra/superpowers": 285840,
+      "mattpocock/skills": null,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-09-14",
+      "obra/superpowers": 286248,
+      "mattpocock/skills": null,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-09-15",
+      "obra/superpowers": null,
+      "mattpocock/skills": null,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-09-16",
+      "obra/superpowers": 287213,
+      "mattpocock/skills": 262935,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-09-17",
+      "obra/superpowers": 287666,
+      "mattpocock/skills": 263697,
+      "affaan-m/ECC": 260384,
+      "msitarzewski/agency-agents": 152938,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": 95528
+    },
+    {
+      "date": "2026-09-18",
+      "obra/superpowers": 288174,
+      "mattpocock/skills": 264583,
+      "affaan-m/ECC": 261245,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": 95921
+    },
+    {
+      "date": "2026-09-19",
+      "obra/superpowers": 288567,
+      "mattpocock/skills": 265308,
+      "affaan-m/ECC": 262125,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": 96449
+    },
+    {
+      "date": "2026-09-20",
+      "obra/superpowers": 288869,
+      "mattpocock/skills": 265898,
+      "affaan-m/ECC": 263011,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": 97111
+    },
+    {
+      "date": "2026-09-21",
+      "obra/superpowers": null,
+      "mattpocock/skills": null,
+      "affaan-m/ECC": 263863,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": 97762
+    },
+    {
+      "date": "2026-09-22",
+      "obra/superpowers": 289764,
+      "mattpocock/skills": 267226,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": 154009,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": 98172
+    },
+    {
+      "date": "2026-09-23",
+      "obra/superpowers": 290251,
+      "mattpocock/skills": 267921,
+      "affaan-m/ECC": 265516,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-09-24",
+      "obra/superpowers": 290746,
+      "mattpocock/skills": 268548,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": 70391,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-09-25",
+      "obra/superpowers": 291263,
+      "mattpocock/skills": 269171,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": 70824,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-09-26",
+      "obra/superpowers": 291699,
+      "mattpocock/skills": 269770,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": 71236,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-09-27",
+      "obra/superpowers": 291973,
+      "mattpocock/skills": 270313,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": 71601,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-09-28",
+      "obra/superpowers": null,
+      "mattpocock/skills": null,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-09-29",
+      "obra/superpowers": null,
+      "mattpocock/skills": null,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-09-30",
+      "obra/superpowers": 293053,
+      "mattpocock/skills": 272203,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": 155365,
+      "pbakaus/impeccable": 72639,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-10-01",
+      "obra/superpowers": 293515,
+      "mattpocock/skills": 273091,
+      "affaan-m/ECC": 270264,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": 73100,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-10-02",
+      "obra/superpowers": 294037,
+      "mattpocock/skills": 274026,
+      "affaan-m/ECC": 270760,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": 73762,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-10-03",
+      "obra/superpowers": 294513,
+      "mattpocock/skills": 274777,
+      "affaan-m/ECC": 271429,
+      "msitarzewski/agency-agents": 155830,
+      "pbakaus/impeccable": 74401,
+      "addyosmani/agent-skills": 100564
+    },
+    {
+      "date": "2026-10-04",
+      "obra/superpowers": 294962,
+      "mattpocock/skills": 275431,
+      "affaan-m/ECC": 272335,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": 75427,
+      "addyosmani/agent-skills": 100891
+    },
+    {
+      "date": "2026-10-05",
+      "obra/superpowers": 295324,
+      "mattpocock/skills": 276291,
+      "affaan-m/ECC": 273043,
+      "msitarzewski/agency-agents": 156738,
+      "pbakaus/impeccable": 76410,
+      "addyosmani/agent-skills": 101259
+    },
+    {
+      "date": "2026-10-06",
+      "obra/superpowers": 295698,
+      "mattpocock/skills": 277201,
+      "affaan-m/ECC": 273734,
+      "msitarzewski/agency-agents": 157358,
+      "pbakaus/impeccable": 77156,
+      "addyosmani/agent-skills": 101568
+    },
+    {
+      "date": "2026-10-07",
+      "obra/superpowers": null,
+      "mattpocock/skills": 278295,
+      "affaan-m/ECC": 274369,
+      "msitarzewski/agency-agents": 157910,
+      "pbakaus/impeccable": 77790,
+      "addyosmani/agent-skills": 102147
+    },
+    {
+      "date": "2026-10-08",
+      "obra/superpowers": null,
+      "mattpocock/skills": 279878,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": 158317,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": 102933
+    },
+    {
+      "date": "2026-10-09",
+      "obra/superpowers": null,
+      "mattpocock/skills": 281335,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": 158363,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": 103458
+    },
+    {
+      "date": "2026-10-10",
+      "obra/superpowers": 296935,
+      "mattpocock/skills": 282972,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": 104101
+    },
+    {
+      "date": "2026-10-11",
+      "obra/superpowers": null,
+      "mattpocock/skills": 284690,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": 104559
+    },
+    {
+      "date": "2026-10-12",
+      "obra/superpowers": null,
+      "mattpocock/skills": 286513,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-10-13",
+      "obra/superpowers": 298297,
+      "mattpocock/skills": 288259,
+      "affaan-m/ECC": 278039,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-10-14",
+      "obra/superpowers": 298724,
+      "mattpocock/skills": 289884,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": 159920,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-10-15",
+      "obra/superpowers": 299216,
+      "mattpocock/skills": 291436,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": 160126,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-10-16",
+      "obra/superpowers": 299994,
+      "mattpocock/skills": 292997,
+      "affaan-m/ECC": 280487,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-10-17",
+      "obra/superpowers": 300718,
+      "mattpocock/skills": 294167,
+      "affaan-m/ECC": 281586,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-10-18",
+      "obra/superpowers": 301253,
+      "mattpocock/skills": null,
+      "affaan-m/ECC": 282578,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-10-19",
+      "obra/superpowers": 301694,
+      "mattpocock/skills": null,
+      "affaan-m/ECC": 283359,
+      "msitarzewski/agency-agents": 161233,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": 108247
+    },
+    {
+      "date": "2026-10-20",
+      "obra/superpowers": null,
+      "mattpocock/skills": null,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": 161821,
+      "pbakaus/impeccable": 83288,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-10-21",
+      "obra/superpowers": 302651,
+      "mattpocock/skills": 298808,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": 162442,
+      "pbakaus/impeccable": 83913,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-10-22",
+      "obra/superpowers": 303205,
+      "mattpocock/skills": 299982,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": 162976,
+      "pbakaus/impeccable": 84499,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-10-23",
+      "obra/superpowers": 303793,
+      "mattpocock/skills": 300988,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": 163311,
+      "pbakaus/impeccable": 85044,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-10-24",
+      "obra/superpowers": 304274,
+      "mattpocock/skills": 301867,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": 85591,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-10-25",
+      "obra/superpowers": 304664,
+      "mattpocock/skills": 302580,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": 86499,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-10-26",
+      "obra/superpowers": 305102,
+      "mattpocock/skills": null,
+      "affaan-m/ECC": 288921,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": 87853,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-10-27",
+      "obra/superpowers": 305681,
+      "mattpocock/skills": 304167,
+      "affaan-m/ECC": 289963,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": 89358,
+      "addyosmani/agent-skills": 110850
+    },
+    {
+      "date": "2026-10-28",
+      "obra/superpowers": 306575,
+      "mattpocock/skills": 304992,
+      "affaan-m/ECC": 291006,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": 90799,
+      "addyosmani/agent-skills": 111200
+    },
+    {
+      "date": "2026-10-29",
+      "obra/superpowers": 307570,
+      "mattpocock/skills": 305877,
+      "affaan-m/ECC": 291886,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": 93134,
+      "addyosmani/agent-skills": 111499
+    },
+    {
+      "date": "2026-10-30",
+      "obra/superpowers": 308720,
+      "mattpocock/skills": 306735,
+      "affaan-m/ECC": 292797,
+      "msitarzewski/agency-agents": 165207,
+      "pbakaus/impeccable": 95682,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-10-31",
+      "obra/superpowers": 309506,
+      "mattpocock/skills": 307582,
+      "affaan-m/ECC": 293472,
+      "msitarzewski/agency-agents": 165533,
+      "pbakaus/impeccable": 97217,
+      "addyosmani/agent-skills": 112026
+    },
+    {
+      "date": "2026-11-01",
+      "obra/superpowers": 310140,
+      "mattpocock/skills": 308535,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": 98427,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-11-02",
+      "obra/superpowers": 310729,
+      "mattpocock/skills": 309379,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": 99555,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-11-03",
+      "obra/superpowers": 311344,
+      "mattpocock/skills": 310430,
+      "affaan-m/ECC": 295799,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-11-04",
+      "obra/superpowers": 311968,
+      "mattpocock/skills": 311671,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-11-05",
+      "obra/superpowers": 312548,
+      "mattpocock/skills": 313608,
+      "affaan-m/ECC": 297353,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-11-06",
+      "obra/superpowers": null,
+      "mattpocock/skills": 315550,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": 104101,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-11-07",
+      "obra/superpowers": 313686,
+      "mattpocock/skills": 316866,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-11-08",
+      "obra/superpowers": 314175,
+      "mattpocock/skills": 317843,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": 167139,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-11-09",
+      "obra/superpowers": 314661,
+      "mattpocock/skills": null,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": 167341,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-11-10",
+      "obra/superpowers": 315266,
+      "mattpocock/skills": null,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": 167540,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-11-11",
+      "obra/superpowers": 315827,
+      "mattpocock/skills": 321112,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": 115289
+    },
+    {
+      "date": "2026-11-12",
+      "obra/superpowers": 316392,
+      "mattpocock/skills": 322207,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": 116099
+    },
+    {
+      "date": "2026-11-13",
+      "obra/superpowers": 316884,
+      "mattpocock/skills": 323150,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": 116790
+    },
+    {
+      "date": "2026-11-14",
+      "obra/superpowers": 317294,
+      "mattpocock/skills": 323906,
+      "affaan-m/ECC": 302526,
+      "msitarzewski/agency-agents": 168178,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": 117206
+    },
+    {
+      "date": "2026-11-15",
+      "obra/superpowers": 317702,
+      "mattpocock/skills": 324570,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": 168389,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": 117628
+    },
+    {
+      "date": "2026-11-16",
+      "obra/superpowers": null,
+      "mattpocock/skills": null,
+      "affaan-m/ECC": null,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-11-17",
+      "obra/superpowers": 318788,
+      "mattpocock/skills": null,
+      "affaan-m/ECC": 304785,
+      "msitarzewski/agency-agents": 168882,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-11-18",
+      "obra/superpowers": 319496,
+      "mattpocock/skills": 326909,
+      "affaan-m/ECC": 305740,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": 112361,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-11-19",
+      "obra/superpowers": 321450,
+      "mattpocock/skills": 327594,
+      "affaan-m/ECC": 306703,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-11-20",
+      "obra/superpowers": 322247,
+      "mattpocock/skills": 328297,
+      "affaan-m/ECC": 307383,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-11-21",
+      "obra/superpowers": 322960,
+      "mattpocock/skills": 329098,
+      "affaan-m/ECC": 307945,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-11-22",
+      "obra/superpowers": 323830,
+      "mattpocock/skills": 329863,
+      "affaan-m/ECC": 308457,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-11-23",
+      "obra/superpowers": 324574,
+      "mattpocock/skills": 330954,
+      "affaan-m/ECC": 309253,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    }
+  ]
+}
