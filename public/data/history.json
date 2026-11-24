@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-11-23T12:59:58.948Z",
+  "generatedAt": "2026-11-24T08:13:43.496Z",
   "firstDate": "2026-03-17",
-  "lastDate": "2026-11-23",
-  "days": 252,
+  "lastDate": "2026-11-24",
+  "days": 253,
   "uniqueRepos": 978,
-  "latestTotalStars": 2461511,
+  "latestTotalStars": 2526358,
   "series": [
     {
       "date": "2026-03-17",
@@ -1769,6 +1769,13 @@
       "totalStars": 2461511,
       "totalGrowth": 15720,
       "topLanguage": "Python"
+    },
+    {
+      "date": "2026-11-24",
+      "repos": 25,
+      "totalStars": 2526358,
+      "totalGrowth": 16463,
+      "topLanguage": "Python"
     }
   ],
   "topRepos": [
@@ -1777,12 +1784,12 @@
       "owner": "obra",
       "name": "superpowers",
       "language": "Shell",
-      "appearances": 213,
+      "appearances": 214,
       "firstDate": "2026-03-17",
-      "lastDate": "2026-11-23",
+      "lastDate": "2026-11-24",
       "starsFirst": 90406,
-      "starsLast": 324636,
-      "starGrowth": 234230,
+      "starsLast": 325390,
+      "starGrowth": 234984,
       "points": [
         {
           "date": "2026-03-17",
@@ -2635,6 +2642,10 @@
         {
           "date": "2026-11-23",
           "stars": 324636
+        },
+        {
+          "date": "2026-11-24",
+          "stars": 325390
         }
       ]
     },
@@ -2643,12 +2654,12 @@
       "owner": "mattpocock",
       "name": "skills",
       "language": "Shell",
-      "appearances": 171,
+      "appearances": 172,
       "firstDate": "2026-04-05",
-      "lastDate": "2026-11-23",
+      "lastDate": "2026-11-24",
       "starsFirst": 11950,
-      "starsLast": 331029,
-      "starGrowth": 319079,
+      "starsLast": 331674,
+      "starGrowth": 319724,
       "points": [
         {
           "date": "2026-04-05",
@@ -3333,6 +3344,10 @@
         {
           "date": "2026-11-23",
           "stars": 331029
+        },
+        {
+          "date": "2026-11-24",
+          "stars": 331674
         }
       ]
     },
@@ -3341,12 +3356,12 @@
       "owner": "affaan-m",
       "name": "ECC",
       "language": "JavaScript",
-      "appearances": 94,
+      "appearances": 95,
       "firstDate": "2026-05-26",
-      "lastDate": "2026-11-23",
+      "lastDate": "2026-11-24",
       "starsFirst": 192345,
-      "starsLast": 309283,
-      "starGrowth": 116938,
+      "starsLast": 309764,
+      "starGrowth": 117419,
       "points": [
         {
           "date": "2026-05-26",
@@ -3723,6 +3738,10 @@
         {
           "date": "2026-11-23",
           "stars": 309283
+        },
+        {
+          "date": "2026-11-24",
+          "stars": 309764
         }
       ]
     },
@@ -6986,6 +7005,15 @@
       "obra/superpowers": 324636,
       "mattpocock/skills": 331029,
       "affaan-m/ECC": 309283,
+      "msitarzewski/agency-agents": null,
+      "pbakaus/impeccable": null,
+      "addyosmani/agent-skills": null
+    },
+    {
+      "date": "2026-11-24",
+      "obra/superpowers": 325390,
+      "mattpocock/skills": 331674,
+      "affaan-m/ECC": 309764,
       "msitarzewski/agency-agents": null,
       "pbakaus/impeccable": null,
       "addyosmani/agent-skills": null

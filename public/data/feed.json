@@ -1,7 +1,14 @@
 [
   {
-    "id": "1795438796893",
-    "date": "2026-11-23T12:59:56.893Z",
+    "id": "1795508021804",
+    "date": "2026-11-24T08:13:41.804Z",
+    "title": "Daily Update: 25 repos curated",
+    "summary": "Top languages today: Python, TypeScript, Shell, JavaScript, Go. Rising star: Claude-BugHunter.",
+    "type": "update"
+  },
+  {
+    "id": "1795438798672",
+    "date": "2026-11-23T12:59:58.672Z",
     "title": "Daily Update: 25 repos curated",
     "summary": "Top languages today: Python, TypeScript, Shell, C++, JavaScript. Rising star: Claude-BugHunter.",
     "type": "update"
@@ -130,13 +137,6 @@
     "date": "2026-11-05T04:56:51.763Z",
     "title": "Daily Update: 25 repos curated",
     "summary": "Top languages today: Python, TypeScript, Rust, Shell, Java. Rising star: agent-desktop.",
-    "type": "update"
-  },
-  {
-    "id": "1793767359034",
-    "date": "2026-11-04T04:42:39.034Z",
-    "title": "Daily Update: 25 repos curated",
-    "summary": "Top languages today: Python, Rust, TypeScript, Shell, Java. Rising star: agent-desktop.",
     "type": "update"
   }
 ]
