@@ -1,7 +1,392 @@
 {
   "snapshots": [
     {
-      "date": "2026-11-24T08:13:41.804Z",
+      "date": "2026-11-25T06:50:32.982Z",
+      "repos": [
+        {
+          "owner": "elementalsouls",
+          "name": "Claude-BugHunter",
+          "description": "A Claude Code skill bundle for bug hunting and external red-team work - 84 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
+          "language": "Python",
+          "stars": 21849,
+          "forks": 2267,
+          "starsToday": 1826,
+          "growth": 1826,
+          "rank": 1,
+          "url": "https://github.com/elementalsouls/Claude-BugHunter",
+          "fetchedAt": "2026-11-25T06:50:34.762Z",
+          "source": "github-trending"
+        },
+        {
+          "owner": "XiaoYouChR",
+          "name": "Ghost-Downloader-3",
+          "description": "The only downloader you need. 下载器的集大成者。",
+          "language": "Python",
+          "stars": 17627,
+          "forks": 1061,
+          "starsToday": 1092,
+          "growth": 1092,
+          "rank": 6,
+          "url": "https://github.com/XiaoYouChR/Ghost-Downloader-3",
+          "fetchedAt": "2026-11-25T06:50:34.763Z",
+          "source": "github-trending"
+        },
+        {
+          "owner": "HKUDS",
+          "name": "CLI-Anything",
+          "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+          "language": "Python",
+          "stars": 65078,
+          "forks": 5923,
+          "starsToday": 1074,
+          "growth": 1074,
+          "rank": 2,
+          "url": "https://github.com/HKUDS/CLI-Anything",
+          "fetchedAt": "2026-11-25T06:50:34.763Z",
+          "source": "github-trending"
+        },
+        {
+          "owner": "obra",
+          "name": "superpowers",
+          "description": "An agentic skills framework & software development methodology that works.",
+          "language": "Shell",
+          "stars": 326014,
+          "forks": 28929,
+          "starsToday": 1003,
+          "growth": 1003,
+          "rank": 1,
+          "url": "https://github.com/obra/superpowers",
+          "fetchedAt": "2026-11-25T06:50:34.619Z",
+          "source": "github-trending"
+        },
+        {
+          "owner": "firecrawl",
+          "name": "firecrawl",
+          "description": "Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.",
+          "language": "TypeScript",
+          "stars": 209197,
+          "forks": 10932,
+          "starsToday": 991,
+          "growth": 991,
+          "rank": 2,
+          "url": "https://github.com/firecrawl/firecrawl",
+          "fetchedAt": "2026-11-25T06:50:34.818Z",
+          "source": "github-trending"
+        },
+        {
+          "owner": "zhouxiaoka",
+          "name": "autoclip",
+          "description": "AutoClip｜一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。Open-source AI video clipping & content repurposing.",
+          "language": "Python",
+          "stars": 15646,
+          "forks": 2289,
+          "starsToday": 980,
+          "growth": 980,
+          "rank": 7,
+          "url": "https://github.com/zhouxiaoka/autoclip",
+          "fetchedAt": "2026-11-25T06:50:34.763Z",
+          "source": "github-trending"
+        },
+        {
+          "owner": "mjmirza",
+          "name": "app-store-compliance",
+          "description": "Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 124 documented rejection patterns and fixes, privacy manifest and Data safety checks, 112 tracked deadlines (EU AI Act, DSA, COPPA, age laws), and a skill for AI coding agents.",
+          "language": "Shell",
+          "stars": 6030,
+          "forks": 389,
+          "starsToday": 928,
+          "growth": 928,
+          "rank": 2,
+          "url": "https://github.com/mjmirza/app-store-compliance",
+          "fetchedAt": "2026-11-25T06:50:34.619Z",
+          "source": "github-trending"
+        },
+        {
+          "owner": "mattpocock",
+          "name": "skills",
+          "description": "Skills for Real Engineers. Straight from my .agents directory.",
+          "language": "Shell",
+          "stars": 332384,
+          "forks": 27946,
+          "starsToday": 849,
+          "growth": 849,
+          "rank": 9,
+          "url": "https://github.com/mattpocock/skills",
+          "fetchedAt": "2026-11-25T06:50:34.642Z",
+          "source": "github-trending"
+        },
+        {
+          "owner": "cathrynlavery",
+          "name": "diagram-design",
+          "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 52 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+          "language": "HTML",
+          "stars": 72343,
+          "forks": 4818,
+          "starsToday": 802,
+          "growth": 802,
+          "rank": 1,
+          "url": "https://github.com/cathrynlavery/diagram-design",
+          "fetchedAt": "2026-11-25T06:50:34.296Z",
+          "source": "github-trending"
+        },
+        {
+          "owner": "jingyaogong",
+          "name": "minimind",
+          "description": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
+          "language": "Python",
+          "stars": 70497,
+          "forks": 9165,
+          "starsToday": 727,
+          "growth": 727,
+          "rank": 3,
+          "url": "https://github.com/jingyaogong/minimind",
+          "fetchedAt": "2026-11-25T06:50:34.763Z",
+          "source": "github-trending"
+        },
+        {
+          "owner": "mvanhorn",
+          "name": "last30days-skill",
+          "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+          "language": "Python",
+          "stars": 74516,
+          "forks": 6567,
+          "starsToday": 703,
+          "growth": 703,
+          "rank": 4,
+          "url": "https://github.com/mvanhorn/last30days-skill",
+          "fetchedAt": "2026-11-25T06:50:34.763Z",
+          "source": "github-trending"
+        },
+        {
+          "owner": "affaan-m",
+          "name": "ECC",
+          "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+          "language": "JavaScript",
+          "stars": 310329,
+          "forks": 45614,
+          "starsToday": 675,
+          "growth": 675,
+          "rank": 1,
+          "url": "https://github.com/affaan-m/ECC",
+          "fetchedAt": "2026-11-25T06:50:34.502Z",
+          "source": "github-trending"
+        },
+        {
+          "owner": "DietrichGebert",
+          "name": "ponytail",
+          "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+          "language": "JavaScript",
+          "stars": 198214,
+          "forks": 11228,
+          "starsToday": 586,
+          "growth": 586,
+          "rank": 8,
+          "url": "https://github.com/DietrichGebert/ponytail",
+          "fetchedAt": "2026-11-25T06:50:34.504Z",
+          "source": "github-trending"
+        },
+        {
+          "owner": "toeverything",
+          "name": "AFFiNE",
+          "description": "There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use.",
+          "language": "TypeScript",
+          "stars": 78117,
+          "forks": 5704,
+          "starsToday": 584,
+          "growth": 584,
+          "rank": 4,
+          "url": "https://github.com/toeverything/AFFiNE",
+          "fetchedAt": "2026-11-25T06:50:34.819Z",
+          "source": "github-trending"
+        },
+        {
+          "owner": "boykopovar",
+          "name": "AnyPS5",
+          "description": "Tool for automatic PS5 executables porting to Linux and Windows",
+          "language": "C++",
+          "stars": 61344,
+          "forks": 5957,
+          "starsToday": 469,
+          "growth": 469,
+          "rank": 2,
+          "url": "https://github.com/boykopovar/AnyPS5",
+          "fetchedAt": "2026-11-25T06:50:34.585Z",
+          "source": "github-trending"
+        },
+        {
+          "owner": "google-labs-code",
+          "name": "stitch-skills",
+          "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+          "language": "TypeScript",
+          "stars": 12759,
+          "forks": 1529,
+          "starsToday": 403,
+          "growth": 403,
+          "rank": 3,
+          "url": "https://github.com/google-labs-code/stitch-skills",
+          "fetchedAt": "2026-11-25T06:50:34.818Z",
+          "source": "github-trending"
+        },
+        {
+          "owner": "Tracer-Cloud",
+          "name": "opensre",
+          "description": "The open-source agent for CI/CD reliability.",
+          "language": "Python",
+          "stars": 15285,
+          "forks": 2020,
+          "starsToday": 398,
+          "growth": 398,
+          "rank": 5,
+          "url": "https://github.com/Tracer-Cloud/opensre",
+          "fetchedAt": "2026-11-25T06:50:34.763Z",
+          "source": "github-trending"
+        },
+        {
+          "owner": "cursor",
+          "name": "plugins",
+          "description": "Cursor plugin specification and official plugins",
+          "language": "TypeScript",
+          "stars": 19330,
+          "forks": 2086,
+          "starsToday": 360,
+          "growth": 360,
+          "rank": 1,
+          "url": "https://github.com/cursor/plugins",
+          "fetchedAt": "2026-11-25T06:50:34.818Z",
+          "source": "github-trending"
+        },
+        {
+          "owner": "FlashML-org",
+          "name": "FreeVideo",
+          "description": "Make videos on the computer you already own. FreeVideo runs MiniMax H3 in as little as 8 GB of VRAM and 16 GB of RAM, and adapts its acceleration path to your hardware.",
+          "language": "Python",
+          "stars": 4926,
+          "forks": 688,
+          "starsToday": 285,
+          "growth": 285,
+          "rank": 16,
+          "url": "https://github.com/FlashML-org/FreeVideo",
+          "fetchedAt": "2026-11-25T06:50:34.765Z",
+          "source": "github-trending"
+        },
+        {
+          "owner": "rustdesk",
+          "name": "rustdesk",
+          "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
+          "language": "Rust",
+          "stars": 131344,
+          "forks": 21222,
+          "starsToday": 269,
+          "growth": 269,
+          "rank": 10,
+          "url": "https://github.com/rustdesk/rustdesk",
+          "fetchedAt": "2026-11-25T06:50:34.537Z",
+          "source": "github-trending"
+        },
+        {
+          "owner": "anomalyco",
+          "name": "opencode",
+          "description": "The open source coding agent.",
+          "language": "TypeScript",
+          "stars": 229026,
+          "forks": 31169,
+          "starsToday": 234,
+          "growth": 234,
+          "rank": 16,
+          "url": "https://github.com/anomalyco/opencode",
+          "fetchedAt": "2026-11-25T06:50:34.820Z",
+          "source": "github-trending"
+        },
+        {
+          "owner": "qqxpee",
+          "name": "antigravity2-cn",
+          "description": "🚀 Antigravity 2.0 Chinese Localization Suite & Injector. 专为 2.0 新版 Electron 架构量身定制的零依赖中文汉化包。基于 ASAR 物理层动态包注入机制，完美汉化界面、系统菜单、任务栏托盘及设置面板，支持一键极速安装与无痕还原。",
+          "language": "JavaScript",
+          "stars": 2331,
+          "forks": 119,
+          "starsToday": 219,
+          "growth": 219,
+          "rank": 11,
+          "url": "https://github.com/qqxpee/antigravity2-cn",
+          "fetchedAt": "2026-11-25T06:50:34.505Z",
+          "source": "github-trending"
+        },
+        {
+          "owner": "p-e-w",
+          "name": "heretic",
+          "description": "Training-free language model modification: Remove censorship, suppress slop, reduce sycophancy, and more",
+          "language": "Python",
+          "stars": 43084,
+          "forks": 5389,
+          "starsToday": 207,
+          "growth": 207,
+          "rank": 18,
+          "url": "https://github.com/p-e-w/heretic",
+          "fetchedAt": "2026-11-25T06:50:34.765Z",
+          "source": "github-trending"
+        },
+        {
+          "owner": "multica-ai",
+          "name": "multica",
+          "description": "Make humans and AI agents work as one team — open-source and self-hostable.",
+          "language": "Go",
+          "stars": 57814,
+          "forks": 7602,
+          "starsToday": 207,
+          "growth": 207,
+          "rank": 6,
+          "url": "https://github.com/multica-ai/multica",
+          "fetchedAt": "2026-11-25T06:50:34.446Z",
+          "source": "github-trending"
+        },
+        {
+          "owner": "earendil-works",
+          "name": "pi",
+          "description": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
+          "language": "TypeScript",
+          "stars": 123762,
+          "forks": 15987,
+          "starsToday": 204,
+          "growth": 204,
+          "rank": 17,
+          "url": "https://github.com/earendil-works/pi",
+          "fetchedAt": "2026-11-25T06:50:34.821Z",
+          "source": "github-trending"
+        }
+      ],
+      "insights": {
+        "risingStar": {
+          "owner": "elementalsouls",
+          "name": "Claude-BugHunter",
+          "growth": 1826
+        },
+        "topLanguages": [
+          {
+            "language": "Python",
+            "count": 9
+          },
+          {
+            "language": "TypeScript",
+            "count": 6
+          },
+          {
+            "language": "Shell",
+            "count": 3
+          },
+          {
+            "language": "JavaScript",
+            "count": 3
+          },
+          {
+            "language": "HTML",
+            "count": 1
+          }
+        ],
+        "totalStars": 2498846
+      }
+    },
+    {
+      "date": "2026-11-24T08:13:43.388Z",
       "repos": [
         {
           "owner": "elementalsouls",
@@ -97406,5 +97791,5 @@
       }
     }
   ],
-  "lastUpdate": "2026-11-24T08:13:41.804Z"
+  "lastUpdate": "2026-11-25T06:50:32.982Z"
 }
